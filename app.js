@@ -326,17 +326,28 @@
     panel.id = "picker-panel";
     panel.setAttribute("role", "tabpanel");
     panel.setAttribute("aria-labelledby", "tab-" + catKey(pickerCat));
+    let currentTile = null;
     for (const p of groups.get(pickerCat)) {
       const { pct, solved } = puzzleProgress(p);
-      const b = el("button", "chip" + (solved ? " done" : ""));
+      const b = el("button", "tile" + (solved ? " done" : ""));
       b.type = "button";
       b.dataset.id = p.id;
       b.dataset.cat = catKey(p.category);
-      if (current && current.id === p.id) b.setAttribute("aria-current", "true");
-      b.append(el("span", "", p.title), el("span", "pct", solved ? "✓" : pct ? `${pct}%` : p.difficulty));
+      b.style.setProperty("--pct", `${solved ? 100 : pct}%`);
+      const status = solved ? "Solved" : pct ? `${pct}%` : "New";
+      b.setAttribute("aria-label", `${p.title}, ${p.difficulty}, ${solved ? "solved" : pct ? pct + "% complete" : "not started"}`);
+      if (current && current.id === p.id) { b.setAttribute("aria-current", "true"); currentTile = b; }
+      const meta = el("span", "tile-meta");
+      meta.append(el("span", "diff diff-" + p.difficulty.toLowerCase(), p.difficulty), el("span", "tile-status", solved ? "\u2713 Solved" : status));
+      b.append(el("span", "tile-title", p.title), meta, el("span", "tile-bar"));
       panel.append(b);
     }
     nav.append(tabs, panel);
+    // On phones the tiles scroll sideways: bring the current one into view
+    // without scrolling the page.
+    if (currentTile && panel.scrollWidth > panel.clientWidth) {
+      panel.scrollLeft = Math.max(0, currentTile.offsetLeft - panel.offsetLeft - 8);
+    }
   }
 
   function render() {
@@ -728,7 +739,7 @@
       if (again) again.focus({ preventScroll: true });
       return;
     }
-    const b = ev.target.closest(".chip");
+    const b = ev.target.closest(".tile");
     if (b && b.dataset.id !== current.id) { saveNow(); openPuzzle(b.dataset.id); }
   });
   // Arrow keys move between category tabs (standard tablist behaviour).

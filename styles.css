@@ -90,55 +90,98 @@ button { font: inherit; color: inherit; }
 }
 .btn:hover { border-color: var(--primary); }
 .btn:active { transform: translateY(1px); }
-.btn:focus-visible, .nav-btn:focus-visible, .chip:focus-visible, .clues li:focus-visible, .key:focus-visible {
+.btn:focus-visible, .nav-btn:focus-visible, .clues li:focus-visible, .key:focus-visible {
   outline: 2px solid var(--topaz); outline-offset: 2px;
 }
 .btn.ghost { background: transparent; }
 .btn.danger:hover { border-color: var(--ruby); color: var(--ruby); }
 
 /* ---------- puzzle picker ---------- */
-.picker { max-width: 1200px; margin: 0 auto; padding: 4px 16px 10px; }
+.picker { max-width: 1200px; margin: 0 auto; padding: 4px 16px 14px; }
+
+/* Category switch: a segmented control */
 .picker-tabs {
-  display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 10px;
-  overflow-x: auto; scrollbar-width: none;
+  display: inline-flex; gap: 2px; padding: 3px; margin-bottom: 10px;
+  background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px;
 }
-.picker-tabs::-webkit-scrollbar { display: none; }
 .picker-tab {
-  appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px;
-  padding: 8px 12px; cursor: pointer; white-space: nowrap; color: var(--muted);
-  font-family: var(--mono); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.08em;
-  display: inline-flex; align-items: center; gap: 8px;
+  appearance: none; background: none; border: 0; border-radius: 7px; cursor: pointer;
+  padding: 6px 14px; color: var(--muted); white-space: nowrap;
+  font-size: 0.88rem; font-weight: 500;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
 }
 .picker-tab:hover { color: var(--text); }
-.picker-tab[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent, var(--primary)); }
-.picker-tab:focus-visible { outline: 2px solid var(--topaz); outline-offset: -2px; border-radius: 4px; }
+.picker-tab[aria-selected="true"] {
+  color: var(--text); background: var(--panel-2);
+  box-shadow: inset 0 0 0 1px var(--accent, var(--primary));
+}
+.picker-tab:focus-visible { outline: 2px solid var(--topaz); outline-offset: 1px; }
 .picker-tab .count {
-  font-size: 0.68rem; letter-spacing: 0; padding: 1px 6px; border-radius: 999px;
-  background: var(--panel-2); color: var(--muted);
+  font-family: var(--mono); font-size: 0.7rem; padding: 1px 6px; border-radius: 999px;
+  background: var(--bg); color: var(--muted);
 }
 .picker-tab[aria-selected="true"] .count { color: var(--accent, var(--primary)); }
-.picker-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .tab-short { display: none; }
-@media (max-width: 560px) {
-  .tab-full { display: none; }
-  .tab-short { display: inline; }
-  .picker-tab { padding: 8px 10px; }
+
+/* Puzzles: an even grid of tiles */
+.picker-chips {
+  display: grid; gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
 }
-@media (max-width: 700px) {
-  .picker-chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; padding-bottom: 4px; }
+.tile {
+  appearance: none; position: relative; overflow: hidden; cursor: pointer; text-align: left;
+  display: flex; flex-direction: column; gap: 3px; min-width: 0;
+  padding: 9px 12px 11px; border-radius: 10px;
+  background: var(--bg-2); border: 1px solid var(--line);
+  transition: border-color .15s, background .15s;
 }
-.chip {
-  appearance: none; border: 1px solid var(--line); background: var(--bg-2);
-  border-radius: 999px; padding: 6px 12px; cursor: pointer; white-space: nowrap;
-  font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px; flex-shrink: 0;
+.tile:hover { border-color: var(--muted); }
+.tile:focus-visible { outline: 2px solid var(--topaz); outline-offset: 2px; }
+.tile[aria-current="true"] {
+  background: var(--panel-2); border-color: var(--accent, var(--primary));
+  box-shadow: inset 0 0 0 1px var(--accent, var(--primary));
 }
-.chip:hover { border-color: var(--muted); }
-.chip[aria-current="true"] { border-color: var(--accent, var(--sapphire)); background: var(--panel-2); box-shadow: inset 0 0 0 1px var(--accent, var(--sapphire)); }
-.chip .pct { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
-.chip.done .pct { color: var(--emerald); }
+.tile-title {
+  font-weight: 500; font-size: 0.92rem; line-height: 1.25;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.tile-meta {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  font-family: var(--mono); font-size: 0.7rem; color: var(--muted);
+}
+.diff { display: inline-flex; align-items: center; gap: 5px; }
+.diff::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.diff-easy::before { background: var(--emerald); }
+.diff-medium::before { background: var(--topaz); }
+.diff-hard::before { background: var(--ruby); }
+.tile.done .tile-status { color: var(--emerald); }
+.tile-bar {
+  position: absolute; left: 0; bottom: 0; height: 3px; width: var(--pct, 0%);
+  background: var(--accent, var(--primary)); opacity: .85;
+}
+.tile.done .tile-bar { background: var(--emerald); }
 [data-cat="general"] { --accent: var(--amethyst); }
 [data-cat="cyber"] { --accent: var(--emerald); }
 [data-cat="ai"] { --accent: var(--sapphire); }
+
+@media (max-width: 700px) {
+  .picker-tabs { display: flex; width: 100%; }
+  .picker-tab { flex: 1 1 0; padding: 7px 8px; }
+  /* Tiles become a swipeable row, with a fade hinting there's more */
+  .picker-chips {
+    grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: minmax(150px, 44%);
+    overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+    padding-bottom: 2px;
+    -webkit-mask-image: linear-gradient(to right, #000 82%, transparent);
+            mask-image: linear-gradient(to right, #000 82%, transparent);
+  }
+  .picker-chips::-webkit-scrollbar { display: none; }
+  .tile { scroll-snap-align: start; }
+}
+@media (max-width: 560px) {
+  .tab-full { display: none; }
+  .tab-short { display: inline; }
+}
 
 /* ---------- layout ---------- */
 .layout {
@@ -378,7 +421,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --overlay: rgba(0, 0, 0, 0.85);
 }
 :root[data-theme="contrast"] .cell .n { font-weight: 600; }
-:root[data-theme="contrast"] .btn, :root[data-theme="contrast"] .chip { border-width: 2px; }
+:root[data-theme="contrast"] .btn, :root[data-theme="contrast"] .tile, :root[data-theme="contrast"] .picker-tabs { border-width: 2px; }
 
 .theme-switching *, .theme-switching *::before, .theme-switching *::after { transition: none !important; }
 
