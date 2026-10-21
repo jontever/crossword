@@ -6,7 +6,7 @@
   <title>Crossword · cseta.uk</title>
   <meta name="description" content="Cyber security and general knowledge crosswords. Save your progress with a portable key and pick up on any device.">
   <meta name="theme-color" content="#0b0f17">
-  <meta name="color-scheme" content="dark">
+  <meta name="color-scheme" content="dark light">
   <link rel="canonical" href="https://cseta.uk/">
 
   <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -24,6 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="/styles.css">
+  <script src="/theme.js"></script>
   <script src="/puzzles.js" defer></script>
   <script src="/app.js" defer></script>
 </head>
@@ -40,8 +41,25 @@
     </div>
     <div class="top-actions">
       <span class="timer" id="timer" aria-label="Elapsed time">00:00</span>
-      <button class="btn ghost" id="btn-save" type="button" title="Get a key to save your progress">Save key</button>
+      <button class="btn ghost" id="btn-save" type="button" title="Get a key to save your progress">Save<span class="hide-sm"> key</span></button>
       <button class="btn ghost" id="btn-restore" type="button" title="Paste a key to restore progress">Restore</button>
+      <div class="menu theme-menu">
+        <button class="btn ghost icon-btn" id="btn-theme" type="button" data-menu="theme" aria-haspopup="true" aria-expanded="false" aria-label="Change theme" title="Theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/>
+          </svg>
+        </button>
+        <div class="menu-list" id="menu-theme" role="menu" aria-label="Theme" hidden>
+          <button type="button" role="menuitemradio" aria-checked="false" data-theme-choice="system"><span class="swatch sw-system"></span>Match system</button>
+          <div class="menu-sep" role="separator"></div>
+          <button type="button" role="menuitemradio" aria-checked="false" data-theme-choice="midnight"><span class="swatch sw-midnight"></span>Midnight</button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-theme-choice="daylight"><span class="swatch sw-daylight"></span>Daylight</button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-theme-choice="emerald"><span class="swatch sw-emerald"></span>Emerald</button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-theme-choice="amethyst"><span class="swatch sw-amethyst"></span>Amethyst</button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-theme-choice="contrast"><span class="swatch sw-contrast"></span>High contrast</button>
+        </div>
+      </div>
     </div>
   </header>
 

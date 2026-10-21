@@ -5,6 +5,7 @@ A static, dependency-free crossword app with three cyber security puzzles and th
 - No build step, no npm packages, no backend, no cookies, no analytics
 - Keyboard and touch play (an on-screen keyboard appears on touch devices)
 - Check and reveal by letter, word or whole puzzle, with a timer
+- Theme changer: Match system, Midnight, Daylight, Emerald, Amethyst and High contrast (remembered per browser)
 - Progress autosaves in the browser and can be exported as a **base64 progress key** to restore on any device
 - Strict security headers (CSP, HSTS, frame-ancestors, etc.) set in `vercel.json`
 
@@ -12,8 +13,9 @@ A static, dependency-free crossword app with three cyber security puzzles and th
 
 ```
 index.html            page shell
-styles.css            styles (Space Grotesk / IBM Plex Mono, dark theme)
+styles.css            styles and theme palettes (Space Grotesk / IBM Plex Mono)
 app.js                game logic, save/restore key
+theme.js              theme switcher (loads in <head> to avoid a flash)
 puzzles.js            generated puzzle data (don't edit by hand)
 favicon.svg / .ico    favicon
 icons/                apple-touch and PWA icons
@@ -65,6 +67,12 @@ In the project, go to **Settings → Domains** and add the domain.
 If `cseta.uk` is already attached to another Vercel project, you'll need to remove it there first or use a subdomain. If you use a subdomain, update the `canonical` and `og:` URLs at the top of `index.html`.
 
 Vercel issues the TLS certificate automatically once DNS resolves.
+
+## Themes
+
+The palette button in the header switches theme. **Match system** follows the device's light/dark setting (and picks High contrast if the OS asks for more contrast). The choice is stored in `localStorage` under `cseta-crossword:theme` and isn't part of the progress key.
+
+Themes are CSS custom properties: Midnight is the `:root` default and each other theme is a `:root[data-theme="…"]` block near the end of `styles.css`. To add one, copy a block, give it a new name, add it to `THEMES` in `theme.js` and add a menu item in `index.html`.
 
 ## Progress keys
 
