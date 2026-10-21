@@ -155,6 +155,8 @@ button { font: inherit; color: inherit; }
 .diff-easy::before { background: var(--emerald); }
 .diff-medium::before { background: var(--topaz); }
 .diff-hard::before { background: var(--ruby); }
+.diff-expert::before { background: var(--amethyst); box-shadow: 0 0 0 2px rgba(167, 123, 255, 0.35); }
+.diff-cryptic::before { background: var(--sapphire); box-shadow: 0 0 0 2px rgba(79, 140, 255, 0.35); }
 .tile.done .tile-status { color: var(--emerald); }
 .tile-bar {
   position: absolute; left: 0; bottom: 0; height: 3px; width: var(--pct, 0%);
@@ -234,6 +236,9 @@ h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1
 .clue-bar p { margin: 0; flex: 1; font-size: 1rem; }
 .clue-bar .num { font-family: var(--mono); font-weight: 600; color: var(--primary); margin-right: 8px; }
 .clue-bar .enum { color: var(--muted); font-family: var(--mono); font-size: 0.85em; margin-left: 4px; }
+.clue-bar .explain { display: block; margin-top: 4px; font-size: 0.84rem; color: var(--muted); }
+.clue-bar .explain strong { color: var(--emerald); font-weight: 600; }
+.puzzle-note { margin: 4px 0 0; max-width: 46ch; font-size: 0.84rem; color: var(--muted); line-height: 1.4; }
 .nav-btn {
   appearance: none; border: 1px solid var(--line); background: var(--bg-2); border-radius: 8px;
   width: 34px; height: 34px; font-size: 1.3rem; line-height: 1; cursor: pointer; flex-shrink: 0;

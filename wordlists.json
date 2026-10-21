@@ -1630,5 +1630,685 @@
         "___ effect: one good trait colours the whole impression"
       ]
     ]
+  },
+  {
+    "id": "general-expert",
+    "title": "Polymath",
+    "category": "General knowledge",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "INEFFABLE",
+        "Too great to be expressed in words"
+      ],
+      [
+        "DEFENESTRATION",
+        "Throwing someone out of a window, as in Prague in 1618"
+      ],
+      [
+        "ANTEDILUVIAN",
+        "Hopelessly old-fashioned; literally, before the Flood"
+      ],
+      [
+        "SERENDIPITY",
+        "Happy accident of discovery"
+      ],
+      [
+        "PANGRAM",
+        "Sentence that uses every letter of the alphabet"
+      ],
+      [
+        "OBSEQUIOUS",
+        "Excessively eager to please"
+      ],
+      [
+        "PALIMPSEST",
+        "Manuscript scraped clean and written over"
+      ],
+      [
+        "MONDEGREEN",
+        "Misheard song lyric"
+      ],
+      [
+        "ZEITGEIST",
+        "Defining spirit of an era"
+      ],
+      [
+        "OUBLIETTE",
+        "Dungeon reached only through a trapdoor"
+      ],
+      [
+        "PETRICHOR",
+        "Earthy smell after rain on dry ground"
+      ],
+      [
+        "QUIXOTIC",
+        "Idealistic to an impractical degree, after Cervantes' knight"
+      ],
+      [
+        "APHELION",
+        "Point in an orbit farthest from the Sun"
+      ],
+      [
+        "LACONIC",
+        "Using very few words, like the Spartans"
+      ],
+      [
+        "ZENITH",
+        "Highest point"
+      ]
+    ]
+  },
+  {
+    "id": "general-cryptic",
+    "title": "Cryptic Mix",
+    "category": "General knowledge",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "SCHOOLMASTER",
+        "The classroom, oddly, contains this teacher",
+        "Anagram ('oddly') of THE CLASSROOM. Definition: teacher."
+      ],
+      [
+        "ASTRONOMER",
+        "Moon starer, possibly, studies the heavens",
+        "Anagram ('possibly') of MOON STARER. Definition: (one who) studies the heavens."
+      ],
+      [
+        "DORMITORY",
+        "Dirty room, rearranged, where students sleep",
+        "Anagram ('rearranged') of DIRTY ROOM. Definition: where students sleep."
+      ],
+      [
+        "BARGAIN",
+        "Pub profit is a good deal",
+        "BAR (pub) + GAIN (profit). Definition: a good deal."
+      ],
+      [
+        "SEAWEED",
+        "Marine plant: ocean and garden pest",
+        "SEA (ocean) + WEED (garden pest). Definition: marine plant."
+      ],
+      [
+        "DECIMAL",
+        "Claimed, sadly, to be a type of number",
+        "Anagram ('sadly') of CLAIMED. Definition: a type of number."
+      ],
+      [
+        "CARPET",
+        "Floor covering: vehicle and animal companion",
+        "CAR (vehicle) + PET (animal companion). Definition: floor covering."
+      ],
+      [
+        "LISTEN",
+        "Pay attention to silent rearrangement",
+        "Anagram ('rearrangement') of SILENT. Definition: pay attention."
+      ],
+      [
+        "DRAWER",
+        "Reward sent back for a chest compartment",
+        "REWARD reversed ('sent back'). Definition: chest compartment."
+      ],
+      [
+        "PARIS",
+        "Capital in comparison",
+        "Hidden in comPARISon. Definition: capital."
+      ],
+      [
+        "STAR",
+        "Celebrity's rats returning",
+        "RATS reversed ('returning'). Definition: celebrity."
+      ],
+      [
+        "EVIL",
+        "Wicked live show turned back",
+        "LIVE reversed ('turned back'). Definition: wicked."
+      ]
+    ]
+  },
+  {
+    "id": "cyber-expert",
+    "title": "Deep Defence",
+    "category": "Cyber security",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "NON-REPUDIATION",
+        "Assurance that a sender can't deny having sent a message"
+      ],
+      [
+        "CHAIN OF CUSTODY",
+        "Documented trail that keeps evidence admissible"
+      ],
+      [
+        "STEGANOGRAPHY",
+        "Hiding a message inside an innocent-looking file"
+      ],
+      [
+        "FUZZING",
+        "Throwing malformed input at software to find crashes"
+      ],
+      [
+        "EGRESS",
+        "Outbound traffic, filtered to stop data leaving"
+      ],
+      [
+        "PASS THE HASH",
+        "Moving laterally with a stolen credential digest instead of the password"
+      ],
+      [
+        "SIDE CHANNEL",
+        "Attack that infers secrets from timing, power draw or emissions"
+      ],
+      [
+        "ATTESTATION",
+        "Cryptographic proof of a device's state"
+      ],
+      [
+        "PERSISTENCE",
+        "An attacker's foothold that survives a reboot"
+      ],
+      [
+        "HONEYTOKEN",
+        "Decoy credential that raises an alarm when used"
+      ],
+      [
+        "ROWHAMMER",
+        "Exploit that flips bits in neighbouring memory cells"
+      ],
+      [
+        "EPHEMERAL",
+        "Short-lived, like the keys behind forward secrecy"
+      ],
+      [
+        "BEACONING",
+        "Malware's regular check-ins with its command server"
+      ],
+      [
+        "KERBEROS",
+        "Ticket-based authentication protocol named after a three-headed hound"
+      ],
+      [
+        "SALT",
+        "Random value added before hashing a password"
+      ]
+    ]
+  },
+  {
+    "id": "cyber-cryptic",
+    "title": "Cryptic Cyber",
+    "category": "Cyber security",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "ANTIVIRUS",
+        "Insect, I and bug: protective software",
+        "ANT (insect) + I + VIRUS (bug). Definition: protective software."
+      ],
+      [
+        "NETWORK",
+        "Mesh and labour give connected computers",
+        "NET (mesh) + WORK (labour). Definition: connected computers."
+      ],
+      [
+        "SPYWARE",
+        "Agent's goods? That's malicious software",
+        "SPY (agent) + WARE (goods). Definition: malicious software."
+      ],
+      [
+        "DECRYPT",
+        "Decode French 'of' tomb",
+        "DE (French for 'of') + CRYPT (tomb). Definition: decode."
+      ],
+      [
+        "HACKER",
+        "Hired horse, er, one breaking into computers",
+        "HACK (hired horse) + ER. Definition: one breaking into computers."
+      ],
+      [
+        "SERVER",
+        "Waiter, or machine hosting a website",
+        "Double definition: a waiter, and a computer that hosts a website."
+      ],
+      [
+        "ROUTER",
+        "Woodworking tool, or box that forwards packets",
+        "Double definition: a woodworking tool, and a network device."
+      ],
+      [
+        "SECURE",
+        "Rescue arranged to make safe",
+        "Anagram ('arranged') of RESCUE. Definition: make safe."
+      ],
+      [
+        "LOGIN",
+        "Record at home for sign-on",
+        "LOG (record) + IN (at home). Definition: sign-on."
+      ],
+      [
+        "ADMIN",
+        "System manager's mad in turmoil",
+        "Anagram ('in turmoil') of MAD IN. Definition: system manager."
+      ],
+      [
+        "PROXY",
+        "Substitute vote, or intermediary server",
+        "Double definition: a vote cast on someone's behalf, and a go-between server."
+      ],
+      [
+        "CLOUD",
+        "Obscure place where your files may live",
+        "Double definition: to obscure, and online storage."
+      ]
+    ]
+  },
+  {
+    "id": "ai-expert",
+    "title": "Under the Hood",
+    "category": "AI security",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "INTERPRETABILITY",
+        "Understanding what is actually happening inside a model"
+      ],
+      [
+        "BACKPROPAGATION",
+        "Algorithm that pushes error gradients back through a network"
+      ],
+      [
+        "ADAM",
+        "Popular optimiser whose name comes from adaptive moment estimation"
+      ],
+      [
+        "REGULARISATION",
+        "Penalising complexity to curb overfitting"
+      ],
+      [
+        "QUANTISATION",
+        "Shrinking a model by storing weights at lower precision"
+      ],
+      [
+        "DISTILLATION",
+        "Training a small student model to mimic a larger teacher"
+      ],
+      [
+        "SCALING LAWS",
+        "Power-law links between compute, data and performance"
+      ],
+      [
+        "SYCOPHANCY",
+        "A model's tendency to tell users what they want to hear"
+      ],
+      [
+        "PERPLEXITY",
+        "Measure of how surprised a language model is by some text"
+      ],
+      [
+        "STOCHASTIC",
+        "___ parrot: a famous critique of language models"
+      ],
+      [
+        "EMERGENCE",
+        "Abilities that seem to appear suddenly at scale"
+      ],
+      [
+        "SOFTMAX",
+        "Function that turns scores into probabilities"
+      ],
+      [
+        "DROPOUT",
+        "Randomly silencing neurons during training"
+      ],
+      [
+        "LORA",
+        "Low-rank adaptation, for cheap fine-tuning (abbr.)"
+      ],
+      [
+        "RLHF",
+        "Reinforcement learning from human feedback (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "ai-cryptic",
+    "title": "Cryptic AI",
+    "category": "AI security",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "LEARNING",
+        "Pound making money brings knowledge",
+        "L (pound) + EARNING (making money). Definition: knowledge."
+      ],
+      [
+        "MACHINE",
+        "Speed ratio at home, English: a device",
+        "MACH (speed ratio) + IN (at home) + E (English). Definition: a device."
+      ],
+      [
+        "TURING",
+        "Rung it, scrambled, for the test's namesake",
+        "Anagram ('scrambled') of RUNG IT. Definition: the test's namesake."
+      ],
+      [
+        "NEURAL",
+        "Unreal mix, like a brain-inspired network",
+        "Anagram ('mix') of UNREAL. Definition: like a brain-inspired network."
+      ],
+      [
+        "ROBOT",
+        "Machine with decay around body odour",
+        "ROT (decay) around BO (body odour). Definition: machine."
+      ],
+      [
+        "MODEL",
+        "Pose, or trained AI system",
+        "Double definition: to pose, and a trained AI system."
+      ],
+      [
+        "SCALE",
+        "Climb, or grow a system bigger",
+        "Double definition: to climb, and to grow a system."
+      ],
+      [
+        "CODER",
+        "Programmer cored, mixed up",
+        "Anagram ('mixed up') of CORED. Definition: programmer."
+      ],
+      [
+        "DATA",
+        "Information hidden in Canada tables",
+        "Hidden in canaDA TAbles. Definition: information."
+      ],
+      [
+        "CHIP",
+        "Fried potato, or processor",
+        "Double definition: a fried potato, and a silicon chip."
+      ],
+      [
+        "NODE",
+        "Network point concealed in piano devices",
+        "Hidden in piaNO DEvices. Definition: network point."
+      ],
+      [
+        "BOT",
+        "Automated program, part of a bottle",
+        "Hidden in a BOTtle ('part of'). Definition: automated program."
+      ]
+    ]
+  },
+  {
+    "id": "econ-expert",
+    "title": "The Dismal Science",
+    "category": "Economics",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "OPPORTUNITY COST",
+        "Value of the next best alternative forgone"
+      ],
+      [
+        "HYPERINFLATION",
+        "Prices spiralling out of control, as in Weimar Germany"
+      ],
+      [
+        "INVISIBLE HAND",
+        "Adam Smith's metaphor for self-regulating markets"
+      ],
+      [
+        "MERCANTILISM",
+        "Doctrine of hoarding bullion through trade surpluses"
+      ],
+      [
+        "RENT-SEEKING",
+        "Lobbying to capture wealth without creating any"
+      ],
+      [
+        "MORAL HAZARD",
+        "Taking more risk because someone else bears the cost"
+      ],
+      [
+        "SEIGNIORAGE",
+        "Profit a government makes from issuing currency"
+      ],
+      [
+        "PIGOU",
+        "Economist after whom taxes on pollution are named"
+      ],
+      [
+        "OLIGOPOLY",
+        "Market dominated by a few large sellers"
+      ],
+      [
+        "MONOPSONY",
+        "Market with a single buyer"
+      ],
+      [
+        "ARBITRAGE",
+        "Profiting from price differences between markets"
+      ],
+      [
+        "PHILLIPS",
+        "___ curve: trade-off between inflation and unemployment"
+      ],
+      [
+        "PARETO",
+        "___ efficiency: no one can gain without someone else losing"
+      ],
+      [
+        "LAFFER",
+        "___ curve: tax rates plotted against tax revenue"
+      ],
+      [
+        "GINI",
+        "Coefficient that measures inequality"
+      ]
+    ]
+  },
+  {
+    "id": "econ-cryptic",
+    "title": "Cryptic Economics",
+    "category": "Economics",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "BANKER",
+        "Financier's shore, er…",
+        "BANK (shore) + ER. Definition: financier."
+      ],
+      [
+        "MARKET",
+        "Old currency with alien where trading happens",
+        "MARK (old German currency) + ET (alien). Definition: where trading happens."
+      ],
+      [
+        "INCOME",
+        "Earnings: at home, arrive",
+        "IN (at home) + COME (arrive). Definition: earnings."
+      ],
+      [
+        "CREDIT",
+        "Acknowledgement in a film, or borrowing power",
+        "Double definition: a film credit, and the ability to borrow."
+      ],
+      [
+        "TAXES",
+        "Duties in Texas, scrambled",
+        "Anagram ('scrambled') of TEXAS. Definition: duties."
+      ],
+      [
+        "TRADE",
+        "Tread carelessly in commerce",
+        "Anagram ('carelessly') of TREAD. Definition: commerce."
+      ],
+      [
+        "DEBIT",
+        "Bidet, oddly, is an entry against your account",
+        "Anagram ('oddly') of BIDET. Definition: an entry against your account."
+      ],
+      [
+        "STOCK",
+        "Soup base, or share",
+        "Double definition: soup stock, and a company share."
+      ],
+      [
+        "ASSET",
+        "Possession found in pass etiquette",
+        "Hidden in pASS ETiquette. Definition: possession."
+      ],
+      [
+        "CASH",
+        "Money found in cashmere, in part",
+        "Hidden ('in part') in CASHmere. Definition: money."
+      ],
+      [
+        "BULL",
+        "Optimistic investor, or nonsense",
+        "Double definition: an optimistic investor, and nonsense."
+      ],
+      [
+        "BEAR",
+        "Pessimistic trader, or carry",
+        "Double definition: a pessimistic trader, and to carry."
+      ]
+    ]
+  },
+  {
+    "id": "psych-expert",
+    "title": "Mind Games",
+    "category": "Psychology",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "PROPRIOCEPTION",
+        "Sense of where your body parts are"
+      ],
+      [
+        "SCHADENFREUDE",
+        "Pleasure at another's misfortune"
+      ],
+      [
+        "GESTALT",
+        "School holding that the whole is other than the sum of its parts"
+      ],
+      [
+        "PRIMACY",
+        "___ effect: remembering the first items in a list best"
+      ],
+      [
+        "SYNAESTHESIA",
+        "Hearing colours or tasting words"
+      ],
+      [
+        "PAREIDOLIA",
+        "Seeing faces in clouds or plug sockets"
+      ],
+      [
+        "APOPHENIA",
+        "Seeing meaningful patterns in random data"
+      ],
+      [
+        "ANHEDONIA",
+        "Inability to feel pleasure"
+      ],
+      [
+        "ZEIGARNIK",
+        "___ effect: unfinished tasks are remembered best"
+      ],
+      [
+        "FLASHBULB",
+        "___ memory: vivid recall of where you were when you heard shocking news"
+      ],
+      [
+        "HAWTHORNE",
+        "___ effect: behaving differently because you're being observed"
+      ],
+      [
+        "RORSCHACH",
+        "Inkblot test"
+      ],
+      [
+        "AMYGDALA",
+        "Almond-shaped brain region tied to fear"
+      ],
+      [
+        "STROOP",
+        "___ effect: slowness naming the ink colour of a clashing colour word"
+      ],
+      [
+        "LOCUS",
+        "___ of control: whether you credit yourself or circumstance"
+      ]
+    ]
+  },
+  {
+    "id": "psych-cryptic",
+    "title": "Cryptic Psychology",
+    "category": "Psychology",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "ELATION",
+        "Toenail repaired gives great joy",
+        "Anagram ('repaired') of TOENAIL. Definition: great joy."
+      ],
+      [
+        "RECALL",
+        "Remember, or withdraw a faulty product",
+        "Double definition: to remember, and to withdraw a product."
+      ],
+      [
+        "TEMPER",
+        "Mood, or harden steel",
+        "Double definition: a mood, and to harden steel."
+      ],
+      [
+        "MANIA",
+        "Craze in Germania",
+        "Hidden in gerMANIA. Definition: craze."
+      ],
+      [
+        "TRAIT",
+        "Characteristic seen in portrait",
+        "Hidden in porTRAIT. Definition: characteristic."
+      ],
+      [
+        "NERVE",
+        "Courage, or fibre carrying signals",
+        "Double definition: courage, and a nerve fibre."
+      ],
+      [
+        "MIND",
+        "Brain, or object",
+        "Double definition: the brain, and to object."
+      ],
+      [
+        "MOOD",
+        "Doom turned back to a frame of mind",
+        "DOOM reversed ('turned back'). Definition: frame of mind."
+      ],
+      [
+        "CALM",
+        "Serene in tropical meadow",
+        "Hidden in tropiCAL Meadow. Definition: serene."
+      ],
+      [
+        "SANE",
+        "Sean, all over the place, is of sound mind",
+        "Anagram ('all over the place') of SEAN. Definition: of sound mind."
+      ],
+      [
+        "IDEA",
+        "Notion found in hide away",
+        "Hidden in hIDE Away. Definition: notion."
+      ],
+      [
+        "EGO",
+        "Self found in San Diego",
+        "Hidden in san diEGO. Definition: self."
+      ]
+    ]
   }
 ]

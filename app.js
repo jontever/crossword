@@ -232,6 +232,15 @@
     pos = firstEmptyIn(firstEntry);
 
     $("#puzzle-title").textContent = current.title;
+    const note = $("#puzzle-note");
+    if (note) {
+      const notes = {
+        Cryptic: "Cryptic clues: each has a definition at one end plus wordplay (anagram, hidden word, reversal, charade or double definition). Solve or reveal a word to see how its clue works.",
+        Expert: "Expert: tougher vocabulary and less direct clues."
+      };
+      note.textContent = notes[current.difficulty] || "";
+      note.hidden = !notes[current.difficulty];
+    }
     const meta = $("#puzzle-meta");
     meta.textContent = "";
     const cat = el("span", "cat-" + catKey(current.category), current.category);
@@ -387,6 +396,12 @@
         document.createTextNode(e.clue),
         el("span", "enum", e.enum)
       );
+      // Cryptic clues carry a parsing, shown once the word is solved or revealed.
+      if (e.explain && entryCorrect(e)) {
+        const how = el("span", "explain");
+        how.append(el("strong", "", "How it works: "), document.createTextNode(e.explain));
+        bar.append(how);
+      }
       scrollClueIntoView(e.li);
       if (cross) scrollClueIntoView(cross.li);
     }

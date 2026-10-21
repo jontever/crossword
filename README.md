@@ -1,14 +1,16 @@
 # Crossword · cseta.uk
 
-A static, dependency-free crossword app with 24 puzzles in five categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
+A static, dependency-free crossword app with 34 puzzles in five categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
 
 | Category | Puzzles |
 | --- | --- |
-| General knowledge (9) | Mixed Bag · Easy, Food & Drink · Easy, Everyday Things, Best of British, Science & Nature, Around the World, Sporting Life, Screen & Sound · Medium, History Lessons · Hard |
-| Cyber security (3) | Foundations · Easy, Threats & Response · Medium, Architecture & Frameworks · Hard |
-| AI security (6) | Machine Learning Basics · Easy, AI Threats, Large Language Models, Defending AI · Medium, Agentic AI, AI Governance · Hard |
-| Economics (3) | Money Matters · Easy, Markets & Trade · Medium, The Big Picture · Hard |
-| Psychology (3) | Mind Basics · Easy, Famous Psychologists · Medium, Biases & Behaviour · Hard |
+| General knowledge (11) | Mixed Bag · Easy, Food & Drink · Easy, Everyday Things, Best of British, Science & Nature, Around the World, Sporting Life, Screen & Sound · Medium, History Lessons · Hard, **Polymath · Expert**, **Cryptic Mix · Cryptic** |
+| Cyber security (5) | Foundations · Easy, Threats & Response · Medium, Architecture & Frameworks · Hard, **Deep Defence · Expert**, **Cryptic Cyber · Cryptic** |
+| AI security (8) | Machine Learning Basics · Easy, AI Threats, Large Language Models, Defending AI · Medium, Agentic AI, AI Governance · Hard, **Under the Hood · Expert**, **Cryptic AI · Cryptic** |
+| Economics (5) | Money Matters · Easy, Markets & Trade · Medium, The Big Picture · Hard, **The Dismal Science · Expert**, **Cryptic Economics · Cryptic** |
+| Psychology (5) | Mind Basics · Easy, Famous Psychologists · Medium, Biases & Behaviour · Hard, **Mind Games · Expert**, **Cryptic Psychology · Cryptic** |
+
+**Expert** puzzles use tougher vocabulary and less direct clues. **Cryptic** puzzles (12 clues each) follow UK newspaper style: each clue has a definition plus wordplay (anagram, hidden word, reversal, charade or double definition). Once a cryptic word is solved or revealed, the clue bar shows how the clue works.
 
 First-time visitors start on Mixed Bag. The picker has a tab per category, and a Next puzzle button appears when you finish one.
 
@@ -132,7 +134,7 @@ Puzzle ids are part of the key, so don't rename an existing id in `wordlists.jso
 
 ## Adding or editing puzzles
 
-1. Edit `tools/wordlists.json`. Each puzzle has an `id`, `title`, `category`, `difficulty` and a list of `[answer, clue]` pairs. A new category gets its own picker tab automatically; add it to `CATEGORY_ORDER` and `CATEGORY_KEYS` in `app.js` to control its position and accent colour. Answers can include spaces or hyphens (e.g. `"ZERO TRUST"`, `"ZERO-DAY"`); the enumeration `(4,5)` / `(4-3)` is worked out automatically.
+1. Edit `tools/wordlists.json`. Each puzzle has an `id`, `title`, `category`, `difficulty` and a list of `[answer, clue]` pairs, or `[answer, clue, explanation]` for cryptic clues (the explanation appears once the word is solved). A new category gets its own picker tab automatically; add it to `CATEGORY_ORDER` and `CATEGORY_KEYS` in `app.js` to control its position and accent colour. Answers can include spaces or hyphens (e.g. `"ZERO TRUST"`, `"ZERO-DAY"`); the enumeration `(4,5)` / `(4-3)` is worked out automatically.
 2. Run `python3 tools/generate.py` (Python 3.8+, standard library only).
 3. Commit the updated `puzzles.js`.
 

@@ -3479,5 +3479,1380 @@ window.PUZZLES = [
     "enum": "(4)"
    }
   ]
+ },
+ {
+  "id": "general-expert",
+  "title": "Polymath",
+  "category": "General knowledge",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 7,
+    "answer": "OBSEQUIOUS",
+    "clue": "Excessively eager to please",
+    "enum": "(10)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 3,
+    "col": 3,
+    "answer": "MONDEGREEN",
+    "clue": "Misheard song lyric",
+    "enum": "(10)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 5,
+    "col": 3,
+    "answer": "PALIMPSEST",
+    "clue": "Manuscript scraped clean and written over",
+    "enum": "(10)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 7,
+    "col": 4,
+    "answer": "OUBLIETTE",
+    "clue": "Dungeon reached only through a trapdoor",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 9,
+    "col": 5,
+    "answer": "PANGRAM",
+    "clue": "Sentence that uses every letter of the alphabet",
+    "enum": "(7)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 11,
+    "col": 1,
+    "answer": "ANTEDILUVIAN",
+    "clue": "Hopelessly old-fashioned; literally, before the Flood",
+    "enum": "(12)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 13,
+    "col": 6,
+    "answer": "SERENDIPITY",
+    "clue": "Happy accident of discovery",
+    "enum": "(11)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 14,
+    "col": 0,
+    "answer": "ZENITH",
+    "clue": "Highest point",
+    "enum": "(6)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 15,
+    "col": 10,
+    "answer": "LACONIC",
+    "clue": "Using very few words, like the Spartans",
+    "enum": "(7)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 16,
+    "col": 1,
+    "answer": "PETRICHOR",
+    "clue": "Earthy smell after rain on dry ground",
+    "enum": "(9)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 10,
+    "answer": "DEFENESTRATION",
+    "clue": "Throwing someone out of a window, as in Prague in 1618",
+    "enum": "(14)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 15,
+    "answer": "QUIXOTIC",
+    "clue": "Idealistic to an impractical degree, after Cervantes' knight",
+    "enum": "(8)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 6,
+    "col": 1,
+    "answer": "INEFFABLE",
+    "clue": "Too great to be expressed in words",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 8,
+    "col": 3,
+    "answer": "ZEITGEIST",
+    "clue": "Defining spirit of an era",
+    "enum": "(9)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 8,
+    "col": 14,
+    "answer": "APHELION",
+    "clue": "Point in an orbit farthest from the Sun",
+    "enum": "(8)"
+   }
+  ]
+ },
+ {
+  "id": "general-cryptic",
+  "title": "Cryptic Mix",
+  "category": "General knowledge",
+  "difficulty": "Cryptic",
+  "rows": 13,
+  "cols": 14,
+  "entries": [
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 0,
+    "answer": "DRAWER",
+    "clue": "Reward sent back for a chest compartment",
+    "enum": "(6)",
+    "explain": "REWARD reversed ('sent back'). Definition: chest compartment."
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 4,
+    "answer": "ASTRONOMER",
+    "clue": "Moon starer, possibly, studies the heavens",
+    "enum": "(10)",
+    "explain": "Anagram ('possibly') of MOON STARER. Definition: (one who) studies the heavens."
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 2,
+    "answer": "DECIMAL",
+    "clue": "Claimed, sadly, to be a type of number",
+    "enum": "(7)",
+    "explain": "Anagram ('sadly') of CLAIMED. Definition: a type of number."
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 2,
+    "answer": "LISTEN",
+    "clue": "Pay attention to silent rearrangement",
+    "enum": "(6)",
+    "explain": "Anagram ('rearrangement') of SILENT. Definition: pay attention."
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 10,
+    "answer": "STAR",
+    "clue": "Celebrity's rats returning",
+    "enum": "(4)",
+    "explain": "RATS reversed ('returning'). Definition: celebrity."
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 11,
+    "col": 6,
+    "answer": "CARPET",
+    "clue": "Floor covering: vehicle and animal companion",
+    "enum": "(6)",
+    "explain": "CAR (vehicle) + PET (animal companion). Definition: floor covering."
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 2,
+    "answer": "SEAWEED",
+    "clue": "Marine plant: ocean and garden pest",
+    "enum": "(7)",
+    "explain": "SEA (ocean) + WEED (garden pest). Definition: marine plant."
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "PARIS",
+    "clue": "Capital in comparison",
+    "enum": "(5)",
+    "explain": "Hidden in comPARISon. Definition: capital."
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 10,
+    "answer": "SCHOOLMASTER",
+    "clue": "The classroom, oddly, contains this teacher",
+    "enum": "(12)",
+    "explain": "Anagram ('oddly') of THE CLASSROOM. Definition: teacher."
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 7,
+    "answer": "BARGAIN",
+    "clue": "Pub profit is a good deal",
+    "enum": "(7)",
+    "explain": "BAR (pub) + GAIN (profit). Definition: a good deal."
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 2,
+    "col": 13,
+    "answer": "DORMITORY",
+    "clue": "Dirty room, rearranged, where students sleep",
+    "enum": "(9)",
+    "explain": "Anagram ('rearranged') of DIRTY ROOM. Definition: where students sleep."
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 3,
+    "answer": "EVIL",
+    "clue": "Wicked live show turned back",
+    "enum": "(4)",
+    "explain": "LIVE reversed ('turned back'). Definition: wicked."
+   }
+  ]
+ },
+ {
+  "id": "cyber-expert",
+  "title": "Deep Defence",
+  "category": "Cyber security",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 6,
+    "answer": "ROWHAMMER",
+    "clue": "Exploit that flips bits in neighbouring memory cells",
+    "enum": "(9)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 3,
+    "col": 9,
+    "answer": "KERBEROS",
+    "clue": "Ticket-based authentication protocol named after a three-headed hound",
+    "enum": "(8)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 0,
+    "answer": "EPHEMERAL",
+    "clue": "Short-lived, like the keys behind forward secrecy",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 5,
+    "col": 13,
+    "answer": "SALT",
+    "clue": "Random value added before hashing a password",
+    "enum": "(4)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 7,
+    "col": 0,
+    "answer": "NONREPUDIATION",
+    "clue": "Assurance that a sender can't deny having sent a message",
+    "enum": "(3-11)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 0,
+    "answer": "PASSTHEHASH",
+    "clue": "Moving laterally with a stolen credential digest instead of the password",
+    "enum": "(4,3,4)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 15,
+    "col": 7,
+    "answer": "BEACONING",
+    "clue": "Malware's regular check-ins with its command server",
+    "enum": "(9)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 10,
+    "answer": "ATTESTATION",
+    "clue": "Cryptographic proof of a device's state",
+    "enum": "(11)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 13,
+    "answer": "EGRESS",
+    "clue": "Outbound traffic, filtered to stop data leaving",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 0,
+    "answer": "STEGANOGRAPHY",
+    "clue": "Hiding a message inside an innocent-looking file",
+    "enum": "(13)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 2,
+    "answer": "CHAINOFCUSTODY",
+    "clue": "Documented trail that keeps evidence admissible",
+    "enum": "(5,2,7)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 4,
+    "answer": "PERSISTENCE",
+    "clue": "An attacker's foothold that survives a reboot",
+    "enum": "(11)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 8,
+    "answer": "SIDECHANNEL",
+    "clue": "Attack that infers secrets from timing, power draw or emissions",
+    "enum": "(4,7)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 6,
+    "col": 12,
+    "answer": "HONEYTOKEN",
+    "clue": "Decoy credential that raises an alarm when used",
+    "enum": "(10)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 10,
+    "col": 14,
+    "answer": "FUZZING",
+    "clue": "Throwing malformed input at software to find crashes",
+    "enum": "(7)"
+   }
+  ]
+ },
+ {
+  "id": "cyber-cryptic",
+  "title": "Cryptic Cyber",
+  "category": "Cyber security",
+  "difficulty": "Cryptic",
+  "rows": 12,
+  "cols": 13,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 3,
+    "answer": "CLOUD",
+    "clue": "Obscure place where your files may live",
+    "enum": "(5)",
+    "explain": "Double definition: to obscure, and online storage."
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 3,
+    "col": 2,
+    "answer": "ADMIN",
+    "clue": "System manager's mad in turmoil",
+    "enum": "(5)",
+    "explain": "Anagram ('in turmoil') of MAD IN. Definition: system manager."
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 3,
+    "col": 8,
+    "answer": "PROXY",
+    "clue": "Substitute vote, or intermediary server",
+    "enum": "(5)",
+    "explain": "Double definition: a vote cast on someone's behalf, and a go-between server."
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 5,
+    "answer": "SECURE",
+    "clue": "Rescue arranged to make safe",
+    "enum": "(6)",
+    "explain": "Anagram ('arranged') of RESCUE. Definition: make safe."
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 9,
+    "col": 1,
+    "answer": "ANTIVIRUS",
+    "clue": "Insect, I and bug: protective software",
+    "enum": "(9)",
+    "explain": "ANT (insect) + I + VIRUS (bug). Definition: protective software."
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "NETWORK",
+    "clue": "Mesh and labour give connected computers",
+    "enum": "(7)",
+    "explain": "NET (mesh) + WORK (labour). Definition: connected computers."
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "LOGIN",
+    "clue": "Record at home for sign-on",
+    "enum": "(5)",
+    "explain": "LOG (record) + IN (at home). Definition: sign-on."
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 10,
+    "answer": "ROUTER",
+    "clue": "Woodworking tool, or box that forwards packets",
+    "enum": "(6)",
+    "explain": "Double definition: a woodworking tool, and a network device."
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 3,
+    "answer": "DECRYPT",
+    "clue": "Decode French 'of' tomb",
+    "enum": "(7)",
+    "explain": "DE (French for 'of') + CRYPT (tomb). Definition: decode."
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 7,
+    "answer": "HACKER",
+    "clue": "Hired horse, er, one breaking into computers",
+    "enum": "(6)",
+    "explain": "HACK (hired horse) + ER. Definition: one breaking into computers."
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 1,
+    "answer": "SPYWARE",
+    "clue": "Agent's goods? That's malicious software",
+    "enum": "(7)",
+    "explain": "SPY (agent) + WARE (goods). Definition: malicious software."
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 5,
+    "answer": "SERVER",
+    "clue": "Waiter, or machine hosting a website",
+    "enum": "(6)",
+    "explain": "Double definition: a waiter, and a computer that hosts a website."
+   }
+  ]
+ },
+ {
+  "id": "ai-expert",
+  "title": "Under the Hood",
+  "category": "AI security",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 1,
+    "col": 3,
+    "answer": "DROPOUT",
+    "clue": "Randomly silencing neurons during training",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 5,
+    "col": 2,
+    "answer": "LORA",
+    "clue": "Low-rank adaptation, for cheap fine-tuning (abbr.)",
+    "enum": "(4)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 8,
+    "col": 2,
+    "answer": "REGULARISATION",
+    "clue": "Penalising complexity to curb overfitting",
+    "enum": "(14)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 12,
+    "col": 0,
+    "answer": "INTERPRETABILITY",
+    "clue": "Understanding what is actually happening inside a model",
+    "enum": "(16)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 2,
+    "answer": "DISTILLATION",
+    "clue": "Training a small student model to mimic a larger teacher",
+    "enum": "(12)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 16,
+    "col": 2,
+    "answer": "SYCOPHANCY",
+    "clue": "A model's tendency to tell users what they want to hear",
+    "enum": "(10)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 0,
+    "answer": "BACKPROPAGATION",
+    "clue": "Algorithm that pushes error gradients back through a network",
+    "enum": "(15)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 3,
+    "answer": "ADAM",
+    "clue": "Popular optimiser whose name comes from adaptive moment estimation",
+    "enum": "(4)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "SOFTMAX",
+    "clue": "Function that turns scores into probabilities",
+    "enum": "(7)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 0,
+    "col": 9,
+    "answer": "STOCHASTIC",
+    "clue": "___ parrot: a famous critique of language models",
+    "enum": "(10)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 0,
+    "col": 11,
+    "answer": "SCALINGLAWS",
+    "clue": "Power-law links between compute, data and performance",
+    "enum": "(7,4)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 2,
+    "col": 15,
+    "answer": "EMERGENCE",
+    "clue": "Abilities that seem to appear suddenly at scale",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 3,
+    "col": 13,
+    "answer": "QUANTISATION",
+    "clue": "Shrinking a model by storing weights at lower precision",
+    "enum": "(12)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 3,
+    "answer": "PERPLEXITY",
+    "clue": "Measure of how surprised a language model is by some text",
+    "enum": "(10)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 7,
+    "col": 6,
+    "answer": "RLHF",
+    "clue": "Reinforcement learning from human feedback (abbr.)",
+    "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "ai-cryptic",
+  "title": "Cryptic AI",
+  "category": "AI security",
+  "difficulty": "Cryptic",
+  "rows": 10,
+  "cols": 10,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 0,
+    "col": 3,
+    "answer": "BOT",
+    "clue": "Automated program, part of a bottle",
+    "enum": "(3)",
+    "explain": "Hidden in a BOTtle ('part of'). Definition: automated program."
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 2,
+    "col": 5,
+    "answer": "ROBOT",
+    "clue": "Machine with decay around body odour",
+    "enum": "(5)",
+    "explain": "ROT (decay) around BO (body odour). Definition: machine."
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 1,
+    "answer": "LEARNING",
+    "clue": "Pound making money brings knowledge",
+    "enum": "(8)",
+    "explain": "L (pound) + EARNING (making money). Definition: knowledge."
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 7,
+    "col": 1,
+    "answer": "CHIP",
+    "clue": "Fried potato, or processor",
+    "enum": "(4)",
+    "explain": "Double definition: a fried potato, and a silicon chip."
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 8,
+    "col": 5,
+    "answer": "SCALE",
+    "clue": "Climb, or grow a system bigger",
+    "enum": "(5)",
+    "explain": "Double definition: to climb, and to grow a system."
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "NODE",
+    "clue": "Network point concealed in piano devices",
+    "enum": "(4)",
+    "explain": "Hidden in piaNO DEvices. Definition: network point."
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "MODEL",
+    "clue": "Pose, or trained AI system",
+    "enum": "(5)",
+    "explain": "Double definition: to pose, and a trained AI system."
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "TURING",
+    "clue": "Rung it, scrambled, for the test's namesake",
+    "enum": "(6)",
+    "explain": "Anagram ('scrambled') of RUNG IT. Definition: the test's namesake."
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 0,
+    "col": 9,
+    "answer": "DATA",
+    "clue": "Information hidden in Canada tables",
+    "enum": "(4)",
+    "explain": "Hidden in canaDA TAbles. Definition: information."
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 3,
+    "answer": "MACHINE",
+    "clue": "Speed ratio at home, English: a device",
+    "enum": "(7)",
+    "explain": "MACH (speed ratio) + IN (at home) + E (English). Definition: a device."
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 4,
+    "col": 7,
+    "answer": "NEURAL",
+    "clue": "Unreal mix, like a brain-inspired network",
+    "enum": "(6)",
+    "explain": "Anagram ('mix') of UNREAL. Definition: like a brain-inspired network."
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 5,
+    "col": 9,
+    "answer": "CODER",
+    "clue": "Programmer cored, mixed up",
+    "enum": "(5)",
+    "explain": "Anagram ('mixed up') of CORED. Definition: programmer."
+   }
+  ]
+ },
+ {
+  "id": "econ-expert",
+  "title": "The Dismal Science",
+  "category": "Economics",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 2,
+    "answer": "PARETO",
+    "clue": "___ efficiency: no one can gain without someone else losing",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 2,
+    "col": 1,
+    "answer": "GINI",
+    "clue": "Coefficient that measures inequality",
+    "enum": "(4)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 6,
+    "answer": "RENTSEEKING",
+    "clue": "Lobbying to capture wealth without creating any",
+    "enum": "(4-7)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "OPPORTUNITYCOST",
+    "clue": "Value of the next best alternative forgone",
+    "enum": "(11,4)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 0,
+    "answer": "HYPERINFLATION",
+    "clue": "Prices spiralling out of control, as in Weimar Germany",
+    "enum": "(14)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 12,
+    "col": 10,
+    "answer": "PIGOU",
+    "clue": "Economist after whom taxes on pollution are named",
+    "enum": "(5)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 16,
+    "col": 9,
+    "answer": "LAFFER",
+    "clue": "___ curve: tax rates plotted against tax revenue",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 2,
+    "answer": "PHILLIPS",
+    "clue": "___ curve: trade-off between inflation and unemployment",
+    "enum": "(8)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 16,
+    "answer": "OLIGOPOLY",
+    "clue": "Market dominated by a few large sellers",
+    "enum": "(9)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 3,
+    "col": 8,
+    "answer": "INVISIBLEHAND",
+    "clue": "Adam Smith's metaphor for self-regulating markets",
+    "enum": "(9,4)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 11,
+    "answer": "MERCANTILISM",
+    "clue": "Doctrine of hoarding bullion through trade surpluses",
+    "enum": "(12)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 0,
+    "answer": "MORALHAZARD",
+    "clue": "Taking more risk because someone else bears the cost",
+    "enum": "(5,6)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 4,
+    "answer": "ARBITRAGE",
+    "clue": "Profiting from price differences between markets",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 13,
+    "answer": "SEIGNIORAGE",
+    "clue": "Profit a government makes from issuing currency",
+    "enum": "(11)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 6,
+    "answer": "MONOPSONY",
+    "clue": "Market with a single buyer",
+    "enum": "(9)"
+   }
+  ]
+ },
+ {
+  "id": "econ-cryptic",
+  "title": "Cryptic Economics",
+  "category": "Economics",
+  "difficulty": "Cryptic",
+  "rows": 11,
+  "cols": 10,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 1,
+    "answer": "TRADE",
+    "clue": "Tread carelessly in commerce",
+    "enum": "(5)",
+    "explain": "Anagram ('carelessly') of TREAD. Definition: commerce."
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 5,
+    "answer": "BULL",
+    "clue": "Optimistic investor, or nonsense",
+    "enum": "(4)",
+    "explain": "Double definition: an optimistic investor, and nonsense."
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 0,
+    "answer": "CREDIT",
+    "clue": "Acknowledgement in a film, or borrowing power",
+    "enum": "(6)",
+    "explain": "Double definition: a film credit, and the ability to borrow."
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "MARKET",
+    "clue": "Old currency with alien where trading happens",
+    "enum": "(6)",
+    "explain": "MARK (old German currency) + ET (alien). Definition: where trading happens."
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 7,
+    "col": 5,
+    "answer": "ASSET",
+    "clue": "Possession found in pass etiquette",
+    "enum": "(5)",
+    "explain": "Hidden in pASS ETiquette. Definition: possession."
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 1,
+    "answer": "BANKER",
+    "clue": "Financier's shore, er\u2026",
+    "enum": "(6)",
+    "explain": "BANK (shore) + ER. Definition: financier."
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "DEBIT",
+    "clue": "Bidet, oddly, is an entry against your account",
+    "enum": "(5)",
+    "explain": "Anagram ('oddly') of BIDET. Definition: an entry against your account."
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 0,
+    "answer": "INCOME",
+    "clue": "Earnings: at home, arrive",
+    "enum": "(6)",
+    "explain": "IN (at home) + COME (arrive). Definition: earnings."
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 2,
+    "answer": "BEAR",
+    "clue": "Pessimistic trader, or carry",
+    "enum": "(4)",
+    "explain": "Double definition: a pessimistic trader, and to carry."
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 7,
+    "answer": "CASH",
+    "clue": "Money found in cashmere, in part",
+    "enum": "(4)",
+    "explain": "Hidden ('in part') in CASHmere. Definition: money."
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 5,
+    "answer": "TAXES",
+    "clue": "Duties in Texas, scrambled",
+    "enum": "(5)",
+    "explain": "Anagram ('scrambled') of TEXAS. Definition: duties."
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 9,
+    "answer": "STOCK",
+    "clue": "Soup base, or share",
+    "enum": "(5)",
+    "explain": "Double definition: soup stock, and a company share."
+   }
+  ]
+ },
+ {
+  "id": "psych-expert",
+  "title": "Mind Games",
+  "category": "Psychology",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 0,
+    "col": 9,
+    "answer": "GESTALT",
+    "clue": "School holding that the whole is other than the sum of its parts",
+    "enum": "(7)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 2,
+    "col": 7,
+    "answer": "HAWTHORNE",
+    "clue": "___ effect: behaving differently because you're being observed",
+    "enum": "(9)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 3,
+    "answer": "PROPRIOCEPTION",
+    "clue": "Sense of where your body parts are",
+    "enum": "(14)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 10,
+    "col": 0,
+    "answer": "ANHEDONIA",
+    "clue": "Inability to feel pleasure",
+    "enum": "(9)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 12,
+    "col": 3,
+    "answer": "SYNAESTHESIA",
+    "clue": "Hearing colours or tasting words",
+    "enum": "(12)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 14,
+    "col": 8,
+    "answer": "RORSCHACH",
+    "clue": "Inkblot test",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 15,
+    "col": 0,
+    "answer": "LOCUS",
+    "clue": "___ of control: whether you credit yourself or circumstance",
+    "enum": "(5)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 16,
+    "col": 9,
+    "answer": "PRIMACY",
+    "clue": "___ effect: remembering the first items in a list best",
+    "enum": "(7)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 4,
+    "answer": "ZEIGARNIK",
+    "clue": "___ effect: unfinished tasks are remembered best",
+    "enum": "(9)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 11,
+    "answer": "SCHADENFREUDE",
+    "clue": "Pleasure at another's misfortune",
+    "enum": "(13)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 1,
+    "col": 8,
+    "answer": "PAREIDOLIA",
+    "clue": "Seeing faces in clouds or plug sockets",
+    "enum": "(10)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 6,
+    "answer": "APOPHENIA",
+    "clue": "Seeing meaningful patterns in random data",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 7,
+    "col": 14,
+    "answer": "AMYGDALA",
+    "clue": "Almond-shaped brain region tied to fear",
+    "enum": "(8)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 8,
+    "col": 0,
+    "answer": "FLASHBULB",
+    "clue": "___ memory: vivid recall of where you were when you heard shocking news",
+    "enum": "(9)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 11,
+    "col": 9,
+    "answer": "STROOP",
+    "clue": "___ effect: slowness naming the ink colour of a clashing colour word",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "psych-cryptic",
+  "title": "Cryptic Psychology",
+  "category": "Psychology",
+  "difficulty": "Cryptic",
+  "rows": 11,
+  "cols": 9,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 0,
+    "answer": "IDEA",
+    "clue": "Notion found in hide away",
+    "enum": "(4)",
+    "explain": "Hidden in hIDE Away. Definition: notion."
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 1,
+    "col": 4,
+    "answer": "TRAIT",
+    "clue": "Characteristic seen in portrait",
+    "enum": "(5)",
+    "explain": "Hidden in porTRAIT. Definition: characteristic."
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 2,
+    "col": 1,
+    "answer": "SANE",
+    "clue": "Sean, all over the place, is of sound mind",
+    "enum": "(4)",
+    "explain": "Anagram ('all over the place') of SEAN. Definition: of sound mind."
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 3,
+    "col": 4,
+    "answer": "MOOD",
+    "clue": "Doom turned back to a frame of mind",
+    "enum": "(4)",
+    "explain": "DOOM reversed ('turned back'). Definition: frame of mind."
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 0,
+    "answer": "EGO",
+    "clue": "Self found in San Diego",
+    "enum": "(3)",
+    "explain": "Hidden in san diEGO. Definition: self."
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 2,
+    "answer": "NERVE",
+    "clue": "Courage, or fibre carrying signals",
+    "enum": "(5)",
+    "explain": "Double definition: courage, and a nerve fibre."
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 2,
+    "answer": "MANIA",
+    "clue": "Craze in Germania",
+    "enum": "(5)",
+    "explain": "Hidden in gerMANIA. Definition: craze."
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 10,
+    "col": 4,
+    "answer": "CALM",
+    "clue": "Serene in tropical meadow",
+    "enum": "(4)",
+    "explain": "Hidden in tropiCAL Meadow. Definition: serene."
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 2,
+    "answer": "ELATION",
+    "clue": "Toenail repaired gives great joy",
+    "enum": "(7)",
+    "explain": "Anagram ('repaired') of TOENAIL. Definition: great joy."
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 7,
+    "answer": "MIND",
+    "clue": "Brain, or object",
+    "enum": "(4)",
+    "explain": "Double definition: the brain, and to object."
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 1,
+    "col": 4,
+    "answer": "TEMPER",
+    "clue": "Mood, or harden steel",
+    "enum": "(6)",
+    "explain": "Double definition: a mood, and to harden steel."
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 6,
+    "answer": "RECALL",
+    "clue": "Remember, or withdraw a faulty product",
+    "enum": "(6)",
+    "explain": "Double definition: to remember, and to withdraw a product."
+   }
+  ]
  }
 ];
