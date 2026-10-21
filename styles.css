@@ -32,6 +32,7 @@
   --kb-bg: rgba(11, 15, 23, 0.94);
   --backdrop: rgba(5, 8, 14, 0.7);
   --shadow: rgba(0, 0, 0, 0.45);
+  --overlay: rgba(11, 15, 23, 0.64);
 
   --radius: 10px;
   --sans: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -297,6 +298,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --primary-soft: rgba(37, 99, 235, 0.13); --primary-faint: rgba(37, 99, 235, 0.05);
   --glow-1: rgba(37, 99, 235, 0.07); --glow-2: rgba(124, 58, 237, 0.05);
   --kb-bg: rgba(244, 246, 251, 0.94); --backdrop: rgba(20, 26, 40, 0.45); --shadow: rgba(20, 30, 60, 0.16);
+  --overlay: rgba(244, 246, 251, 0.72);
 }
 :root[data-theme="emerald"] {
   --bg: #06120e; --bg-2: #0b1b16; --panel: #0f221c; --panel-2: #143027;
@@ -306,6 +308,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --glow-1: rgba(47, 211, 160, 0.10); --glow-2: rgba(79, 140, 255, 0.07);
   --cell-word: #c6f2e1; --cell-solved: #e4f9c6;
   --kb-bg: rgba(6, 18, 14, 0.94);
+  --overlay: rgba(6, 18, 14, 0.62);
 }
 :root[data-theme="amethyst"] {
   --bg: #0f0b1a; --bg-2: #171127; --panel: #1b1430; --panel-2: #241b3e;
@@ -315,6 +318,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --glow-1: rgba(167, 123, 255, 0.14); --glow-2: rgba(255, 92, 122, 0.07);
   --cell-word: #e2d6ff;
   --kb-bg: rgba(15, 11, 26, 0.94);
+  --overlay: rgba(15, 11, 26, 0.62);
 }
 :root[data-theme="contrast"] {
   --bg: #000000; --bg-2: #000000; --panel: #000000; --panel-2: #1c1c1c;
@@ -326,6 +330,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --cell-bg: #ffffff; --cell-text: #000000; --cell-word: #9fdcff; --cell-active: #ffe600;
   --cell-edge: #ffffff; --cell-num: #000000; --cell-wrong: #c00000; --cell-revealed: #0030c0; --cell-solved: #b4ffcc;
   --kb-bg: #000000; --backdrop: rgba(0, 0, 0, 0.85); --shadow: rgba(0, 0, 0, 0.8);
+  --overlay: rgba(0, 0, 0, 0.85);
 }
 :root[data-theme="contrast"] .cell .n { font-weight: 600; }
 :root[data-theme="contrast"] .btn, :root[data-theme="contrast"] .chip { border-width: 2px; }
@@ -335,9 +340,14 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 /* ---------- theme menu ---------- */
 .icon-btn { padding: 6px; width: 36px; height: 36px; display: inline-grid; place-items: center; }
 .icon-btn svg { width: 20px; height: 20px; display: block; }
-.theme-menu .menu-list { min-width: 200px; }
+.theme-menu .menu-list { min-width: 210px; max-height: calc(100svh - 80px); overflow-y: auto; }
+.menu-heading {
+  margin: 4px 12px 2px; font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--muted);
+}
 .theme-menu .menu-list button { display: flex; align-items: center; gap: 10px; }
 .theme-menu .menu-list button[aria-checked="true"] { color: var(--primary); }
+.theme-menu .menu-list button { padding-top: 7px; padding-bottom: 7px; }
 .theme-menu .menu-list button[aria-checked="true"]::after { content: "\2713"; margin-left: auto; font-size: 0.9em; }
 .menu-sep { height: 1px; background: var(--line); margin: 4px 6px; }
 .swatch {
@@ -350,6 +360,44 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 .sw-emerald { background: linear-gradient(135deg, #06120e 0 55%, #2fd3a0 55% 100%); }
 .sw-amethyst { background: linear-gradient(135deg, #0f0b1a 0 55%, #a77bff 55% 100%); }
 .sw-contrast { background: linear-gradient(135deg, #000000 0 55%, #ffe600 55% 100%); }
+.sw-bg-none { background: repeating-linear-gradient(135deg, transparent 0 4px, rgba(127, 127, 127, 0.35) 4px 5px); }
+.sw-bg-forest { background: linear-gradient(180deg, #c9d6dc 0%, #8fa3a8 45%, #24352f 46%, #0f1a16 100%); }
+.sw-bg-mountains { background: linear-gradient(180deg, #7fc7e8 0%, #f6c66b 40%, #e98a8a 62%, #8a5a7d 100%); }
+.sw-bg-space { background: radial-gradient(circle at 60% 55%, #c9c4e6 0 6%, transparent 30%), linear-gradient(180deg, #2b3550 0%, #0c1020 100%); }
+
+/* ---------- photo backgrounds (Unsplash) ---------- */
+/* A fixed layer behind the page, so it also works on iOS where
+   background-attachment: fixed is ignored. The theme's --overlay tints it
+   and keeps text readable. Images load only when data-bg is set. */
+:root[data-bg] body::before {
+  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background-color: var(--bg);
+  background-image: linear-gradient(var(--overlay), var(--overlay)), var(--bg-photo);
+  background-size: cover;
+  background-position: var(--bg-pos, center);
+  background-repeat: no-repeat;
+}
+:root[data-bg="forest"] {
+  --bg-photo: url("https://images.unsplash.com/photo-1792090894054-a5312e786da1?auto=format&fit=crop&w=1920&q=70");
+  --bg-pos: center 70%;
+}
+:root[data-bg="mountains"] {
+  --bg-photo: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?auto=format&fit=crop&w=1920&q=70");
+  --bg-pos: center 60%;
+}
+:root[data-bg="space"] {
+  --bg-photo: url("https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?auto=format&fit=crop&w=1920&q=60");
+  --bg-pos: center;
+}
+@media (max-width: 700px) {
+  :root[data-bg="forest"] { --bg-photo: url("https://images.unsplash.com/photo-1792090894054-a5312e786da1?auto=format&fit=crop&w=900&h=1600&q=70"); }
+  :root[data-bg="mountains"] { --bg-photo: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?auto=format&fit=crop&w=900&h=1600&q=70"); }
+  :root[data-bg="space"] { --bg-photo: url("https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?auto=format&fit=crop&w=900&h=1600&q=60"); }
+}
+
+.credit { margin-top: 6px !important; font-size: 0.78rem; }
+.credit a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 2px; }
+.credit a:hover { color: var(--text); text-decoration-color: currentColor; }
 
 /* ---------- footer ---------- */
 .foot { max-width: 1200px; margin: 0 auto; padding: 8px 16px 28px; color: var(--muted); font-size: 0.82rem; }

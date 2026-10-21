@@ -5,7 +5,7 @@ A static, dependency-free crossword app with three cyber security puzzles and th
 - No build step, no npm packages, no backend, no cookies, no analytics
 - Keyboard and touch play (an on-screen keyboard appears on touch devices)
 - Check and reveal by letter, word or whole puzzle, with a timer
-- Theme changer: Match system, Midnight, Daylight, Emerald, Amethyst and High contrast (remembered per browser)
+- Appearance menu: Emerald (default), Midnight, Daylight, Amethyst, High contrast or Match system, plus an optional Forest, Mountains or Space photo background from Unsplash (remembered per browser)
 - Progress autosaves in the browser and can be exported as a **base64 progress key** to restore on any device
 - Strict security headers (CSP, HSTS, frame-ancestors, etc.) set in `vercel.json`
 
@@ -15,7 +15,7 @@ A static, dependency-free crossword app with three cyber security puzzles and th
 index.html            page shell
 styles.css            styles and theme palettes (Space Grotesk / IBM Plex Mono)
 app.js                game logic, save/restore key
-theme.js              theme switcher (loads in <head> to avoid a flash)
+theme.js              theme and background switcher (loads in <head> to avoid a flash)
 puzzles.js            generated puzzle data (don't edit by hand)
 favicon.svg / .ico    favicon
 icons/                apple-touch and PWA icons
@@ -68,11 +68,29 @@ If `cseta.uk` is already attached to another Vercel project, you'll need to remo
 
 Vercel issues the TLS certificate automatically once DNS resolves.
 
-## Themes
+## Themes and backgrounds
 
-The palette button in the header switches theme. **Match system** follows the device's light/dark setting (and picks High contrast if the OS asks for more contrast). The choice is stored in `localStorage` under `cseta-crossword:theme` and isn't part of the progress key.
+The half-circle button in the header opens the appearance menu.
 
-Themes are CSS custom properties: Midnight is the `:root` default and each other theme is a `:root[data-theme="…"]` block near the end of `styles.css`. To add one, copy a block, give it a new name, add it to `THEMES` in `theme.js` and add a menu item in `index.html`.
+**Theme.** Emerald is the default. **Match system** follows the device's light/dark setting (and picks High contrast if the OS asks for more contrast). Stored in `localStorage` under `cseta-crossword:theme`.
+
+**Background.** None (default), Forest, Mountains or Space. Stored under `cseta-crossword:bg`. The photo sits on a fixed layer behind the page and is tinted with the current theme's `--overlay` colour so text stays readable. Phones get a portrait crop.
+
+Neither setting is part of the progress key.
+
+Themes are CSS custom properties: Midnight is the `:root` base and each theme is a `:root[data-theme="…"]` block near the end of `styles.css`. To add one, copy a block, add it to `THEMES` in `theme.js` and add a menu item in `index.html`. Backgrounds work the same way with `:root[data-bg="…"]`, `BACKGROUNDS` in `theme.js` and a menu item.
+
+### Photo credits
+
+Photos are free to use under the [Unsplash License](https://unsplash.com/license) and are hotlinked from `images.unsplash.com`, with a credit line in the footer while a photo is showing:
+
+| Background | Photo | Photographer |
+| --- | --- | --- |
+| Forest | [Silhouetted pine trees in misty forest](https://unsplash.com/photos/silhouetted-pine-trees-in-misty-forest-g-_0cain0bY) | [Daniil Silantev](https://unsplash.com/@betagamma) |
+| Mountains | [Landscape photography of mountains](https://unsplash.com/photos/landscape-photography-of-mountains-twukN12EN7c) | [simon](https://unsplash.com/@simon_berger) |
+| Space | [Milky way and stars in a dark night sky](https://unsplash.com/photos/milky-way-and-stars-in-a-dark-night-sky-oQR1B87HsNs) | [Tobias Rademacher](https://unsplash.com/@tobbes_rd) |
+
+The browser only contacts Unsplash once someone picks a background; with None (the default) the site makes no third-party image requests. The CSP allows `img-src https://images.unsplash.com` for this. To self-host instead, download the images into `backgrounds/`, change the `url(...)` values in `styles.css` to `/backgrounds/...` and remove `https://images.unsplash.com` from the CSP in `vercel.json`.
 
 ## Progress keys
 
