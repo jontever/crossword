@@ -15,7 +15,7 @@ First-time visitors start on Mixed Bag. The picker has a tab per category, and a
 - No build step, no npm packages, no backend, no cookies, no analytics
 - Keyboard and touch play (an on-screen keyboard appears on touch devices)
 - Check and reveal by letter, word or whole puzzle, with a timer
-- Appearance menu: Emerald (default), Midnight, Daylight, Amethyst, High contrast or Match system, plus an optional Forest, Mountains or Space photo background from Unsplash (remembered per browser)
+- Appearance menu: Emerald (default), Midnight, Daylight, Amethyst, High contrast or Match system, plus an optional photo background from Unsplash (11 scenes, or Cycle all) — remembered per browser
 - Progress autosaves in the browser and can be exported as a **base64 progress key** to restore on any device
 - Strict security headers (CSP, HSTS, frame-ancestors, etc.) set in `vercel.json`
 
@@ -84,11 +84,13 @@ The half-circle button in the header opens the appearance menu.
 
 **Theme.** Emerald is the default. **Match system** follows the device's light/dark setting (and picks High contrast if the OS asks for more contrast). Stored in `localStorage` under `cseta-crossword:theme`.
 
-**Background.** None (default), Forest, Mountains or Space. Stored under `cseta-crossword:bg`. The photo sits on a fixed layer behind the page and is tinted with the current theme's `--overlay` colour so text stays readable. Phones get a portrait crop.
+**Background.** None (default), Cycle all, or one of 11 photos: Forest, Mountains, Waterfall, Ocean, Sunrise, Sunset, Space, Wildlife, Safari, Horses, Cats. Stored under `cseta-crossword:bg`. The photo sits on a fixed layer behind the page and is tinted with the current theme's `--overlay` colour so text stays readable. Phones get a portrait crop (focused on the animal for the animal photos).
+
+**Cycle all** shows a different photo each time you open the app and moves to the next one every 5 minutes while it's open, with a slow crossfade (an instant swap if the device asks for reduced motion). The position in the cycle is kept under `cseta-crossword:bg-cycle`.
 
 Neither setting is part of the progress key.
 
-Themes are CSS custom properties: Midnight is the `:root` base and each theme is a `:root[data-theme="…"]` block near the end of `styles.css`. To add one, copy a block, add it to `THEMES` in `theme.js` and add a menu item in `index.html`. Backgrounds work the same way with `:root[data-bg="…"]`, `BACKGROUNDS` in `theme.js` and a menu item.
+Themes are CSS custom properties: Midnight is the `:root` base and each theme is a `:root[data-theme="…"]` block near the end of `styles.css`. To add one, copy a block, add it to `THEMES` in `theme.js` and add a menu item in `index.html`. Photos are defined in `PHOTOS` in `theme.js` (Unsplash photo id, focal point, credit); add an entry plus a menu item and swatch in `index.html` / `styles.css`, and Cycle picks it up automatically.
 
 ### Photo credits
 
@@ -98,9 +100,17 @@ Photos are free to use under the [Unsplash License](https://unsplash.com/license
 | --- | --- | --- |
 | Forest | [Silhouetted pine trees in misty forest](https://unsplash.com/photos/silhouetted-pine-trees-in-misty-forest-g-_0cain0bY) | [Daniil Silantev](https://unsplash.com/@betagamma) |
 | Mountains | [Landscape photography of mountains](https://unsplash.com/photos/landscape-photography-of-mountains-twukN12EN7c) | [simon](https://unsplash.com/@simon_berger) |
+| Waterfall | [Waterfall and rocky stream through a lush, dark forest](https://unsplash.com/photos/waterfall-and-rocky-stream-flow-through-a-lush-dark-forest-TWrKDYt-vVM) | [Hunter Newton](https://unsplash.com/@r7studios) |
+| Ocean | [An aerial view of the ocean waves from above](https://unsplash.com/photos/an-aerial-view-of-the-ocean-waves-from-above-Vm6mxpQHh30) | [Alex varela](https://unsplash.com/@alexvarelo) |
+| Sunrise | [Golden sunrise illuminates a foggy mountain landscape](https://unsplash.com/photos/golden-sunrise-illuminates-a-foggy-mountain-landscape-MaeshPdBGV4) | [Zetong Li](https://unsplash.com/@zetong) |
+| Sunset | [Sea under white clouds at golden hour](https://unsplash.com/photos/sea-under-white-clouds-at-golden-hour--IMlv9Jlb24) | [Sebastien Gabriel](https://unsplash.com/@sgabriel) |
 | Space | [Milky way and stars in a dark night sky](https://unsplash.com/photos/milky-way-and-stars-in-a-dark-night-sky-oQR1B87HsNs) | [Tobias Rademacher](https://unsplash.com/@tobbes_rd) |
+| Wildlife | [Brown fox on snow field](https://unsplash.com/photos/brown-fox-on-snow-field-xUUZcpQlqpM) | [Ray Hennessy](https://unsplash.com/@rayhennessy) |
+| Safari | [Two elephants walking on grass covered ground](https://unsplash.com/photos/two-elephants-walking-on-grass-covered-ground-BuQ1RZckYW4) | [AJ Robsin](https://unsplash.com/@ajrobsin) |
+| Horses | [Brown and white horses on a green field](https://unsplash.com/photos/brown-and-white-horses-on-green-grass-field-under-blue-and-white-cloudy-sky-during-daytime-Qh044RQX2oU) | [Heyzeus Escribo](https://unsplash.com/@pqcrtivephoto) |
+| Cats | [Black and white cat lying on a bamboo chair](https://unsplash.com/photos/black-and-white-cat-lying-on-brown-bamboo-chair-inside-room-gKXKBY-C-Dk) | [Manja Vitolic](https://unsplash.com/@madhatterzone) |
 
-The browser only contacts Unsplash once someone picks a background; with None (the default) the site makes no third-party image requests. The CSP allows `img-src https://images.unsplash.com` for this. To self-host instead, download the images into `backgrounds/`, change the `url(...)` values in `styles.css` to `/backgrounds/...` and remove `https://images.unsplash.com` from the CSP in `vercel.json`.
+The browser only contacts Unsplash once someone picks a background; with None (the default) the site makes no third-party image requests. The CSP allows `img-src https://images.unsplash.com` for this. To self-host instead, download the images into `backgrounds/`, change `photoUrl()` in `theme.js` to return `/backgrounds/...` and remove `https://images.unsplash.com` from the CSP in `vercel.json`.
 
 ## Progress keys
 
