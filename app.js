@@ -12,8 +12,15 @@
   const MAX_KEY_LENGTH = 50000;
   const MAX_TIME = 100 * 3600; // 100 hours, sanity cap
   const DEFAULT_PUZZLE = "general-mixed";
-  const CATEGORY_ORDER = ["General knowledge", "Cyber security", "AI security"];
-  const CATEGORY_KEYS = { "General knowledge": "general", "Cyber security": "cyber", "AI security": "ai" };
+  const CATEGORY_ORDER = ["General knowledge", "Cyber security", "AI security", "Economics", "Psychology"];
+  const CATEGORY_KEYS = {
+    "General knowledge": "general", "Cyber security": "cyber", "AI security": "ai",
+    "Economics": "economics", "Psychology": "psychology"
+  };
+  const CATEGORY_SHORT = {
+    "General knowledge": "General", "Cyber security": "Cyber", "AI security": "AI",
+    "Economics": "Econ", "Psychology": "Psych"
+  };
   const catKey = (cat) => CATEGORY_KEYS[cat] || "general";
   const REDUCED_MOTION = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
 
@@ -315,7 +322,7 @@
       t.setAttribute("aria-selected", String(cat === pickerCat));
       t.setAttribute("aria-controls", "picker-panel");
       t.tabIndex = cat === pickerCat ? 0 : -1;
-      const short = { "General knowledge": "General", "Cyber security": "Cyber", "AI security": "AI" }[cat] || cat;
+      const short = CATEGORY_SHORT[cat] || cat;
       t.append(el("span", "tab-full", cat), el("span", "tab-short", short), el("span", "count", `${done}/${list.length}`));
       t.setAttribute("aria-label", `${cat}, ${done} of ${list.length} solved`);
       t.title = `${done} of ${list.length} solved`;

@@ -1,20 +1,16 @@
 # Crossword · cseta.uk
 
-A static, dependency-free crossword app with 18 puzzles in three categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
+A static, dependency-free crossword app with 24 puzzles in five categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
 
-| General knowledge (9) | Cyber security (3) | AI security (6) |
-| --- | --- | --- |
-| Mixed Bag · Easy | Foundations · Easy | Machine Learning Basics · Easy |
-| Everyday Things · Medium | Threats & Response · Medium | AI Threats · Medium |
-| Best of British · Medium | Architecture & Frameworks · Hard | Large Language Models · Medium |
-| Food & Drink · Easy | | Defending AI · Medium |
-| Science & Nature · Medium | | Agentic AI · Hard |
-| Around the World · Medium | | AI Governance · Hard |
-| Sporting Life · Medium | | |
-| Screen & Sound · Medium | | |
-| History Lessons · Hard | | |
+| Category | Puzzles |
+| --- | --- |
+| General knowledge (9) | Mixed Bag · Easy, Food & Drink · Easy, Everyday Things, Best of British, Science & Nature, Around the World, Sporting Life, Screen & Sound · Medium, History Lessons · Hard |
+| Cyber security (3) | Foundations · Easy, Threats & Response · Medium, Architecture & Frameworks · Hard |
+| AI security (6) | Machine Learning Basics · Easy, AI Threats, Large Language Models, Defending AI · Medium, Agentic AI, AI Governance · Hard |
+| Economics (3) | Money Matters · Easy, Markets & Trade · Medium, The Big Picture · Hard |
+| Psychology (3) | Mind Basics · Easy, Famous Psychologists · Medium, Biases & Behaviour · Hard |
 
-First-time visitors start on Mixed Bag. The picker has a tab per category.
+First-time visitors start on Mixed Bag. The picker has a tab per category, and a Next puzzle button appears when you finish one.
 
 - No build step, no npm packages, no backend, no cookies, no analytics
 - Keyboard and touch play (an on-screen keyboard appears on touch devices)

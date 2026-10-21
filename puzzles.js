@@ -2609,5 +2609,875 @@ window.PUZZLES = [
     "enum": "(9)"
    }
   ]
+ },
+ {
+  "id": "econ-money",
+  "title": "Money Matters",
+  "category": "Economics",
+  "difficulty": "Easy",
+  "rows": 12,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 2,
+    "col": 1,
+    "answer": "DEBT",
+    "clue": "Money owed",
+    "enum": "(4)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 3,
+    "col": 8,
+    "answer": "INCOMETAX",
+    "clue": "Levy on what you earn",
+    "enum": "(6,3)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 0,
+    "answer": "PENSION",
+    "clue": "Regular income paid in retirement",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 6,
+    "col": 7,
+    "answer": "INFLATION",
+    "clue": "General rise in prices over time",
+    "enum": "(9)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 7,
+    "col": 1,
+    "answer": "WAGES",
+    "clue": "Pay for work, often weekly",
+    "enum": "(5)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 8,
+    "col": 6,
+    "answer": "PROFIT",
+    "clue": "Revenue minus costs",
+    "enum": "(6)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "SHARES",
+    "clue": "Units of ownership in a company",
+    "enum": "(6)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 10,
+    "col": 8,
+    "answer": "CURRENCY",
+    "clue": "Pounds, euros or dollars",
+    "enum": "(8)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 11,
+    "col": 1,
+    "answer": "MORTGAGE",
+    "clue": "Loan used to buy a home",
+    "enum": "(8)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "BUDGET",
+    "clue": "Plan for income and spending",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 13,
+    "answer": "RECEIPT",
+    "clue": "Proof of purchase",
+    "enum": "(7)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 15,
+    "answer": "SAVINGS",
+    "clue": "Money put aside for later",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 4,
+    "answer": "INTEREST",
+    "clue": "Cost of borrowing money",
+    "enum": "(8)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 8,
+    "answer": "INVOICE",
+    "clue": "Bill sent for goods or services",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 5,
+    "col": 11,
+    "answer": "BARTER",
+    "clue": "Swapping goods without using money",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "econ-markets",
+  "title": "Markets & Trade",
+  "category": "Economics",
+  "difficulty": "Medium",
+  "rows": 16,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 5,
+    "answer": "QUOTA",
+    "clue": "Limit on the quantity of imports",
+    "enum": "(5)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 1,
+    "answer": "EQUILIBRIUM",
+    "clue": "Balance where the quantity supplied equals the quantity wanted",
+    "enum": "(11)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "SHORTAGE",
+    "clue": "When buyers want more than is available",
+    "enum": "(8)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 8,
+    "col": 0,
+    "answer": "COMPETITION",
+    "clue": "Rivalry between firms for customers",
+    "enum": "(11)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 10,
+    "col": 5,
+    "answer": "COMMODITY",
+    "clue": "Raw good such as oil, wheat or copper",
+    "enum": "(9)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 12,
+    "col": 0,
+    "answer": "EXPORTS",
+    "clue": "Goods sold abroad",
+    "enum": "(7)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 12,
+    "col": 9,
+    "answer": "IMPORTS",
+    "clue": "Goods bought from abroad",
+    "enum": "(7)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 15,
+    "col": 5,
+    "answer": "SUBSIDY",
+    "clue": "Government payment that lowers a producer's costs",
+    "enum": "(7)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 8,
+    "answer": "TARIFF",
+    "clue": "Tax on imported goods",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 10,
+    "answer": "SUPPLYANDDEMAND",
+    "clue": "The two forces that set prices in a market",
+    "enum": "(6,3,6)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 4,
+    "col": 5,
+    "answer": "ELASTICITY",
+    "clue": "How sensitive buying is to a change in price",
+    "enum": "(10)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 6,
+    "col": 15,
+    "answer": "SURPLUS",
+    "clue": "Excess, as in a trade ___",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 7,
+    "col": 12,
+    "answer": "AUCTION",
+    "clue": "Sale to the highest bidder",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 8,
+    "col": 0,
+    "answer": "CARTEL",
+    "clue": "Group of producers colluding to fix prices",
+    "enum": "(6)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 8,
+    "col": 2,
+    "answer": "MONOPOLY",
+    "clue": "Market with a single seller",
+    "enum": "(8)"
+   }
+  ]
+ },
+ {
+  "id": "econ-macro",
+  "title": "The Big Picture",
+  "category": "Economics",
+  "difficulty": "Hard",
+  "rows": 15,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 0,
+    "col": 3,
+    "answer": "BOOM",
+    "clue": "Period of rapid economic growth",
+    "enum": "(4)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 0,
+    "col": 13,
+    "answer": "GDP",
+    "clue": "Total value of a country's output (abbr.)",
+    "enum": "(3)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 2,
+    "col": 0,
+    "answer": "KEYNES",
+    "clue": "Economist who argued for government spending to fight slumps",
+    "enum": "(6)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 1,
+    "answer": "PRODUCTIVITY",
+    "clue": "Output per hour worked",
+    "enum": "(12)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "MONETARY",
+    "clue": "___ policy: interest rates and the money supply",
+    "enum": "(8)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 6,
+    "col": 11,
+    "answer": "GILTS",
+    "clue": "UK government bonds",
+    "enum": "(5)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 11,
+    "col": 5,
+    "answer": "RECESSION",
+    "clue": "Two consecutive quarters of falling output, by a common rule of thumb",
+    "enum": "(9)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "UNEMPLOYMENT",
+    "clue": "Share of the workforce without a job",
+    "enum": "(12)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 3,
+    "answer": "BANKOFENGLAND",
+    "clue": "UK central bank in Threadneedle Street",
+    "enum": "(4,2,7)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 0,
+    "col": 14,
+    "answer": "DEFICIT",
+    "clue": "Shortfall when spending exceeds revenue",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 11,
+    "answer": "STAGFLATION",
+    "clue": "High inflation combined with stagnant growth",
+    "enum": "(11)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 5,
+    "answer": "AUSTERITY",
+    "clue": "Cutting public spending to reduce borrowing",
+    "enum": "(9)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 6,
+    "col": 15,
+    "answer": "STIMULUS",
+    "clue": "Spending boost to revive an economy",
+    "enum": "(8)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 7,
+    "col": 9,
+    "answer": "TREASURY",
+    "clue": "HM ___: the UK's finance ministry",
+    "enum": "(8)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 8,
+    "col": 7,
+    "answer": "FISCAL",
+    "clue": "___ policy: government tax and spending decisions",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "psych-basics",
+  "title": "Mind Basics",
+  "category": "Psychology",
+  "difficulty": "Easy",
+  "rows": 16,
+  "cols": 15,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 8,
+    "answer": "EMOTION",
+    "clue": "Feeling such as joy, anger or fear",
+    "enum": "(7)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 0,
+    "answer": "PHOBIA",
+    "clue": "Intense, irrational fear",
+    "enum": "(6)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 3,
+    "col": 8,
+    "answer": "EMPATHY",
+    "clue": "Sharing and understanding another's feelings",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 2,
+    "answer": "STRESS",
+    "clue": "Strain caused by pressure or demands",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 7,
+    "col": 4,
+    "answer": "EXTROVERT",
+    "clue": "Someone energised by other people's company",
+    "enum": "(9)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "HABIT",
+    "clue": "Behaviour repeated until it's automatic",
+    "enum": "(5)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 10,
+    "col": 5,
+    "answer": "CONFIDENCE",
+    "clue": "Belief in your own abilities",
+    "enum": "(10)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 12,
+    "col": 4,
+    "answer": "PERSONALITY",
+    "clue": "Characteristic pattern of thinking, feeling and behaving",
+    "enum": "(11)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 12,
+    "answer": "INSTINCT",
+    "clue": "Innate, unlearned behaviour",
+    "enum": "(8)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 1,
+    "col": 4,
+    "answer": "INTROVERT",
+    "clue": "Someone who recharges with time alone",
+    "enum": "(9)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 9,
+    "answer": "MOTIVATION",
+    "clue": "The drive behind behaviour",
+    "enum": "(10)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 6,
+    "col": 1,
+    "answer": "DREAM",
+    "clue": "Story the mind tells during sleep",
+    "enum": "(5)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 7,
+    "answer": "BRAIN",
+    "clue": "Organ of thought",
+    "enum": "(5)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 14,
+    "answer": "ANXIETY",
+    "clue": "Persistent worry or unease",
+    "enum": "(7)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 9,
+    "col": 12,
+    "answer": "INSIGHT",
+    "clue": "Sudden understanding: the 'aha' moment",
+    "enum": "(7)"
+   }
+  ]
+ },
+ {
+  "id": "psych-people",
+  "title": "Famous Psychologists",
+  "category": "Psychology",
+  "difficulty": "Medium",
+  "rows": 15,
+  "cols": 14,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 3,
+    "answer": "PAVLOV",
+    "clue": "Russian physiologist who conditioned dogs to a bell",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 3,
+    "col": 9,
+    "answer": "ADLER",
+    "clue": "Viennese founder of individual psychology",
+    "enum": "(5)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 4,
+    "col": 0,
+    "answer": "JUNG",
+    "clue": "Swiss psychiatrist who described the collective unconscious",
+    "enum": "(4)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 3,
+    "answer": "ERIKSON",
+    "clue": "Theorist of eight psychosocial stages",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 0,
+    "answer": "ZIMBARDO",
+    "clue": "Psychologist who ran the Stanford prison experiment",
+    "enum": "(8)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 7,
+    "answer": "WUNDT",
+    "clue": "Opened the first psychology laboratory, in Leipzig in 1879",
+    "enum": "(5)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 12,
+    "col": 0,
+    "answer": "FREUD",
+    "clue": "Founder of psychoanalysis",
+    "enum": "(5)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 2,
+    "answer": "MASLOW",
+    "clue": "Psychologist behind the hierarchy of needs",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 7,
+    "answer": "ROGERS",
+    "clue": "Carl ___, founder of person-centred therapy",
+    "enum": "(6)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 3,
+    "answer": "PIAGET",
+    "clue": "Swiss theorist of children's cognitive development",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 9,
+    "answer": "KAHNEMAN",
+    "clue": "Author of 'Thinking, Fast and Slow'",
+    "enum": "(8)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 5,
+    "answer": "MILGRAM",
+    "clue": "Researcher behind the 1960s obedience experiments",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 6,
+    "col": 1,
+    "answer": "SKINNER",
+    "clue": "Behaviourist known for his conditioning box",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 7,
+    "answer": "BOWLBY",
+    "clue": "British psychiatrist who developed attachment theory",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 3,
+    "answer": "BANDURA",
+    "clue": "Social learning theorist of the Bobo doll study",
+    "enum": "(7)"
+   }
+  ]
+ },
+ {
+  "id": "psych-biases",
+  "title": "Biases & Behaviour",
+  "category": "Psychology",
+  "difficulty": "Hard",
+  "rows": 16,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 0,
+    "answer": "BYSTANDER",
+    "clue": "___ effect: people are less likely to help when others are present",
+    "enum": "(9)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 8,
+    "answer": "ANCHORING",
+    "clue": "Leaning too heavily on the first number you hear",
+    "enum": "(9)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 3,
+    "col": 1,
+    "answer": "PRIMING",
+    "clue": "Earlier exposure shaping a later response",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 4,
+    "answer": "CONFORMITY",
+    "clue": "Going along with the group",
+    "enum": "(10)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 1,
+    "answer": "CONFIRMATIONBIAS",
+    "clue": "Favouring information that supports what you already believe",
+    "enum": "(12,4)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 10,
+    "col": 0,
+    "answer": "FRAMING",
+    "clue": "How a choice is presented changes the decision",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 12,
+    "col": 3,
+    "answer": "HEURISTIC",
+    "clue": "Mental shortcut for making decisions",
+    "enum": "(9)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 14,
+    "col": 2,
+    "answer": "PLACEBO",
+    "clue": "Inert treatment that still produces an effect",
+    "enum": "(7)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 15,
+    "col": 12,
+    "answer": "NUDGE",
+    "clue": "Gentle steer towards a better choice, in Thaler and Sunstein's book",
+    "enum": "(5)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "DUNNINGKRUGER",
+    "clue": "___ effect: the least skilled overrate their ability most",
+    "enum": "(7-6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 12,
+    "answer": "GROUPTHINK",
+    "clue": "Poor decisions made to keep a group in harmony",
+    "enum": "(10)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 8,
+    "answer": "LOSSAVERSION",
+    "clue": "Feeling losses more keenly than equal gains",
+    "enum": "(4,8)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 6,
+    "col": 16,
+    "answer": "DISSONANCE",
+    "clue": "Cognitive ___: discomfort from holding conflicting beliefs",
+    "enum": "(10)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 10,
+    "answer": "HINDSIGHT",
+    "clue": "___ bias: 'I knew it all along'",
+    "enum": "(9)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 12,
+    "col": 3,
+    "answer": "HALO",
+    "clue": "___ effect: one good trait colours the whole impression",
+    "enum": "(4)"
+   }
+  ]
  }
 ];

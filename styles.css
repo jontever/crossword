@@ -102,6 +102,7 @@ button { font: inherit; color: inherit; }
 /* Category switch: a segmented control */
 .picker-tabs {
   display: inline-flex; gap: 2px; padding: 3px; margin-bottom: 10px;
+  max-width: 100%; overflow-x: auto; scrollbar-width: none;
   background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px;
 }
 .picker-tab {
@@ -163,10 +164,17 @@ button { font: inherit; color: inherit; }
 [data-cat="general"] { --accent: var(--amethyst); }
 [data-cat="cyber"] { --accent: var(--emerald); }
 [data-cat="ai"] { --accent: var(--sapphire); }
+[data-cat="economics"] { --accent: var(--topaz); }
+[data-cat="psychology"] { --accent: var(--ruby); }
 
+.picker-tabs::-webkit-scrollbar { display: none; }
+@media (max-width: 900px) {
+  .tab-full { display: none; }
+  .tab-short { display: inline; }
+}
 @media (max-width: 700px) {
   .picker-tabs { display: flex; width: 100%; }
-  .picker-tab { flex: 1 1 0; padding: 7px 8px; }
+  .picker-tab { flex: 1 0 auto; padding: 7px 8px; }
   /* Tiles become a swipeable row, with a fade hinting there's more */
   .picker-chips {
     grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: minmax(150px, 44%);
@@ -177,10 +185,15 @@ button { font: inherit; color: inherit; }
   }
   .picker-chips::-webkit-scrollbar { display: none; }
   .tile { scroll-snap-align: start; }
+  .tile-title {
+    white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    min-height: 2.5em;
+  }
 }
 @media (max-width: 560px) {
-  .tab-full { display: none; }
-  .tab-short { display: inline; }
+  /* Counts move off the tabs on phones; each tile still shows its progress */
+  .picker-tab .count { display: none; }
+  .picker-tab { padding: 7px 4px; font-size: 0.85rem; }
 }
 
 /* ---------- layout ---------- */
@@ -195,6 +208,8 @@ button { font: inherit; color: inherit; }
 .eyebrow .cat-cyber { color: var(--emerald); }
 .eyebrow .cat-general { color: var(--amethyst); }
 .eyebrow .cat-ai { color: var(--sapphire); }
+.eyebrow .cat-economics { color: var(--topaz); }
+.eyebrow .cat-psychology { color: var(--ruby); }
 h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1.15; }
 .tools { display: flex; gap: 8px; }
 

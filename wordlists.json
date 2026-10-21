@@ -1222,5 +1222,413 @@
         "Screens inputs or outputs for harmful content"
       ]
     ]
+  },
+  {
+    "id": "econ-money",
+    "title": "Money Matters",
+    "category": "Economics",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "INFLATION",
+        "General rise in prices over time"
+      ],
+      [
+        "INCOME TAX",
+        "Levy on what you earn"
+      ],
+      [
+        "MORTGAGE",
+        "Loan used to buy a home"
+      ],
+      [
+        "INTEREST",
+        "Cost of borrowing money"
+      ],
+      [
+        "CURRENCY",
+        "Pounds, euros or dollars"
+      ],
+      [
+        "PENSION",
+        "Regular income paid in retirement"
+      ],
+      [
+        "SAVINGS",
+        "Money put aside for later"
+      ],
+      [
+        "INVOICE",
+        "Bill sent for goods or services"
+      ],
+      [
+        "RECEIPT",
+        "Proof of purchase"
+      ],
+      [
+        "BUDGET",
+        "Plan for income and spending"
+      ],
+      [
+        "PROFIT",
+        "Revenue minus costs"
+      ],
+      [
+        "SHARES",
+        "Units of ownership in a company"
+      ],
+      [
+        "BARTER",
+        "Swapping goods without using money"
+      ],
+      [
+        "WAGES",
+        "Pay for work, often weekly"
+      ],
+      [
+        "DEBT",
+        "Money owed"
+      ]
+    ]
+  },
+  {
+    "id": "econ-markets",
+    "title": "Markets & Trade",
+    "category": "Economics",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "SUPPLY AND DEMAND",
+        "The two forces that set prices in a market"
+      ],
+      [
+        "COMPETITION",
+        "Rivalry between firms for customers"
+      ],
+      [
+        "EQUILIBRIUM",
+        "Balance where the quantity supplied equals the quantity wanted"
+      ],
+      [
+        "ELASTICITY",
+        "How sensitive buying is to a change in price"
+      ],
+      [
+        "COMMODITY",
+        "Raw good such as oil, wheat or copper"
+      ],
+      [
+        "MONOPOLY",
+        "Market with a single seller"
+      ],
+      [
+        "SHORTAGE",
+        "When buyers want more than is available"
+      ],
+      [
+        "EXPORTS",
+        "Goods sold abroad"
+      ],
+      [
+        "IMPORTS",
+        "Goods bought from abroad"
+      ],
+      [
+        "SUBSIDY",
+        "Government payment that lowers a producer's costs"
+      ],
+      [
+        "SURPLUS",
+        "Excess, as in a trade ___"
+      ],
+      [
+        "AUCTION",
+        "Sale to the highest bidder"
+      ],
+      [
+        "TARIFF",
+        "Tax on imported goods"
+      ],
+      [
+        "CARTEL",
+        "Group of producers colluding to fix prices"
+      ],
+      [
+        "QUOTA",
+        "Limit on the quantity of imports"
+      ]
+    ]
+  },
+  {
+    "id": "econ-macro",
+    "title": "The Big Picture",
+    "category": "Economics",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "BANK OF ENGLAND",
+        "UK central bank in Threadneedle Street"
+      ],
+      [
+        "UNEMPLOYMENT",
+        "Share of the workforce without a job"
+      ],
+      [
+        "PRODUCTIVITY",
+        "Output per hour worked"
+      ],
+      [
+        "STAGFLATION",
+        "High inflation combined with stagnant growth"
+      ],
+      [
+        "RECESSION",
+        "Two consecutive quarters of falling output, by a common rule of thumb"
+      ],
+      [
+        "AUSTERITY",
+        "Cutting public spending to reduce borrowing"
+      ],
+      [
+        "MONETARY",
+        "___ policy: interest rates and the money supply"
+      ],
+      [
+        "TREASURY",
+        "HM ___: the UK's finance ministry"
+      ],
+      [
+        "STIMULUS",
+        "Spending boost to revive an economy"
+      ],
+      [
+        "DEFICIT",
+        "Shortfall when spending exceeds revenue"
+      ],
+      [
+        "KEYNES",
+        "Economist who argued for government spending to fight slumps"
+      ],
+      [
+        "FISCAL",
+        "___ policy: government tax and spending decisions"
+      ],
+      [
+        "GILTS",
+        "UK government bonds"
+      ],
+      [
+        "BOOM",
+        "Period of rapid economic growth"
+      ],
+      [
+        "GDP",
+        "Total value of a country's output (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "psych-basics",
+    "title": "Mind Basics",
+    "category": "Psychology",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "PERSONALITY",
+        "Characteristic pattern of thinking, feeling and behaving"
+      ],
+      [
+        "MOTIVATION",
+        "The drive behind behaviour"
+      ],
+      [
+        "CONFIDENCE",
+        "Belief in your own abilities"
+      ],
+      [
+        "INTROVERT",
+        "Someone who recharges with time alone"
+      ],
+      [
+        "EXTROVERT",
+        "Someone energised by other people's company"
+      ],
+      [
+        "INSTINCT",
+        "Innate, unlearned behaviour"
+      ],
+      [
+        "EMOTION",
+        "Feeling such as joy, anger or fear"
+      ],
+      [
+        "EMPATHY",
+        "Sharing and understanding another's feelings"
+      ],
+      [
+        "ANXIETY",
+        "Persistent worry or unease"
+      ],
+      [
+        "INSIGHT",
+        "Sudden understanding: the 'aha' moment"
+      ],
+      [
+        "PHOBIA",
+        "Intense, irrational fear"
+      ],
+      [
+        "STRESS",
+        "Strain caused by pressure or demands"
+      ],
+      [
+        "HABIT",
+        "Behaviour repeated until it's automatic"
+      ],
+      [
+        "DREAM",
+        "Story the mind tells during sleep"
+      ],
+      [
+        "BRAIN",
+        "Organ of thought"
+      ]
+    ]
+  },
+  {
+    "id": "psych-people",
+    "title": "Famous Psychologists",
+    "category": "Psychology",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "ZIMBARDO",
+        "Psychologist who ran the Stanford prison experiment"
+      ],
+      [
+        "KAHNEMAN",
+        "Author of 'Thinking, Fast and Slow'"
+      ],
+      [
+        "MILGRAM",
+        "Researcher behind the 1960s obedience experiments"
+      ],
+      [
+        "BANDURA",
+        "Social learning theorist of the Bobo doll study"
+      ],
+      [
+        "SKINNER",
+        "Behaviourist known for his conditioning box"
+      ],
+      [
+        "ERIKSON",
+        "Theorist of eight psychosocial stages"
+      ],
+      [
+        "PAVLOV",
+        "Russian physiologist who conditioned dogs to a bell"
+      ],
+      [
+        "PIAGET",
+        "Swiss theorist of children's cognitive development"
+      ],
+      [
+        "MASLOW",
+        "Psychologist behind the hierarchy of needs"
+      ],
+      [
+        "BOWLBY",
+        "British psychiatrist who developed attachment theory"
+      ],
+      [
+        "ROGERS",
+        "Carl ___, founder of person-centred therapy"
+      ],
+      [
+        "FREUD",
+        "Founder of psychoanalysis"
+      ],
+      [
+        "ADLER",
+        "Viennese founder of individual psychology"
+      ],
+      [
+        "WUNDT",
+        "Opened the first psychology laboratory, in Leipzig in 1879"
+      ],
+      [
+        "JUNG",
+        "Swiss psychiatrist who described the collective unconscious"
+      ]
+    ]
+  },
+  {
+    "id": "psych-biases",
+    "title": "Biases & Behaviour",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "CONFIRMATION BIAS",
+        "Favouring information that supports what you already believe"
+      ],
+      [
+        "DUNNING-KRUGER",
+        "___ effect: the least skilled overrate their ability most"
+      ],
+      [
+        "LOSS AVERSION",
+        "Feeling losses more keenly than equal gains"
+      ],
+      [
+        "DISSONANCE",
+        "Cognitive ___: discomfort from holding conflicting beliefs"
+      ],
+      [
+        "CONFORMITY",
+        "Going along with the group"
+      ],
+      [
+        "GROUPTHINK",
+        "Poor decisions made to keep a group in harmony"
+      ],
+      [
+        "ANCHORING",
+        "Leaning too heavily on the first number you hear"
+      ],
+      [
+        "HEURISTIC",
+        "Mental shortcut for making decisions"
+      ],
+      [
+        "HINDSIGHT",
+        "___ bias: 'I knew it all along'"
+      ],
+      [
+        "BYSTANDER",
+        "___ effect: people are less likely to help when others are present"
+      ],
+      [
+        "PLACEBO",
+        "Inert treatment that still produces an effect"
+      ],
+      [
+        "FRAMING",
+        "How a choice is presented changes the decision"
+      ],
+      [
+        "PRIMING",
+        "Earlier exposure shaping a later response"
+      ],
+      [
+        "NUDGE",
+        "Gentle steer towards a better choice, in Thaler and Sunstein's book"
+      ],
+      [
+        "HALO",
+        "___ effect: one good trait colours the whole impression"
+      ]
+    ]
   }
 ]
