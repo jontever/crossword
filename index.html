@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Crossword · cseta.uk</title>
+  <meta name="description" content="Cyber security and general knowledge crosswords. Save your progress with a portable key and pick up on any device.">
+  <meta name="theme-color" content="#0b0f17">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://cseta.uk/">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta property="og:title" content="Crossword · cseta.uk">
+  <meta property="og:description" content="Cyber security and general knowledge crosswords.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cseta.uk/">
+  <meta property="og:image" content="https://cseta.uk/icons/icon-512.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/puzzles.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#board">Skip to puzzle</a>
+
+  <header class="top">
+    <div class="brand">
+      <img src="/favicon.svg" alt="" width="28" height="28">
+      <div>
+        <span class="brand-name">Crossword</span>
+        <span class="brand-domain">cseta.uk</span>
+      </div>
+    </div>
+    <div class="top-actions">
+      <span class="timer" id="timer" aria-label="Elapsed time">00:00</span>
+      <button class="btn ghost" id="btn-save" type="button" title="Get a key to save your progress">Save key</button>
+      <button class="btn ghost" id="btn-restore" type="button" title="Paste a key to restore progress">Restore</button>
+    </div>
+  </header>
+
+  <nav class="picker" id="picker" aria-label="Choose a puzzle"></nav>
+
+  <main class="layout">
+    <section class="play" aria-label="Puzzle">
+      <div class="puzzle-head">
+        <div>
+          <p class="eyebrow" id="puzzle-meta"></p>
+          <h1 id="puzzle-title"></h1>
+        </div>
+        <div class="tools">
+          <div class="menu">
+            <button class="btn" type="button" data-menu="check" aria-haspopup="true" aria-expanded="false">Check</button>
+            <div class="menu-list" id="menu-check" role="menu" hidden>
+              <button type="button" role="menuitem" data-action="check-cell">Letter</button>
+              <button type="button" role="menuitem" data-action="check-word">Word</button>
+              <button type="button" role="menuitem" data-action="check-all">Puzzle</button>
+            </div>
+          </div>
+          <div class="menu">
+            <button class="btn" type="button" data-menu="reveal" aria-haspopup="true" aria-expanded="false">Reveal</button>
+            <div class="menu-list" id="menu-reveal" role="menu" hidden>
+              <button type="button" role="menuitem" data-action="reveal-cell">Letter</button>
+              <button type="button" role="menuitem" data-action="reveal-word">Word</button>
+              <button type="button" role="menuitem" data-action="reveal-all">Puzzle</button>
+            </div>
+          </div>
+          <button class="btn danger" type="button" data-action="clear">Clear</button>
+        </div>
+      </div>
+
+      <div class="clue-bar" id="clue-bar">
+        <button class="nav-btn" type="button" data-action="prev" aria-label="Previous clue">&#8249;</button>
+        <p id="current-clue" aria-live="polite"></p>
+        <button class="nav-btn" type="button" data-action="next" aria-label="Next clue">&#8250;</button>
+      </div>
+
+      <div class="board-wrap">
+        <div class="board" id="board" tabindex="0" role="application" aria-label="Crossword grid. Type letters to fill. Arrow keys move, space switches direction, tab moves to the next clue."></div>
+      </div>
+
+      <div class="banner" id="banner" role="status" hidden></div>
+
+      <div class="keyboard" id="keyboard" aria-label="On-screen keyboard"></div>
+    </section>
+
+    <aside class="clues" aria-label="Clues">
+      <div class="clue-col">
+        <h2>Across</h2>
+        <ol id="clues-across"></ol>
+      </div>
+      <div class="clue-col">
+        <h2>Down</h2>
+        <ol id="clues-down"></ol>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="foot">
+    <p>Progress saves in this browser automatically. Use <strong>Save key</strong> to carry it to another device.</p>
+  </footer>
+
+  <dialog id="dlg-save" aria-labelledby="dlg-save-title">
+    <form method="dialog" class="dlg">
+      <h2 id="dlg-save-title">Your progress key</h2>
+      <p>Copy this key and keep it somewhere safe. Paste it into <strong>Restore</strong> on any device to pick up where you left off. It covers every puzzle you've started.</p>
+      <textarea id="save-key" readonly rows="5" spellcheck="false" aria-label="Progress key"></textarea>
+      <p class="hint" id="save-status" role="status"></p>
+      <div class="dlg-actions">
+        <button class="btn" type="button" id="btn-copy">Copy key</button>
+        <button class="btn ghost" value="close">Close</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="dlg-restore" aria-labelledby="dlg-restore-title">
+    <form method="dialog" class="dlg" id="restore-form">
+      <h2 id="dlg-restore-title">Restore progress</h2>
+      <p>Paste a key you saved earlier. Puzzles in the key will be replaced with the saved state; others are left alone.</p>
+      <textarea id="restore-key" rows="5" spellcheck="false" autocomplete="off" aria-label="Paste progress key" placeholder="CSX1.…"></textarea>
+      <p class="hint error" id="restore-error" role="alert"></p>
+      <div class="dlg-actions">
+        <button class="btn" type="button" id="btn-do-restore">Restore</button>
+        <button class="btn ghost" value="close">Cancel</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="dlg-confirm" aria-labelledby="dlg-confirm-title">
+    <form method="dialog" class="dlg">
+      <h2 id="dlg-confirm-title">Are you sure?</h2>
+      <p id="confirm-text"></p>
+      <div class="dlg-actions">
+        <button class="btn danger" value="ok">Yes</button>
+        <button class="btn ghost" value="cancel">Cancel</button>
+      </div>
+    </form>
+  </dialog>
+
+  <noscript><p class="noscript">This crossword needs JavaScript.</p></noscript>
+</body>
+</html>

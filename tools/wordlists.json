@@ -1,0 +1,140 @@
+[
+  {
+    "id": "cyber-foundations",
+    "title": "Foundations",
+    "category": "Cyber security",
+    "difficulty": "Easy",
+    "words": [
+      ["RANSOMWARE", "Extortion software that locks up your files"],
+      ["ENCRYPTION", "Scrambling data so only key holders can read it"],
+      ["FIREWALL", "Barrier that filters network traffic"],
+      ["PHISHING", "Deceptive emails angling for credentials"],
+      ["PASSWORD", "Secret word typed at login"],
+      ["MALWARE", "Umbrella term for hostile software"],
+      ["BOTNET", "Army of compromised machines under remote control"],
+      ["TROJAN", "Malicious program disguised as something useful"],
+      ["BACKUP", "Copy kept so you can recover"],
+      ["CIPHER", "Algorithm used to encrypt"],
+      ["PATCH", "Fix issued for a software flaw"],
+      ["HASH", "Fixed-length digest of data"],
+      ["WORM", "Malware that spreads by itself"],
+      ["SPAM", "Unsolicited bulk email"],
+      ["VPN", "Encrypted tunnel across a public network (abbr.)"]
+    ]
+  },
+  {
+    "id": "cyber-architecture",
+    "title": "Architecture & Frameworks",
+    "category": "Cyber security",
+    "difficulty": "Hard",
+    "words": [
+      ["DEFENCE IN DEPTH", "Strategy of layering controls so one failure is not fatal"],
+      ["LEAST PRIVILEGE", "Grant only the access a task needs"],
+      ["SEGMENTATION", "Dividing a network into separate zones"],
+      ["THREAT MODEL", "Structured analysis of what could go wrong"],
+      ["RESILIENCE", "Ability to withstand and recover from disruption"],
+      ["GOVERNANCE", "Direction and oversight of security"],
+      ["ZERO TRUST", "Never trust, always verify"],
+      ["IDENTITY", "The new perimeter, some say"],
+      ["STRIDE", "Threat categorisation mnemonic from Microsoft"],
+      ["SABSA", "Business-driven enterprise security architecture framework"],
+      ["AUDIT", "Independent review of controls"],
+      ["SIEM", "Platform that aggregates logs and alerts (abbr.)"],
+      ["RISK", "Likelihood combined with impact"],
+      ["CAF", "NCSC's Cyber Assessment Framework (abbr.)"],
+      ["MFA", "Login needing two or more factors (abbr.)"]
+    ]
+  },
+  {
+    "id": "cyber-threats",
+    "title": "Threats & Response",
+    "category": "Cyber security",
+    "difficulty": "Medium",
+    "words": [
+      ["CONTAINMENT", "Incident response phase that stops the spread"],
+      ["FORENSICS", "Gathering and analysing digital evidence"],
+      ["KEYLOGGER", "Records every keystroke"],
+      ["INCIDENT", "Event that compromises security"],
+      ["SPOOFING", "Faking a sender's identity"],
+      ["HONEYPOT", "Decoy system to lure attackers"],
+      ["EXPLOIT", "Code that takes advantage of a vulnerability"],
+      ["ZERO-DAY", "Flaw the vendor doesn't yet know about"],
+      ["ROOTKIT", "Malware that hides deep in the operating system"],
+      ["SANDBOX", "Isolated area for detonating suspicious files"],
+      ["LATERAL", "___ movement: pivoting across a network"],
+      ["PAYLOAD", "The harmful part of an attack"],
+      ["BREACH", "Unauthorised access to data"],
+      ["TRIAGE", "Prioritising alerts by severity"],
+      ["DDOS", "Flooding attack from many sources (abbr.)"]
+    ]
+  },
+  {
+    "id": "general-mixed",
+    "title": "Mixed Bag",
+    "category": "General knowledge",
+    "difficulty": "Easy",
+    "words": [
+      ["ELEPHANT", "Largest land mammal"],
+      ["MARATHON", "Race of 26.2 miles"],
+      ["VOLCANO", "Mountain that may erupt"],
+      ["PYRAMID", "Ancient tomb at Giza"],
+      ["RAINBOW", "Arc of seven colours"],
+      ["PENGUIN", "Flightless Antarctic bird"],
+      ["THUNDER", "It follows lightning"],
+      ["EVEREST", "World's highest peak"],
+      ["LONDON", "Capital on the Thames"],
+      ["SAHARA", "Africa's great desert"],
+      ["OXYGEN", "Element with the symbol O"],
+      ["GALAXY", "The Milky Way, for one"],
+      ["PIANO", "Instrument with 88 keys"],
+      ["ORBIT", "Path of a planet around the sun"],
+      ["HONEY", "Sweet product of bees"]
+    ]
+  },
+  {
+    "id": "general-everyday",
+    "title": "Everyday Things",
+    "category": "General knowledge",
+    "difficulty": "Medium",
+    "words": [
+      ["SHAKESPEARE", "The Bard of Avon"],
+      ["TELESCOPE", "Instrument for viewing distant objects"],
+      ["CHOCOLATE", "Treat made from cocoa"],
+      ["ATLANTIC", "Ocean between Europe and the Americas"],
+      ["KANGAROO", "Hopping marsupial"],
+      ["WINDMILL", "Sail-powered grinder"],
+      ["OCTOPUS", "Eight-armed sea creature"],
+      ["DIAMOND", "Hardest natural mineral"],
+      ["BICYCLE", "Two-wheeled pedal vehicle"],
+      ["COMPASS", "It points north"],
+      ["LIBRARY", "Place to borrow books"],
+      ["SNOWMAN", "Frosty figure built in winter"],
+      ["GUITAR", "Six-stringed instrument"],
+      ["AUTUMN", "Season of falling leaves"],
+      ["TEACUP", "Vessel for a brew"]
+    ]
+  },
+  {
+    "id": "general-british",
+    "title": "Best of British",
+    "category": "General knowledge",
+    "difficulty": "Medium",
+    "words": [
+      ["STONEHENGE", "Wiltshire's prehistoric stone circle"],
+      ["BEEFEATER", "Tower of London guard"],
+      ["WIMBLEDON", "Grand Slam played on grass"],
+      ["PANTOMIME", "Christmas stage show with a dame"],
+      ["BAGPIPES", "Scottish instrument with drones"],
+      ["CORNWALL", "County famous for pasties"],
+      ["CRUMPET", "Toasted teatime treat full of holes"],
+      ["CRICKET", "Sport played at Lord's"],
+      ["DRIZZLE", "Light rain"],
+      ["BISCUIT", "Often dunked in tea"],
+      ["SNOWDON", "Highest peak in Wales"],
+      ["THAMES", "River through Oxford and London"],
+      ["SCONE", "Cream tea staple"],
+      ["QUEUE", "Orderly line"],
+      ["PUB", "Local where you might order a pint"]
+    ]
+  }
+]
