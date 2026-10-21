@@ -12,14 +12,14 @@
   const MAX_KEY_LENGTH = 50000;
   const MAX_TIME = 100 * 3600; // 100 hours, sanity cap
   const DEFAULT_PUZZLE = "general-mixed";
-  const CATEGORY_ORDER = ["General knowledge", "Cyber security", "AI security", "Economics", "Psychology"];
+  const CATEGORY_ORDER = ["General knowledge", "Cyber security", "AI security", "Economics", "Psychology", "Philosophy"];
   const CATEGORY_KEYS = {
     "General knowledge": "general", "Cyber security": "cyber", "AI security": "ai",
-    "Economics": "economics", "Psychology": "psychology"
+    "Economics": "economics", "Psychology": "psychology", "Philosophy": "philosophy"
   };
   const CATEGORY_SHORT = {
     "General knowledge": "General", "Cyber security": "Cyber", "AI security": "AI",
-    "Economics": "Econ", "Psychology": "Psych"
+    "Economics": "Econ", "Psychology": "Psych", "Philosophy": "Philo"
   };
   const catKey = (cat) => CATEGORY_KEYS[cat] || "general";
   const REDUCED_MOTION = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;

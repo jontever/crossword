@@ -2310,5 +2310,345 @@
         "Hidden in san diEGO. Definition: self."
       ]
     ]
+  },
+  {
+    "id": "philo-basics",
+    "title": "Big Questions",
+    "category": "Philosophy",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "CONSCIENCE",
+        "Inner sense of right and wrong"
+      ],
+      [
+        "KNOWLEDGE",
+        "Justified true belief, on one classic account"
+      ],
+      [
+        "FREE WILL",
+        "The ability to have chosen otherwise"
+      ],
+      [
+        "MORALITY",
+        "Principles of right and wrong conduct"
+      ],
+      [
+        "ARGUMENT",
+        "Premises leading to a conclusion"
+      ],
+      [
+        "PARADOX",
+        "Statement that seems to contradict itself"
+      ],
+      [
+        "DILEMMA",
+        "Choice between two unwelcome options"
+      ],
+      [
+        "JUSTICE",
+        "Central theme of Plato's Republic"
+      ],
+      [
+        "MEANING",
+        "What many search for in life"
+      ],
+      [
+        "BELIEF",
+        "Something accepted as true"
+      ],
+      [
+        "VIRTUE",
+        "Moral excellence, such as courage or honesty"
+      ],
+      [
+        "BEAUTY",
+        "Chief concern of aesthetics"
+      ],
+      [
+        "WISDOM",
+        "'Philosophy' literally means the love of this"
+      ],
+      [
+        "LOGIC",
+        "Study of valid reasoning"
+      ],
+      [
+        "TRUTH",
+        "What a correct statement captures"
+      ]
+    ]
+  },
+  {
+    "id": "philo-thinkers",
+    "title": "Great Thinkers",
+    "category": "Philosophy",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "WITTGENSTEIN",
+        "Author of the Tractatus Logico-Philosophicus"
+      ],
+      [
+        "MACHIAVELLI",
+        "Author of The Prince"
+      ],
+      [
+        "ARISTOTLE",
+        "Tutor to Alexander the Great"
+      ],
+      [
+        "CONFUCIUS",
+        "Chinese sage of the Analects"
+      ],
+      [
+        "DESCARTES",
+        "'I think, therefore I am'"
+      ],
+      [
+        "NIETZSCHE",
+        "Thinker who declared 'God is dead'"
+      ],
+      [
+        "SOCRATES",
+        "Athenian who claimed only to know that he knew nothing"
+      ],
+      [
+        "ROUSSEAU",
+        "Author of The Social Contract"
+      ],
+      [
+        "SPINOZA",
+        "Dutch rationalist who equated God with Nature"
+      ],
+      [
+        "HOBBES",
+        "Author of Leviathan"
+      ],
+      [
+        "SARTRE",
+        "French existentialist of Being and Nothingness"
+      ],
+      [
+        "LOCKE",
+        "English philosopher of the mind as a 'blank slate'"
+      ],
+      [
+        "PLATO",
+        "Founder of the Academy in Athens"
+      ],
+      [
+        "KANT",
+        "Author of the Critique of Pure Reason"
+      ],
+      [
+        "HUME",
+        "Scottish empiricist sceptical about causation"
+      ]
+    ]
+  },
+  {
+    "id": "philo-isms",
+    "title": "Isms & Ideas",
+    "category": "Philosophy",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "EXISTENTIALISM",
+        "Existence precedes essence"
+      ],
+      [
+        "UTILITY",
+        "Bentham's measure of happiness, to be maximised"
+      ],
+      [
+        "RATIONALISM",
+        "Knowledge comes chiefly from reason"
+      ],
+      [
+        "DETERMINISM",
+        "Every event is fixed by prior causes"
+      ],
+      [
+        "EMPIRICISM",
+        "Knowledge comes from experience"
+      ],
+      [
+        "RELATIVISM",
+        "Truth depends on perspective or culture"
+      ],
+      [
+        "PRAGMATISM",
+        "Truth is what works, for William James"
+      ],
+      [
+        "SCEPTICISM",
+        "Doubt that certain knowledge is possible"
+      ],
+      [
+        "SOLIPSISM",
+        "Only one's own mind is sure to exist"
+      ],
+      [
+        "ABSURDISM",
+        "Camus's response to a meaningless universe"
+      ],
+      [
+        "STOICISM",
+        "Philosophy of Seneca and Marcus Aurelius"
+      ],
+      [
+        "NIHILISM",
+        "Belief that life has no inherent meaning"
+      ],
+      [
+        "HEDONISM",
+        "Pleasure as the highest good"
+      ],
+      [
+        "CYNICISM",
+        "School of Diogenes, who lived in a large jar"
+      ],
+      [
+        "DUALISM",
+        "Mind and body as distinct substances"
+      ]
+    ]
+  },
+  {
+    "id": "philo-expert",
+    "title": "Thinking Hard",
+    "category": "Philosophy",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "PHENOMENOLOGY",
+        "Husserl's study of the structures of experience"
+      ],
+      [
+        "EPISTEMOLOGY",
+        "Theory of knowledge"
+      ],
+      [
+        "TABULA RASA",
+        "Blank slate, in Locke's account of the mind"
+      ],
+      [
+        "DEONTOLOGY",
+        "Ethics grounded in duties and rules"
+      ],
+      [
+        "EUDAIMONIA",
+        "Aristotle's term for human flourishing"
+      ],
+      [
+        "IMPERATIVE",
+        "Categorical ___: Kant's unconditional moral command"
+      ],
+      [
+        "DIALECTIC",
+        "Method of thesis, antithesis and synthesis"
+      ],
+      [
+        "TELEOLOGY",
+        "Explaining things by their purpose or end"
+      ],
+      [
+        "ONTOLOGY",
+        "Study of being and what exists"
+      ],
+      [
+        "SOPHIST",
+        "Paid teacher of rhetoric in ancient Athens"
+      ],
+      [
+        "APORIA",
+        "State of puzzlement at the end of a Socratic dialogue"
+      ],
+      [
+        "QUALIA",
+        "Subjective qualities of experience, like the redness of red"
+      ],
+      [
+        "RAZOR",
+        "Ockham's ___: don't multiply entities beyond necessity"
+      ],
+      [
+        "MONAD",
+        "Leibniz's simple, indivisible substance"
+      ],
+      [
+        "ZENO",
+        "Thinker behind the paradox of Achilles and the tortoise"
+      ]
+    ]
+  },
+  {
+    "id": "philo-cryptic",
+    "title": "Cryptic Philosophy",
+    "category": "Philosophy",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "REALISM",
+        "Mailers sorted for a down-to-earth outlook",
+        "Anagram ('sorted') of MAILERS. Definition: a down-to-earth outlook."
+      ],
+      [
+        "THINKER",
+        "Consider, er, a philosopher",
+        "THINK (consider) + ER. Definition: a philosopher."
+      ],
+      [
+        "REASON",
+        "Senora, confused, gives cause",
+        "Anagram ('confused') of SENORA. Definition: cause."
+      ],
+      [
+        "IDEAL",
+        "Ailed, strangely, but perfect",
+        "Anagram ('strangely') of AILED. Definition: perfect."
+      ],
+      [
+        "MORAL",
+        "Molar broken, but ethical",
+        "Anagram ('broken') of MOLAR. Definition: ethical."
+      ],
+      [
+        "DOGMA",
+        "Am god, perversely: a fixed doctrine",
+        "Anagram ('perversely') of AM GOD. Definition: a fixed doctrine."
+      ],
+      [
+        "AXIOM",
+        "Self-evident truth found in taxi omnibus",
+        "Hidden in tAXI OMnibus. Definition: self-evident truth."
+      ],
+      [
+        "TENET",
+        "Principle held in ten etchings",
+        "Hidden in TEN ETchings. Definition: principle."
+      ],
+      [
+        "KARMA",
+        "Fate concealed in dark armada",
+        "Hidden in darK ARMAda. Definition: fate."
+      ],
+      [
+        "ETHOS",
+        "Those, rearranged, give a guiding spirit",
+        "Anagram ('rearranged') of THOSE. Definition: a guiding spirit."
+      ],
+      [
+        "SAGE",
+        "Wise person, or herb",
+        "Double definition: a wise person, and a herb."
+      ],
+      [
+        "MUSE",
+        "Ponder, or source of inspiration",
+        "Double definition: to ponder, and a source of inspiration."
+      ]
+    ]
   }
 ]

@@ -4854,5 +4854,715 @@ window.PUZZLES = [
     "explain": "Double definition: to remember, and to withdraw a product."
    }
   ]
+ },
+ {
+  "id": "philo-basics",
+  "title": "Big Questions",
+  "category": "Philosophy",
+  "difficulty": "Easy",
+  "rows": 17,
+  "cols": 15,
+  "entries": [
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 0,
+    "answer": "DILEMMA",
+    "clue": "Choice between two unwelcome options",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 0,
+    "answer": "JUSTICE",
+    "clue": "Central theme of Plato's Republic",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 7,
+    "col": 3,
+    "answer": "LOGIC",
+    "clue": "Study of valid reasoning",
+    "enum": "(5)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 9,
+    "col": 4,
+    "answer": "ARGUMENT",
+    "clue": "Premises leading to a conclusion",
+    "enum": "(8)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 12,
+    "col": 1,
+    "answer": "TRUTH",
+    "clue": "What a correct statement captures",
+    "enum": "(5)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 7,
+    "answer": "FREEWILL",
+    "clue": "The ability to have chosen otherwise",
+    "enum": "(4,4)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 14,
+    "col": 6,
+    "answer": "KNOWLEDGE",
+    "clue": "Justified true belief, on one classic account",
+    "enum": "(9)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "VIRTUE",
+    "clue": "Moral excellence, such as courage or honesty",
+    "enum": "(6)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 3,
+    "answer": "BEAUTY",
+    "clue": "Chief concern of aesthetics",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 3,
+    "col": 6,
+    "answer": "MEANING",
+    "clue": "What many search for in life",
+    "enum": "(7)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 9,
+    "answer": "CONSCIENCE",
+    "clue": "Inner sense of right and wrong",
+    "enum": "(10)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 6,
+    "col": 4,
+    "answer": "MORALITY",
+    "clue": "Principles of right and wrong conduct",
+    "enum": "(8)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 10,
+    "col": 2,
+    "answer": "PARADOX",
+    "clue": "Statement that seems to contradict itself",
+    "enum": "(7)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 10,
+    "col": 14,
+    "answer": "BELIEF",
+    "clue": "Something accepted as true",
+    "enum": "(6)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 11,
+    "col": 12,
+    "answer": "WISDOM",
+    "clue": "'Philosophy' literally means the love of this",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "philo-thinkers",
+  "title": "Great Thinkers",
+  "category": "Philosophy",
+  "difficulty": "Medium",
+  "rows": 17,
+  "cols": 14,
+  "entries": [
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 5,
+    "answer": "SPINOZA",
+    "clue": "Dutch rationalist who equated God with Nature",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 5,
+    "col": 1,
+    "answer": "ARISTOTLE",
+    "clue": "Tutor to Alexander the Great",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 8,
+    "col": 0,
+    "answer": "NIETZSCHE",
+    "clue": "Thinker who declared 'God is dead'",
+    "enum": "(9)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 9,
+    "answer": "LOCKE",
+    "clue": "English philosopher of the mind as a 'blank slate'",
+    "enum": "(5)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "DESCARTES",
+    "clue": "'I think, therefore I am'",
+    "enum": "(9)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 14,
+    "col": 0,
+    "answer": "WITTGENSTEIN",
+    "clue": "Author of the Tractatus Logico-Philosophicus",
+    "enum": "(12)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 9,
+    "answer": "ROUSSEAU",
+    "clue": "Author of The Social Contract",
+    "enum": "(8)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 11,
+    "answer": "KANT",
+    "clue": "Author of the Critique of Pure Reason",
+    "enum": "(4)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 1,
+    "col": 6,
+    "answer": "PLATO",
+    "clue": "Founder of the Academy in Athens",
+    "enum": "(5)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 4,
+    "col": 1,
+    "answer": "MACHIAVELLI",
+    "clue": "Author of The Prince",
+    "enum": "(11)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 13,
+    "answer": "HOBBES",
+    "clue": "Author of Leviathan",
+    "enum": "(6)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 8,
+    "col": 5,
+    "answer": "SOCRATES",
+    "clue": "Athenian who claimed only to know that he knew nothing",
+    "enum": "(8)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 8,
+    "col": 7,
+    "answer": "HUME",
+    "clue": "Scottish empiricist sceptical about causation",
+    "enum": "(4)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 10,
+    "answer": "CONFUCIUS",
+    "clue": "Chinese sage of the Analects",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "down",
+    "row": 11,
+    "col": 8,
+    "answer": "SARTRE",
+    "clue": "French existentialist of Being and Nothingness",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "philo-isms",
+  "title": "Isms & Ideas",
+  "category": "Philosophy",
+  "difficulty": "Hard",
+  "rows": 17,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 3,
+    "answer": "PRAGMATISM",
+    "clue": "Truth is what works, for William James",
+    "enum": "(10)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 2,
+    "answer": "HEDONISM",
+    "clue": "Pleasure as the highest good",
+    "enum": "(8)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 2,
+    "answer": "RELATIVISM",
+    "clue": "Truth depends on perspective or culture",
+    "enum": "(10)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 9,
+    "answer": "UTILITY",
+    "clue": "Bentham's measure of happiness, to be maximised",
+    "enum": "(7)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "SOLIPSISM",
+    "clue": "Only one's own mind is sure to exist",
+    "enum": "(9)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 12,
+    "col": 0,
+    "answer": "EXISTENTIALISM",
+    "clue": "Existence precedes essence",
+    "enum": "(14)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 4,
+    "answer": "CYNICISM",
+    "clue": "School of Diogenes, who lived in a large jar",
+    "enum": "(8)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 16,
+    "col": 2,
+    "answer": "STOICISM",
+    "clue": "Philosophy of Seneca and Marcus Aurelius",
+    "enum": "(8)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "RATIONALISM",
+    "clue": "Knowledge comes chiefly from reason",
+    "enum": "(11)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 0,
+    "answer": "ABSURDISM",
+    "clue": "Camus's response to a meaningless universe",
+    "enum": "(9)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 3,
+    "col": 3,
+    "answer": "DETERMINISM",
+    "clue": "Every event is fixed by prior causes",
+    "enum": "(11)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 7,
+    "answer": "NIHILISM",
+    "clue": "Belief that life has no inherent meaning",
+    "enum": "(8)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 13,
+    "answer": "SCEPTICISM",
+    "clue": "Doubt that certain knowledge is possible",
+    "enum": "(10)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 11,
+    "answer": "EMPIRICISM",
+    "clue": "Knowledge comes from experience",
+    "enum": "(10)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 10,
+    "col": 9,
+    "answer": "DUALISM",
+    "clue": "Mind and body as distinct substances",
+    "enum": "(7)"
+   }
+  ]
+ },
+ {
+  "id": "philo-expert",
+  "title": "Thinking Hard",
+  "category": "Philosophy",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 3,
+    "col": 0,
+    "answer": "RAZOR",
+    "clue": "Ockham's ___: don't multiply entities beyond necessity",
+    "enum": "(5)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 5,
+    "answer": "QUALIA",
+    "clue": "Subjective qualities of experience, like the redness of red",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "MONAD",
+    "clue": "Leibniz's simple, indivisible substance",
+    "enum": "(5)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 1,
+    "answer": "IMPERATIVE",
+    "clue": "Categorical ___: Kant's unconditional moral command",
+    "enum": "(10)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 9,
+    "answer": "ONTOLOGY",
+    "clue": "Study of being and what exists",
+    "enum": "(8)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 2,
+    "answer": "PHENOMENOLOGY",
+    "clue": "Husserl's study of the structures of experience",
+    "enum": "(13)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 14,
+    "col": 4,
+    "answer": "TELEOLOGY",
+    "clue": "Explaining things by their purpose or end",
+    "enum": "(9)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "EUDAIMONIA",
+    "clue": "Aristotle's term for human flourishing",
+    "enum": "(10)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 3,
+    "answer": "APORIA",
+    "clue": "State of puzzlement at the end of a Socratic dialogue",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 6,
+    "answer": "TABULARASA",
+    "clue": "Blank slate, in Locke's account of the mind",
+    "enum": "(6,4)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 1,
+    "col": 8,
+    "answer": "DIALECTIC",
+    "clue": "Method of thesis, antithesis and synthesis",
+    "enum": "(9)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 12,
+    "answer": "EPISTEMOLOGY",
+    "clue": "Theory of knowledge",
+    "enum": "(12)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 10,
+    "answer": "DEONTOLOGY",
+    "clue": "Ethics grounded in duties and rules",
+    "enum": "(10)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 10,
+    "col": 2,
+    "answer": "SOPHIST",
+    "clue": "Paid teacher of rhetoric in ancient Athens",
+    "enum": "(7)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 11,
+    "col": 8,
+    "answer": "ZENO",
+    "clue": "Thinker behind the paradox of Achilles and the tortoise",
+    "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "philo-cryptic",
+  "title": "Cryptic Philosophy",
+  "category": "Philosophy",
+  "difficulty": "Cryptic",
+  "rows": 11,
+  "cols": 11,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 0,
+    "answer": "ETHOS",
+    "clue": "Those, rearranged, give a guiding spirit",
+    "enum": "(5)",
+    "explain": "Anagram ('rearranged') of THOSE. Definition: a guiding spirit."
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 6,
+    "answer": "MORAL",
+    "clue": "Molar broken, but ethical",
+    "enum": "(5)",
+    "explain": "Anagram ('broken') of MOLAR. Definition: ethical."
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 4,
+    "col": 1,
+    "answer": "THINKER",
+    "clue": "Consider, er, a philosopher",
+    "enum": "(7)",
+    "explain": "THINK (consider) + ER. Definition: a philosopher."
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "SAGE",
+    "clue": "Wise person, or herb",
+    "enum": "(4)",
+    "explain": "Double definition: a wise person, and a herb."
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 6,
+    "col": 5,
+    "answer": "REASON",
+    "clue": "Senora, confused, gives cause",
+    "enum": "(6)",
+    "explain": "Anagram ('confused') of SENORA. Definition: cause."
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 8,
+    "col": 5,
+    "answer": "AXIOM",
+    "clue": "Self-evident truth found in taxi omnibus",
+    "enum": "(5)",
+    "explain": "Hidden in tAXI OMnibus. Definition: self-evident truth."
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "TENET",
+    "clue": "Principle held in ten etchings",
+    "enum": "(5)",
+    "explain": "Hidden in TEN ETchings. Definition: principle."
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 6,
+    "answer": "MUSE",
+    "clue": "Ponder, or source of inspiration",
+    "enum": "(4)",
+    "explain": "Double definition: to ponder, and a source of inspiration."
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 4,
+    "col": 3,
+    "answer": "IDEAL",
+    "clue": "Ailed, strangely, but perfect",
+    "enum": "(5)",
+    "explain": "Anagram ('strangely') of AILED. Definition: perfect."
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 5,
+    "answer": "KARMA",
+    "clue": "Fate concealed in dark armada",
+    "enum": "(5)",
+    "explain": "Hidden in darK ARMAda. Definition: fate."
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 7,
+    "answer": "REALISM",
+    "clue": "Mailers sorted for a down-to-earth outlook",
+    "enum": "(7)",
+    "explain": "Anagram ('sorted') of MAILERS. Definition: a down-to-earth outlook."
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 9,
+    "answer": "DOGMA",
+    "clue": "Am god, perversely: a fixed doctrine",
+    "enum": "(5)",
+    "explain": "Anagram ('perversely') of AM GOD. Definition: a fixed doctrine."
+   }
+  ]
  }
 ];

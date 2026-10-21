@@ -12,6 +12,7 @@
   --amethyst: #a77bff;
   --ruby: #ff5c7a;
   --topaz: #ffc457;
+  --aqua: #4fd6e3;
 
   --cell-bg: #f3f5fa;
   --cell-text: #0b0f17;
@@ -168,6 +169,7 @@ button { font: inherit; color: inherit; }
 [data-cat="ai"] { --accent: var(--sapphire); }
 [data-cat="economics"] { --accent: var(--topaz); }
 [data-cat="psychology"] { --accent: var(--ruby); }
+[data-cat="philosophy"] { --accent: var(--aqua); }
 
 .picker-tabs::-webkit-scrollbar { display: none; }
 @media (max-width: 900px) {
@@ -212,6 +214,7 @@ button { font: inherit; color: inherit; }
 .eyebrow .cat-ai { color: var(--sapphire); }
 .eyebrow .cat-economics { color: var(--topaz); }
 .eyebrow .cat-psychology { color: var(--ruby); }
+.eyebrow .cat-philosophy { color: var(--aqua); }
 h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1.15; }
 .tools { display: flex; gap: 8px; }
 
@@ -400,7 +403,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 :root[data-theme="daylight"] {
   --bg: #f4f6fb; --bg-2: #ffffff; --panel: #ffffff; --panel-2: #eef1f8;
   --line: #d5dbe8; --text: #121826; --muted: #5a6680;
-  --emerald: #0e9f6e; --sapphire: #2563eb; --amethyst: #7c3aed; --ruby: #dc2647; --topaz: #a86a00;
+  --emerald: #0e9f6e; --sapphire: #2563eb; --amethyst: #7c3aed; --ruby: #dc2647; --topaz: #a86a00; --aqua: #0b8a9a;
   --cell-bg: #ffffff; --cell-text: #121826; --cell-word: #dbe7ff; --cell-active: #ffd166;
   --cell-edge: #aeb9cf; --cell-num: #4a5570; --cell-solved: #d1f5e6;
   --primary-soft: rgba(37, 99, 235, 0.13); --primary-faint: rgba(37, 99, 235, 0.05);
@@ -431,7 +434,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 :root[data-theme="contrast"] {
   --bg: #000000; --bg-2: #000000; --panel: #000000; --panel-2: #1c1c1c;
   --line: #ffffff; --text: #ffffff; --muted: #e2e2e2;
-  --emerald: #3dff9e; --sapphire: #4dc3ff; --amethyst: #d9a6ff; --ruby: #ff6b6b; --topaz: #ffe600;
+  --emerald: #3dff9e; --sapphire: #4dc3ff; --amethyst: #d9a6ff; --ruby: #ff6b6b; --topaz: #ffe600; --aqua: #5ff3ff;
   --primary: #ffe600; --on-primary: #000000;
   --primary-soft: rgba(255, 230, 0, 0.24); --primary-faint: rgba(255, 230, 0, 0.10);
   --glow-1: transparent; --glow-2: transparent;
