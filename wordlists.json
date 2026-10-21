@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "cyber-foundations",
+    "title": "Foundations",
+    "category": "Cyber security",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "RANSOMWARE",
+        "Extortion software that locks up your files"
+      ],
+      [
+        "ENCRYPTION",
+        "Scrambling data so only key holders can read it"
+      ],
+      [
+        "FIREWALL",
+        "Barrier that filters network traffic"
+      ],
+      [
+        "PHISHING",
+        "Deceptive emails angling for credentials"
+      ],
+      [
+        "PASSWORD",
+        "Secret word typed at login"
+      ],
+      [
+        "MALWARE",
+        "Umbrella term for hostile software"
+      ],
+      [
+        "BOTNET",
+        "Army of compromised machines under remote control"
+      ],
+      [
+        "TROJAN",
+        "Malicious program disguised as something useful"
+      ],
+      [
+        "BACKUP",
+        "Copy kept so you can recover"
+      ],
+      [
+        "CIPHER",
+        "Algorithm used to encrypt"
+      ],
+      [
+        "PATCH",
+        "Fix issued for a software flaw"
+      ],
+      [
+        "HASH",
+        "Fixed-length digest of data"
+      ],
+      [
+        "WORM",
+        "Malware that spreads by itself"
+      ],
+      [
+        "SPAM",
+        "Unsolicited bulk email"
+      ],
+      [
+        "VPN",
+        "Encrypted tunnel across a public network (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "cyber-architecture",
+    "title": "Architecture & Frameworks",
+    "category": "Cyber security",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "DEFENCE IN DEPTH",
+        "Strategy of layering controls so one failure is not fatal"
+      ],
+      [
+        "LEAST PRIVILEGE",
+        "Grant only the access a task needs"
+      ],
+      [
+        "SEGMENTATION",
+        "Dividing a network into separate zones"
+      ],
+      [
+        "THREAT MODEL",
+        "Structured analysis of what could go wrong"
+      ],
+      [
+        "RESILIENCE",
+        "Ability to withstand and recover from disruption"
+      ],
+      [
+        "GOVERNANCE",
+        "Direction and oversight of security"
+      ],
+      [
+        "ZERO TRUST",
+        "Never trust, always verify"
+      ],
+      [
+        "IDENTITY",
+        "The new perimeter, some say"
+      ],
+      [
+        "STRIDE",
+        "Threat categorisation mnemonic from Microsoft"
+      ],
+      [
+        "SABSA",
+        "Business-driven enterprise security architecture framework"
+      ],
+      [
+        "AUDIT",
+        "Independent review of controls"
+      ],
+      [
+        "SIEM",
+        "Platform that aggregates logs and alerts (abbr.)"
+      ],
+      [
+        "RISK",
+        "Likelihood combined with impact"
+      ],
+      [
+        "CAF",
+        "NCSC's Cyber Assessment Framework (abbr.)"
+      ],
+      [
+        "MFA",
+        "Login needing two or more factors (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "cyber-threats",
+    "title": "Threats & Response",
+    "category": "Cyber security",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "CONTAINMENT",
+        "Incident response phase that stops the spread"
+      ],
+      [
+        "FORENSICS",
+        "Gathering and analysing digital evidence"
+      ],
+      [
+        "KEYLOGGER",
+        "Records every keystroke"
+      ],
+      [
+        "INCIDENT",
+        "Event that compromises security"
+      ],
+      [
+        "SPOOFING",
+        "Faking a sender's identity"
+      ],
+      [
+        "HONEYPOT",
+        "Decoy system to lure attackers"
+      ],
+      [
+        "EXPLOIT",
+        "Code that takes advantage of a vulnerability"
+      ],
+      [
+        "ZERO-DAY",
+        "Flaw the vendor doesn't yet know about"
+      ],
+      [
+        "ROOTKIT",
+        "Malware that hides deep in the operating system"
+      ],
+      [
+        "SANDBOX",
+        "Isolated area for detonating suspicious files"
+      ],
+      [
+        "LATERAL",
+        "___ movement: pivoting across a network"
+      ],
+      [
+        "PAYLOAD",
+        "The harmful part of an attack"
+      ],
+      [
+        "BREACH",
+        "Unauthorised access to data"
+      ],
+      [
+        "TRIAGE",
+        "Prioritising alerts by severity"
+      ],
+      [
+        "DDOS",
+        "Flooding attack from many sources (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "general-mixed",
+    "title": "Mixed Bag",
+    "category": "General knowledge",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "ELEPHANT",
+        "Largest land mammal"
+      ],
+      [
+        "MARATHON",
+        "Race of 26.2 miles"
+      ],
+      [
+        "VOLCANO",
+        "Mountain that may erupt"
+      ],
+      [
+        "PYRAMID",
+        "Ancient tomb at Giza"
+      ],
+      [
+        "RAINBOW",
+        "Arc of seven colours"
+      ],
+      [
+        "PENGUIN",
+        "Flightless Antarctic bird"
+      ],
+      [
+        "THUNDER",
+        "It follows lightning"
+      ],
+      [
+        "EVEREST",
+        "World's highest peak"
+      ],
+      [
+        "LONDON",
+        "Capital on the Thames"
+      ],
+      [
+        "SAHARA",
+        "Africa's great desert"
+      ],
+      [
+        "OXYGEN",
+        "Element with the symbol O"
+      ],
+      [
+        "GALAXY",
+        "The Milky Way, for one"
+      ],
+      [
+        "PIANO",
+        "Instrument with 88 keys"
+      ],
+      [
+        "ORBIT",
+        "Path of a planet around the sun"
+      ],
+      [
+        "HONEY",
+        "Sweet product of bees"
+      ]
+    ]
+  },
+  {
+    "id": "general-everyday",
+    "title": "Everyday Things",
+    "category": "General knowledge",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "SHAKESPEARE",
+        "The Bard of Avon"
+      ],
+      [
+        "TELESCOPE",
+        "Instrument for viewing distant objects"
+      ],
+      [
+        "CHOCOLATE",
+        "Treat made from cocoa"
+      ],
+      [
+        "ATLANTIC",
+        "Ocean between Europe and the Americas"
+      ],
+      [
+        "KANGAROO",
+        "Hopping marsupial"
+      ],
+      [
+        "WINDMILL",
+        "Sail-powered grinder"
+      ],
+      [
+        "OCTOPUS",
+        "Eight-armed sea creature"
+      ],
+      [
+        "DIAMOND",
+        "Hardest natural mineral"
+      ],
+      [
+        "BICYCLE",
+        "Two-wheeled pedal vehicle"
+      ],
+      [
+        "COMPASS",
+        "It points north"
+      ],
+      [
+        "LIBRARY",
+        "Place to borrow books"
+      ],
+      [
+        "SNOWMAN",
+        "Frosty figure built in winter"
+      ],
+      [
+        "GUITAR",
+        "Six-stringed instrument"
+      ],
+      [
+        "AUTUMN",
+        "Season of falling leaves"
+      ],
+      [
+        "TEACUP",
+        "Vessel for a brew"
+      ]
+    ]
+  },
+  {
+    "id": "general-british",
+    "title": "Best of British",
+    "category": "General knowledge",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "STONEHENGE",
+        "Wiltshire's prehistoric stone circle"
+      ],
+      [
+        "BEEFEATER",
+        "Tower of London guard"
+      ],
+      [
+        "WIMBLEDON",
+        "Grand Slam played on grass"
+      ],
+      [
+        "PANTOMIME",
+        "Christmas stage show with a dame"
+      ],
+      [
+        "BAGPIPES",
+        "Scottish instrument with drones"
+      ],
+      [
+        "CORNWALL",
+        "County famous for pasties"
+      ],
+      [
+        "CRUMPET",
+        "Toasted teatime treat full of holes"
+      ],
+      [
+        "CRICKET",
+        "Sport played at Lord's"
+      ],
+      [
+        "DRIZZLE",
+        "Light rain"
+      ],
+      [
+        "BISCUIT",
+        "Often dunked in tea"
+      ],
+      [
+        "SNOWDON",
+        "Highest peak in Wales"
+      ],
+      [
+        "THAMES",
+        "River through Oxford and London"
+      ],
+      [
+        "SCONE",
+        "Cream tea staple"
+      ],
+      [
+        "QUEUE",
+        "Orderly line"
+      ],
+      [
+        "PUB",
+        "Local where you might order a pint"
+      ]
+    ]
+  },
+  {
+    "id": "general-science",
+    "title": "Science & Nature",
+    "category": "General knowledge",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "PHOTOSYNTHESIS",
+        "Process by which plants turn sunlight into food"
+      ],
+      [
+        "EVOLUTION",
+        "Darwin's theory of change over generations"
+      ],
+      [
+        "MOLECULE",
+        "Two or more atoms bonded together"
+      ],
+      [
+        "CHLOROPHYLL",
+        "Green pigment that captures light in leaves"
+      ],
+      [
+        "GRAVITY",
+        "Force that keeps your feet on the ground"
+      ],
+      [
+        "NUCLEUS",
+        "Centre of an atom, or control centre of a cell"
+      ],
+      [
+        "GLACIER",
+        "Slow-moving river of ice"
+      ],
+      [
+        "ECLIPSE",
+        "When one body blocks another's light, as the Moon does the Sun"
+      ],
+      [
+        "HABITAT",
+        "Natural home of an animal or plant"
+      ],
+      [
+        "FOSSIL",
+        "Ancient remains preserved in rock"
+      ],
+      [
+        "MAGNET",
+        "It attracts iron and steel"
+      ],
+      [
+        "CARBON",
+        "Element at the heart of organic chemistry, symbol C"
+      ],
+      [
+        "NEURON",
+        "Nerve cell"
+      ],
+      [
+        "TIDE",
+        "Daily rise and fall of the sea, driven by the Moon"
+      ],
+      [
+        "ATOM",
+        "Basic building block of matter"
+      ]
+    ]
+  },
+  {
+    "id": "general-geography",
+    "title": "Around the World",
+    "category": "General knowledge",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "MEDITERRANEAN",
+        "Sea between southern Europe and North Africa"
+      ],
+      [
+        "ARCHIPELAGO",
+        "Chain or cluster of islands"
+      ],
+      [
+        "HIMALAYAS",
+        "Mountain range that includes Everest"
+      ],
+      [
+        "AUSTRALIA",
+        "Country that is also a continent"
+      ],
+      [
+        "PENINSULA",
+        "Land almost surrounded by water"
+      ],
+      [
+        "CANBERRA",
+        "Capital of Australia"
+      ],
+      [
+        "MONSOON",
+        "Seasonal wind that brings heavy rain to South Asia"
+      ],
+      [
+        "EQUATOR",
+        "Imaginary line at zero degrees latitude"
+      ],
+      [
+        "ICELAND",
+        "Nordic island nation of fire and ice"
+      ],
+      [
+        "AMAZON",
+        "River through the world's largest rainforest"
+      ],
+      [
+        "TOKYO",
+        "Capital of Japan"
+      ],
+      [
+        "DELTA",
+        "Fan-shaped area where a river meets the sea"
+      ],
+      [
+        "ANDES",
+        "South America's great mountain chain"
+      ],
+      [
+        "CAIRO",
+        "Capital of Egypt"
+      ],
+      [
+        "NILE",
+        "Africa's longest river"
+      ]
+    ]
+  },
+  {
+    "id": "general-food",
+    "title": "Food & Drink",
+    "category": "General knowledge",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "SPAGHETTI",
+        "Long, thin pasta"
+      ],
+      [
+        "CROISSANT",
+        "Flaky, crescent-shaped French pastry"
+      ],
+      [
+        "ESPRESSO",
+        "Short, strong shot of Italian coffee"
+      ],
+      [
+        "CINNAMON",
+        "Sweet spice made from tree bark"
+      ],
+      [
+        "BAGUETTE",
+        "Long French loaf"
+      ],
+      [
+        "LEMONADE",
+        "Sweet citrus drink, often fizzy"
+      ],
+      [
+        "AVOCADO",
+        "Fruit mashed to make guacamole"
+      ],
+      [
+        "CHEDDAR",
+        "Somerset village that gave its name to a cheese"
+      ],
+      [
+        "RISOTTO",
+        "Creamy Italian rice dish"
+      ],
+      [
+        "PRETZEL",
+        "Twisted, salted baked snack"
+      ],
+      [
+        "TRUFFLE",
+        "Prized underground fungus, or a chocolate"
+      ],
+      [
+        "PAELLA",
+        "Spanish rice dish from Valencia"
+      ],
+      [
+        "WASABI",
+        "Fiery green Japanese condiment"
+      ],
+      [
+        "SUSHI",
+        "Japanese dish of vinegared rice"
+      ],
+      [
+        "CURRY",
+        "Spiced dish loved across South Asia and Britain"
+      ]
+    ]
+  },
+  {
+    "id": "general-sport",
+    "title": "Sporting Life",
+    "category": "General knowledge",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "GOALKEEPER",
+        "Football player allowed to handle the ball"
+      ],
+      [
+        "BADMINTON",
+        "Racquet sport played with a shuttlecock"
+      ],
+      [
+        "TRIATHLON",
+        "Swim, cycle and run in one race"
+      ],
+      [
+        "OLYMPICS",
+        "Games held every four years"
+      ],
+      [
+        "SNOOKER",
+        "Cue sport played at the Crucible"
+      ],
+      [
+        "ARCHERY",
+        "Sport of shooting arrows at a target"
+      ],
+      [
+        "JAVELIN",
+        "Spear thrown in athletics"
+      ],
+      [
+        "PELOTON",
+        "Main pack of riders in a cycle race"
+      ],
+      [
+        "REFEREE",
+        "Official who enforces the rules"
+      ],
+      [
+        "HURDLES",
+        "Barriers jumped in a sprint race"
+      ],
+      [
+        "WICKET",
+        "Stumps and bails in cricket"
+      ],
+      [
+        "SLALOM",
+        "Zigzag race between gates"
+      ],
+      [
+        "RUGBY",
+        "Sport named after a Warwickshire school"
+      ],
+      [
+        "DARTS",
+        "Pub game where 180 is the top score"
+      ],
+      [
+        "PUTT",
+        "Gentle stroke on a golf green"
+      ]
+    ]
+  },
+  {
+    "id": "general-history",
+    "title": "History Lessons",
+    "category": "General knowledge",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "RENAISSANCE",
+        "European rebirth of art and learning"
+      ],
+      [
+        "SUFFRAGETTE",
+        "Campaigner for votes for women"
+      ],
+      [
+        "MAGNA CARTA",
+        "Charter sealed by King John in 1215"
+      ],
+      [
+        "GLADIATOR",
+        "Fighter in a Roman arena"
+      ],
+      [
+        "COLOSSEUM",
+        "Rome's great amphitheatre"
+      ],
+      [
+        "TRAFALGAR",
+        "Nelson's final battle, 1805"
+      ],
+      [
+        "BLETCHLEY",
+        "___ Park, home of the Second World War codebreakers"
+      ],
+      [
+        "HASTINGS",
+        "Battle of 1066"
+      ],
+      [
+        "SPITFIRE",
+        "Iconic RAF fighter of the Battle of Britain"
+      ],
+      [
+        "WATERLOO",
+        "Napoleon's final defeat, 1815"
+      ],
+      [
+        "PHARAOH",
+        "Ruler of ancient Egypt"
+      ],
+      [
+        "VIKINGS",
+        "Norse raiders and traders"
+      ],
+      [
+        "ARMADA",
+        "Spanish fleet defeated in 1588"
+      ],
+      [
+        "TUDOR",
+        "Dynasty of Henry VIII and Elizabeth I"
+      ],
+      [
+        "AZTEC",
+        "Empire whose capital was Tenochtitlan"
+      ]
+    ]
+  },
+  {
+    "id": "general-screen",
+    "title": "Screen & Sound",
+    "category": "General knowledge",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "BLOCKBUSTER",
+        "Hugely successful film"
+      ],
+      [
+        "SOUNDTRACK",
+        "Music that accompanies a film"
+      ],
+      [
+        "ORCHESTRA",
+        "Large ensemble of instruments"
+      ],
+      [
+        "ANIMATION",
+        "Films made frame by frame from drawings or models"
+      ],
+      [
+        "DIRECTOR",
+        "Person who calls \"Action!\""
+      ],
+      [
+        "BEATLES",
+        "Fab Four from Liverpool"
+      ],
+      [
+        "TRUMPET",
+        "Brass instrument with three valves"
+      ],
+      [
+        "MUSICAL",
+        "Show where characters burst into song"
+      ],
+      [
+        "VIOLIN",
+        "Four-stringed instrument played under the chin"
+      ],
+      [
+        "SEQUEL",
+        "Follow-up film"
+      ],
+      [
+        "CHORUS",
+        "Repeated part of a song"
+      ],
+      [
+        "CINEMA",
+        "Where films are shown on a big screen"
+      ],
+      [
+        "OSCAR",
+        "Nickname of the Academy Award statuette"
+      ],
+      [
+        "OPERA",
+        "Sung drama, as at Covent Garden"
+      ],
+      [
+        "TEMPO",
+        "Speed of a piece of music"
+      ]
+    ]
+  },
+  {
+    "id": "ai-threats",
+    "title": "AI Threats",
+    "category": "AI security",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "PROMPT INJECTION",
+        "Smuggling instructions to an AI inside its input"
+      ],
+      [
+        "DATA POISONING",
+        "Corrupting training data to plant flaws"
+      ],
+      [
+        "HALLUCINATION",
+        "Confident but false output from a model"
+      ],
+      [
+        "EXFILTRATION",
+        "Unauthorised extraction of data"
+      ],
+      [
+        "SUPPLY CHAIN",
+        "Third-party models and libraries are a ___ risk"
+      ],
+      [
+        "ADVERSARIAL",
+        "___ example: input tweaked to fool a model"
+      ],
+      [
+        "JAILBREAK",
+        "Prompt crafted to get round a model's safety rules"
+      ],
+      [
+        "INVERSION",
+        "Model ___: reconstructing training data from outputs"
+      ],
+      [
+        "DEEPFAKE",
+        "Synthetic video or audio impersonating a real person"
+      ],
+      [
+        "BACKDOOR",
+        "Hidden trigger planted in a model"
+      ],
+      [
+        "SCRAPING",
+        "Harvesting web content at scale"
+      ],
+      [
+        "LEAKAGE",
+        "Secrets or training data escaping through a model"
+      ],
+      [
+        "EVASION",
+        "Attack that slips malicious input past a detector"
+      ],
+      [
+        "MISUSE",
+        "Using AI for harmful purposes"
+      ],
+      [
+        "BIAS",
+        "Systematic skew in a model's outputs"
+      ]
+    ]
+  },
+  {
+    "id": "ai-ml-basics",
+    "title": "Machine Learning Basics",
+    "category": "AI security",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "NEURAL NETWORK",
+        "Layers of connected nodes loosely inspired by the brain"
+      ],
+      [
+        "OVERFITTING",
+        "Memorising the training data instead of generalising"
+      ],
+      [
+        "CLASSIFIER",
+        "Model that sorts inputs into categories"
+      ],
+      [
+        "REGRESSION",
+        "Predicting a continuous value"
+      ],
+      [
+        "ALGORITHM",
+        "Step-by-step procedure a computer follows"
+      ],
+      [
+        "INFERENCE",
+        "Using a trained model to make predictions"
+      ],
+      [
+        "TRAINING",
+        "Fitting a model to data"
+      ],
+      [
+        "ACCURACY",
+        "Share of predictions a model gets right"
+      ],
+      [
+        "DATASET",
+        "Collection of examples used to train a model"
+      ],
+      [
+        "FEATURE",
+        "Measurable input property a model uses"
+      ],
+      [
+        "WEIGHTS",
+        "Learned parameters of a network"
+      ],
+      [
+        "TENSOR",
+        "Multi-dimensional array of numbers"
+      ],
+      [
+        "LABEL",
+        "The right answer attached to a training example"
+      ],
+      [
+        "EPOCH",
+        "One full pass through the training data"
+      ],
+      [
+        "GPU",
+        "Graphics chip that speeds up training (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "ai-llms",
+    "title": "Large Language Models",
+    "category": "AI security",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "CONTEXT WINDOW",
+        "How much text a model can consider at once"
+      ],
+      [
+        "TRANSFORMER",
+        "Architecture behind most modern language models"
+      ],
+      [
+        "TEMPERATURE",
+        "Setting that controls how random the output is"
+      ],
+      [
+        "FINE-TUNING",
+        "Further training on a specialised dataset"
+      ],
+      [
+        "PARAMETERS",
+        "Billions of these define a model's size"
+      ],
+      [
+        "GENERATIVE",
+        "___ AI creates text, images or code"
+      ],
+      [
+        "EMBEDDING",
+        "Vector that represents meaning"
+      ],
+      [
+        "ATTENTION",
+        "Mechanism that lets a model weigh parts of its input"
+      ],
+      [
+        "CHATBOT",
+        "Conversational AI assistant"
+      ],
+      [
+        "LATENCY",
+        "Delay before a model responds"
+      ],
+      [
+        "PROMPT",
+        "Instruction given to a model"
+      ],
+      [
+        "VECTOR",
+        "___ database: stores embeddings for search"
+      ],
+      [
+        "CORPUS",
+        "Body of text used for training"
+      ],
+      [
+        "TOKEN",
+        "Chunk of text a language model reads"
+      ],
+      [
+        "RAG",
+        "Retrieval-augmented generation (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "ai-agentic",
+    "title": "Agentic AI",
+    "category": "AI security",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "HUMAN IN THE LOOP",
+        "Oversight where a person approves key actions"
+      ],
+      [
+        "ORCHESTRATOR",
+        "Component that coordinates several agents"
+      ],
+      [
+        "PERMISSIONS",
+        "Scoped rights an agent is granted"
+      ],
+      [
+        "KILL SWITCH",
+        "Emergency stop for an autonomous system"
+      ],
+      [
+        "AUDIT TRAIL",
+        "Record of every action an agent takes"
+      ],
+      [
+        "GUARDRAILS",
+        "Controls that keep an AI's behaviour in bounds"
+      ],
+      [
+        "DELEGATION",
+        "Handing a task to another agent"
+      ],
+      [
+        "AUTONOMY",
+        "How far a system acts without human approval"
+      ],
+      [
+        "WORKFLOW",
+        "Sequence of steps an agent carries out"
+      ],
+      [
+        "TOOL USE",
+        "Letting a model call APIs and functions"
+      ],
+      [
+        "PLANNER",
+        "Module that breaks a goal into steps"
+      ],
+      [
+        "MEMORY",
+        "Store an agent uses to recall earlier context"
+      ],
+      [
+        "AGENT",
+        "AI system that plans and takes actions"
+      ],
+      [
+        "SCOPE",
+        "Boundaries of what an agent may do"
+      ],
+      [
+        "MCP",
+        "Model Context Protocol, for connecting tools (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "ai-governance",
+    "title": "AI Governance",
+    "category": "AI security",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "ACCOUNTABILITY",
+        "Clear ownership of an AI system's outcomes"
+      ],
+      [
+        "EXPLAINABILITY",
+        "Showing why a model reached its decision"
+      ],
+      [
+        "TRANSPARENCY",
+        "Being open about how an AI system works"
+      ],
+      [
+        "RED TEAMING",
+        "Adversarial testing to find failures"
+      ],
+      [
+        "PROVENANCE",
+        "Record of where data or content came from"
+      ],
+      [
+        "MODEL CARD",
+        "Document describing a model's uses and limits"
+      ],
+      [
+        "ASSURANCE",
+        "Justified confidence that a system meets its requirements"
+      ],
+      [
+        "REGULATOR",
+        "Body that enforces the rules"
+      ],
+      [
+        "FAIRNESS",
+        "Avoiding unjust discrimination in outcomes"
+      ],
+      [
+        "EU AI ACT",
+        "Europe's risk-based law on artificial intelligence"
+      ],
+      [
+        "PRIVACY",
+        "Protection of personal data"
+      ],
+      [
+        "ETHICS",
+        "Moral principles that guide AI use"
+      ],
+      [
+        "IMPACT",
+        "___ assessment: weighing effects before deployment"
+      ],
+      [
+        "NIST",
+        "US body behind the AI Risk Management Framework (abbr.)"
+      ],
+      [
+        "ISO",
+        "___ 42001: AI management system standard (abbr.)"
+      ]
+    ]
+  },
+  {
+    "id": "ai-defence",
+    "title": "Defending AI",
+    "category": "AI security",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "SANITISATION",
+        "Cleaning untrusted input before it's processed"
+      ],
+      [
+        "VERIFICATION",
+        "Checking outputs against trusted sources"
+      ],
+      [
+        "EVALUATION",
+        "Systematic testing of model behaviour"
+      ],
+      [
+        "MONITORING",
+        "Watching a deployed system for misuse"
+      ],
+      [
+        "ROBUSTNESS",
+        "Resistance to adversarial inputs"
+      ],
+      [
+        "ALIGNMENT",
+        "Making AI pursue the goals we intend"
+      ],
+      [
+        "WATERMARK",
+        "Hidden signal marking AI-generated content"
+      ],
+      [
+        "BENCHMARK",
+        "Standard test for comparing models"
+      ],
+      [
+        "ISOLATION",
+        "Keeping untrusted content apart from trusted components"
+      ],
+      [
+        "ALLOWLIST",
+        "Approved set of tools or domains"
+      ],
+      [
+        "RATE LIMIT",
+        "Cap on requests that slows abuse"
+      ],
+      [
+        "REFUSAL",
+        "A model declining a harmful request"
+      ],
+      [
+        "LOGGING",
+        "Keeping records for later investigation"
+      ],
+      [
+        "CANARY",
+        "Planted token that reveals a data leak"
+      ],
+      [
+        "FILTER",
+        "Screens inputs or outputs for harmful content"
+      ]
+    ]
+  }
+]

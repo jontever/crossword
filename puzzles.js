@@ -869,5 +869,1745 @@ window.PUZZLES = [
     "enum": "(6)"
    }
   ]
+ },
+ {
+  "id": "general-science",
+  "title": "Science & Nature",
+  "category": "General knowledge",
+  "difficulty": "Medium",
+  "rows": 13,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 0,
+    "col": 11,
+    "answer": "NEURON",
+    "clue": "Nerve cell",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 3,
+    "col": 0,
+    "answer": "PHOTOSYNTHESIS",
+    "clue": "Process by which plants turn sunlight into food",
+    "enum": "(14)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 5,
+    "col": 2,
+    "answer": "EVOLUTION",
+    "clue": "Darwin's theory of change over generations",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 7,
+    "col": 5,
+    "answer": "CARBON",
+    "clue": "Element at the heart of organic chemistry, symbol C",
+    "enum": "(6)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 9,
+    "answer": "HABITAT",
+    "clue": "Natural home of an animal or plant",
+    "enum": "(7)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 10,
+    "col": 3,
+    "answer": "GRAVITY",
+    "clue": "Force that keeps your feet on the ground",
+    "enum": "(7)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 12,
+    "col": 8,
+    "answer": "GLACIER",
+    "clue": "Slow-moving river of ice",
+    "enum": "(7)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "FOSSIL",
+    "clue": "Ancient remains preserved in rock",
+    "enum": "(6)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 7,
+    "answer": "MAGNET",
+    "clue": "It attracts iron and steel",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 0,
+    "col": 12,
+    "answer": "ECLIPSE",
+    "clue": "When one body blocks another's light, as the Moon does the Sun",
+    "enum": "(7)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 0,
+    "col": 16,
+    "answer": "NUCLEUS",
+    "clue": "Centre of an atom, or control centre of a cell",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 2,
+    "col": 2,
+    "answer": "MOLECULE",
+    "clue": "Two or more atoms bonded together",
+    "enum": "(8)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 2,
+    "col": 9,
+    "answer": "CHLOROPHYLL",
+    "clue": "Green pigment that captures light in leaves",
+    "enum": "(11)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 15,
+    "answer": "ATOM",
+    "clue": "Basic building block of matter",
+    "enum": "(4)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 9,
+    "col": 13,
+    "answer": "TIDE",
+    "clue": "Daily rise and fall of the sea, driven by the Moon",
+    "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "general-geography",
+  "title": "Around the World",
+  "category": "General knowledge",
+  "difficulty": "Medium",
+  "rows": 16,
+  "cols": 15,
+  "entries": [
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 1,
+    "col": 6,
+    "answer": "EQUATOR",
+    "clue": "Imaginary line at zero degrees latitude",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 5,
+    "col": 0,
+    "answer": "ARCHIPELAGO",
+    "clue": "Chain or cluster of islands",
+    "enum": "(11)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 6,
+    "answer": "AMAZON",
+    "clue": "River through the world's largest rainforest",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "MONSOON",
+    "clue": "Seasonal wind that brings heavy rain to South Asia",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 11,
+    "answer": "NILE",
+    "clue": "Africa's longest river",
+    "enum": "(4)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 3,
+    "answer": "HIMALAYAS",
+    "clue": "Mountain range that includes Everest",
+    "enum": "(9)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 14,
+    "col": 4,
+    "answer": "CANBERRA",
+    "clue": "Capital of Australia",
+    "enum": "(8)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "MEDITERRANEAN",
+    "clue": "Sea between southern Europe and North Africa",
+    "enum": "(13)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 8,
+    "answer": "AUSTRALIA",
+    "clue": "Country that is also a continent",
+    "enum": "(9)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 0,
+    "answer": "DELTA",
+    "clue": "Fan-shaped area where a river meets the sea",
+    "enum": "(5)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 1,
+    "col": 10,
+    "answer": "TOKYO",
+    "clue": "Capital of Japan",
+    "enum": "(5)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 4,
+    "answer": "CAIRO",
+    "clue": "Capital of Egypt",
+    "enum": "(5)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 2,
+    "answer": "ICELAND",
+    "clue": "Nordic island nation of fire and ice",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 11,
+    "answer": "PENINSULA",
+    "clue": "Land almost surrounded by water",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "down",
+    "row": 11,
+    "col": 8,
+    "answer": "ANDES",
+    "clue": "South America's great mountain chain",
+    "enum": "(5)"
+   }
+  ]
+ },
+ {
+  "id": "general-food",
+  "title": "Food & Drink",
+  "category": "General knowledge",
+  "difficulty": "Easy",
+  "rows": 15,
+  "cols": 15,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 3,
+    "answer": "CURRY",
+    "clue": "Spiced dish loved across South Asia and Britain",
+    "enum": "(5)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 9,
+    "answer": "SUSHI",
+    "clue": "Japanese dish of vinegared rice",
+    "enum": "(5)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 1,
+    "answer": "PRETZEL",
+    "clue": "Twisted, salted baked snack",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 5,
+    "col": 5,
+    "answer": "CROISSANT",
+    "clue": "Flaky, crescent-shaped French pastry",
+    "enum": "(9)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 8,
+    "col": 6,
+    "answer": "SPAGHETTI",
+    "clue": "Long, thin pasta",
+    "enum": "(9)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "AVOCADO",
+    "clue": "Fruit mashed to make guacamole",
+    "enum": "(7)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 11,
+    "col": 4,
+    "answer": "LEMONADE",
+    "clue": "Sweet citrus drink, often fizzy",
+    "enum": "(8)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 3,
+    "answer": "CHEDDAR",
+    "clue": "Somerset village that gave its name to a cheese",
+    "enum": "(7)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 13,
+    "answer": "RISOTTO",
+    "clue": "Creamy Italian rice dish",
+    "enum": "(7)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 6,
+    "answer": "ESPRESSO",
+    "clue": "Short, strong shot of Italian coffee",
+    "enum": "(8)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 8,
+    "answer": "CINNAMON",
+    "clue": "Sweet spice made from tree bark",
+    "enum": "(8)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 11,
+    "answer": "BAGUETTE",
+    "clue": "Long French loaf",
+    "enum": "(8)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 0,
+    "answer": "WASABI",
+    "clue": "Fiery green Japanese condiment",
+    "enum": "(6)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 8,
+    "col": 4,
+    "answer": "PAELLA",
+    "clue": "Spanish rice dish from Valencia",
+    "enum": "(6)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 8,
+    "col": 13,
+    "answer": "TRUFFLE",
+    "clue": "Prized underground fungus, or a chocolate",
+    "enum": "(7)"
+   }
+  ]
+ },
+ {
+  "id": "general-sport",
+  "title": "Sporting Life",
+  "category": "General knowledge",
+  "difficulty": "Medium",
+  "rows": 15,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 1,
+    "answer": "SNOOKER",
+    "clue": "Cue sport played at the Crucible",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 5,
+    "col": 0,
+    "answer": "GOALKEEPER",
+    "clue": "Football player allowed to handle the ball",
+    "enum": "(10)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 7,
+    "col": 9,
+    "answer": "ARCHERY",
+    "clue": "Sport of shooting arrows at a target",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 1,
+    "answer": "HURDLES",
+    "clue": "Barriers jumped in a sprint race",
+    "enum": "(7)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 10,
+    "col": 7,
+    "answer": "PELOTON",
+    "clue": "Main pack of riders in a cycle race",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 12,
+    "col": 1,
+    "answer": "BADMINTON",
+    "clue": "Racquet sport played with a shuttlecock",
+    "enum": "(9)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 14,
+    "col": 1,
+    "answer": "DARTS",
+    "clue": "Pub game where 180 is the top score",
+    "enum": "(5)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "REFEREE",
+    "clue": "Official who enforces the rules",
+    "enum": "(7)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 1,
+    "answer": "SLALOM",
+    "clue": "Zigzag race between gates",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 3,
+    "col": 15,
+    "answer": "RUGBY",
+    "clue": "Sport named after a Warwickshire school",
+    "enum": "(5)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 4,
+    "col": 9,
+    "answer": "TRIATHLON",
+    "clue": "Swim, cycle and run in one race",
+    "enum": "(9)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 4,
+    "col": 13,
+    "answer": "JAVELIN",
+    "clue": "Spear thrown in athletics",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 11,
+    "answer": "WICKET",
+    "clue": "Stumps and bails in cricket",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 7,
+    "col": 5,
+    "answer": "OLYMPICS",
+    "clue": "Games held every four years",
+    "enum": "(8)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 10,
+    "col": 7,
+    "answer": "PUTT",
+    "clue": "Gentle stroke on a golf green",
+    "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "general-history",
+  "title": "History Lessons",
+  "category": "General knowledge",
+  "difficulty": "Hard",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 4,
+    "col": 4,
+    "answer": "HASTINGS",
+    "clue": "Battle of 1066",
+    "enum": "(8)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 8,
+    "answer": "GLADIATOR",
+    "clue": "Fighter in a Roman arena",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 9,
+    "col": 2,
+    "answer": "TRAFALGAR",
+    "clue": "Nelson's final battle, 1805",
+    "enum": "(9)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 10,
+    "answer": "TUDOR",
+    "clue": "Dynasty of Henry VIII and Elizabeth I",
+    "enum": "(5)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "COLOSSEUM",
+    "clue": "Rome's great amphitheatre",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 13,
+    "col": 4,
+    "answer": "AZTEC",
+    "clue": "Empire whose capital was Tenochtitlan",
+    "enum": "(5)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 16,
+    "col": 1,
+    "answer": "WATERLOO",
+    "clue": "Napoleon's final defeat, 1815",
+    "enum": "(8)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 16,
+    "answer": "SPITFIRE",
+    "clue": "Iconic RAF fighter of the Battle of Britain",
+    "enum": "(8)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 8,
+    "answer": "VIKINGS",
+    "clue": "Norse raiders and traders",
+    "enum": "(7)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 10,
+    "answer": "MAGNACARTA",
+    "clue": "Charter sealed by King John in 1215",
+    "enum": "(5,5)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 13,
+    "answer": "PHARAOH",
+    "clue": "Ruler of ancient Egypt",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 6,
+    "answer": "SUFFRAGETTE",
+    "clue": "Campaigner for votes for women",
+    "enum": "(11)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 6,
+    "col": 4,
+    "answer": "RENAISSANCE",
+    "clue": "European rebirth of art and learning",
+    "enum": "(11)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 0,
+    "answer": "BLETCHLEY",
+    "clue": "___ Park, home of the Second World War codebreakers",
+    "enum": "(9)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 9,
+    "col": 14,
+    "answer": "ARMADA",
+    "clue": "Spanish fleet defeated in 1588",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "general-screen",
+  "title": "Screen & Sound",
+  "category": "General knowledge",
+  "difficulty": "Medium",
+  "rows": 15,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 0,
+    "answer": "SOUNDTRACK",
+    "clue": "Music that accompanies a film",
+    "enum": "(10)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 10,
+    "answer": "VIOLIN",
+    "clue": "Four-stringed instrument played under the chin",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 5,
+    "col": 1,
+    "answer": "BEATLES",
+    "clue": "Fab Four from Liverpool",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 10,
+    "answer": "SEQUEL",
+    "clue": "Follow-up film",
+    "enum": "(6)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 5,
+    "answer": "TRUMPET",
+    "clue": "Brass instrument with three valves",
+    "enum": "(7)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 10,
+    "col": 7,
+    "answer": "OSCAR",
+    "clue": "Nickname of the Academy Award statuette",
+    "enum": "(5)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 8,
+    "answer": "CHORUS",
+    "clue": "Repeated part of a song",
+    "enum": "(6)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 13,
+    "col": 4,
+    "answer": "OPERA",
+    "clue": "Sung drama, as at Covent Garden",
+    "enum": "(5)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "BLOCKBUSTER",
+    "clue": "Hugely successful film",
+    "enum": "(11)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 3,
+    "answer": "ANIMATION",
+    "clue": "Films made frame by frame from drawings or models",
+    "enum": "(9)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 6,
+    "answer": "ORCHESTRA",
+    "clue": "Large ensemble of instruments",
+    "enum": "(9)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 11,
+    "answer": "DIRECTOR",
+    "clue": "Person who calls \"Action!\"",
+    "enum": "(8)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 14,
+    "answer": "CINEMA",
+    "clue": "Where films are shown on a big screen",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 8,
+    "answer": "MUSICAL",
+    "clue": "Show where characters burst into song",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 10,
+    "col": 5,
+    "answer": "TEMPO",
+    "clue": "Speed of a piece of music",
+    "enum": "(5)"
+   }
+  ]
+ },
+ {
+  "id": "ai-threats",
+  "title": "AI Threats",
+  "category": "AI security",
+  "difficulty": "Medium",
+  "rows": 17,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 0,
+    "col": 4,
+    "answer": "LEAKAGE",
+    "clue": "Secrets or training data escaping through a model",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 0,
+    "answer": "BIAS",
+    "clue": "Systematic skew in a model's outputs",
+    "enum": "(4)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 5,
+    "col": 10,
+    "answer": "MISUSE",
+    "clue": "Using AI for harmful purposes",
+    "enum": "(6)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 7,
+    "col": 2,
+    "answer": "EXFILTRATION",
+    "clue": "Unauthorised extraction of data",
+    "enum": "(12)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "SUPPLYCHAIN",
+    "clue": "Third-party models and libraries are a ___ risk",
+    "enum": "(6,5)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "SCRAPING",
+    "clue": "Harvesting web content at scale",
+    "enum": "(8)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 12,
+    "col": 8,
+    "answer": "BACKDOOR",
+    "clue": "Hidden trigger planted in a model",
+    "enum": "(8)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 0,
+    "answer": "DATAPOISONING",
+    "clue": "Corrupting training data to plant flaws",
+    "enum": "(4,9)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 16,
+    "col": 0,
+    "answer": "EVASION",
+    "clue": "Attack that slips malicious input past a detector",
+    "enum": "(7)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 2,
+    "answer": "DEEPFAKE",
+    "clue": "Synthetic video or audio impersonating a real person",
+    "enum": "(8)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 8,
+    "answer": "ADVERSARIAL",
+    "clue": "___ example: input tweaked to fool a model",
+    "enum": "(11)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 0,
+    "col": 12,
+    "answer": "INVERSION",
+    "clue": "Model ___: reconstructing training data from outputs",
+    "enum": "(9)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 10,
+    "answer": "PROMPTINJECTION",
+    "clue": "Smuggling instructions to an AI inside its input",
+    "enum": "(6,9)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 6,
+    "answer": "HALLUCINATION",
+    "clue": "Confident but false output from a model",
+    "enum": "(13)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 15,
+    "answer": "JAILBREAK",
+    "clue": "Prompt crafted to get round a model's safety rules",
+    "enum": "(9)"
+   }
+  ]
+ },
+ {
+  "id": "ai-ml-basics",
+  "title": "Machine Learning Basics",
+  "category": "AI security",
+  "difficulty": "Easy",
+  "rows": 15,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 4,
+    "answer": "ALGORITHM",
+    "clue": "Step-by-step procedure a computer follows",
+    "enum": "(9)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 10,
+    "answer": "EPOCH",
+    "clue": "One full pass through the training data",
+    "enum": "(5)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "INFERENCE",
+    "clue": "Using a trained model to make predictions",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 4,
+    "answer": "CLASSIFIER",
+    "clue": "Model that sorts inputs into categories",
+    "enum": "(10)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 2,
+    "answer": "NEURALNETWORK",
+    "clue": "Layers of connected nodes loosely inspired by the brain",
+    "enum": "(6,7)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 9,
+    "answer": "WEIGHTS",
+    "clue": "Learned parameters of a network",
+    "enum": "(7)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 10,
+    "answer": "DATASET",
+    "clue": "Collection of examples used to train a model",
+    "enum": "(7)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 0,
+    "answer": "TRAINING",
+    "clue": "Fitting a model to data",
+    "enum": "(8)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 2,
+    "answer": "OVERFITTING",
+    "clue": "Memorising the training data instead of generalising",
+    "enum": "(11)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 4,
+    "answer": "ACCURACY",
+    "clue": "Share of predictions a model gets right",
+    "enum": "(8)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 6,
+    "answer": "GPU",
+    "clue": "Graphics chip that speeds up training (abbr.)",
+    "enum": "(3)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 2,
+    "col": 8,
+    "answer": "REGRESSION",
+    "clue": "Predicting a continuous value",
+    "enum": "(10)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 12,
+    "answer": "TENSOR",
+    "clue": "Multi-dimensional array of numbers",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 10,
+    "answer": "FEATURE",
+    "clue": "Measurable input property a model uses",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 10,
+    "col": 6,
+    "answer": "LABEL",
+    "clue": "The right answer attached to a training example",
+    "enum": "(5)"
+   }
+  ]
+ },
+ {
+  "id": "ai-llms",
+  "title": "Large Language Models",
+  "category": "AI security",
+  "difficulty": "Medium",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 9,
+    "answer": "CORPUS",
+    "clue": "Body of text used for training",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 1,
+    "answer": "CONTEXTWINDOW",
+    "clue": "How much text a model can consider at once",
+    "enum": "(7,6)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 0,
+    "answer": "PARAMETERS",
+    "clue": "Billions of these define a model's size",
+    "enum": "(10)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 1,
+    "answer": "GENERATIVE",
+    "clue": "___ AI creates text, images or code",
+    "enum": "(10)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 7,
+    "col": 10,
+    "answer": "CHATBOT",
+    "clue": "Conversational AI assistant",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 4,
+    "answer": "TRANSFORMER",
+    "clue": "Architecture behind most modern language models",
+    "enum": "(11)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 1,
+    "answer": "FINETUNING",
+    "clue": "Further training on a specialised dataset",
+    "enum": "(4-6)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 12,
+    "answer": "PROMPT",
+    "clue": "Instruction given to a model",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 7,
+    "answer": "ATTENTION",
+    "clue": "Mechanism that lets a model weigh parts of its input",
+    "enum": "(9)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 4,
+    "answer": "TEMPERATURE",
+    "clue": "Setting that controls how random the output is",
+    "enum": "(11)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 10,
+    "answer": "VECTOR",
+    "clue": "___ database: stores embeddings for search",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 16,
+    "answer": "LATENCY",
+    "clue": "Delay before a model responds",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 2,
+    "answer": "EMBEDDING",
+    "clue": "Vector that represents meaning",
+    "enum": "(9)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 9,
+    "col": 14,
+    "answer": "RAG",
+    "clue": "Retrieval-augmented generation (abbr.)",
+    "enum": "(3)"
+   },
+   {
+    "num": 15,
+    "dir": "down",
+    "row": 12,
+    "col": 5,
+    "answer": "TOKEN",
+    "clue": "Chunk of text a language model reads",
+    "enum": "(5)"
+   }
+  ]
+ },
+ {
+  "id": "ai-agentic",
+  "title": "Agentic AI",
+  "category": "AI security",
+  "difficulty": "Hard",
+  "rows": 17,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 0,
+    "answer": "AUTONOMY",
+    "clue": "How far a system acts without human approval",
+    "enum": "(8)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 4,
+    "col": 1,
+    "answer": "GUARDRAILS",
+    "clue": "Controls that keep an AI's behaviour in bounds",
+    "enum": "(10)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 9,
+    "answer": "SCOPE",
+    "clue": "Boundaries of what an agent may do",
+    "enum": "(5)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 6,
+    "answer": "AUDITTRAIL",
+    "clue": "Record of every action an agent takes",
+    "enum": "(5,5)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "AGENT",
+    "clue": "AI system that plans and takes actions",
+    "enum": "(5)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 1,
+    "answer": "HUMANINTHELOOP",
+    "clue": "Oversight where a person approves key actions",
+    "enum": "(5,2,3,4)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 2,
+    "answer": "PERMISSIONS",
+    "clue": "Scoped rights an agent is granted",
+    "enum": "(11)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 2,
+    "answer": "TOOLUSE",
+    "clue": "Letting a model call APIs and functions",
+    "enum": "(4,3)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "MEMORY",
+    "clue": "Store an agent uses to recall earlier context",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 9,
+    "answer": "KILLSWITCH",
+    "clue": "Emergency stop for an autonomous system",
+    "enum": "(4,6)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 4,
+    "answer": "ORCHESTRATOR",
+    "clue": "Component that coordinates several agents",
+    "enum": "(12)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 13,
+    "answer": "DELEGATION",
+    "clue": "Handing a task to another agent",
+    "enum": "(10)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 3,
+    "col": 15,
+    "answer": "WORKFLOW",
+    "clue": "Sequence of steps an agent carries out",
+    "enum": "(8)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 10,
+    "col": 11,
+    "answer": "PLANNER",
+    "clue": "Module that breaks a goal into steps",
+    "enum": "(7)"
+   },
+   {
+    "num": 15,
+    "dir": "down",
+    "row": 14,
+    "col": 5,
+    "answer": "MCP",
+    "clue": "Model Context Protocol, for connecting tools (abbr.)",
+    "enum": "(3)"
+   }
+  ]
+ },
+ {
+  "id": "ai-governance",
+  "title": "AI Governance",
+  "category": "AI security",
+  "difficulty": "Hard",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 3,
+    "answer": "ASSURANCE",
+    "clue": "Justified confidence that a system meets its requirements",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "ACCOUNTABILITY",
+    "clue": "Clear ownership of an AI system's outcomes",
+    "enum": "(14)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 5,
+    "answer": "PROVENANCE",
+    "clue": "Record of where data or content came from",
+    "enum": "(10)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 8,
+    "answer": "EUAIACT",
+    "clue": "Europe's risk-based law on artificial intelligence",
+    "enum": "(2,2,3)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "FAIRNESS",
+    "clue": "Avoiding unjust discrimination in outcomes",
+    "enum": "(8)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 11,
+    "answer": "IMPACT",
+    "clue": "___ assessment: weighing effects before deployment",
+    "enum": "(6)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 13,
+    "col": 1,
+    "answer": "ETHICS",
+    "clue": "Moral principles that guide AI use",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 13,
+    "answer": "PRIVACY",
+    "clue": "Protection of personal data",
+    "enum": "(7)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 1,
+    "answer": "MODELCARD",
+    "clue": "Document describing a model's uses and limits",
+    "enum": "(5,4)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 1,
+    "col": 7,
+    "answer": "REGULATOR",
+    "clue": "Body that enforces the rules",
+    "enum": "(9)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 1,
+    "col": 11,
+    "answer": "EXPLAINABILITY",
+    "clue": "Showing why a model reached its decision",
+    "enum": "(14)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 5,
+    "answer": "TRANSPARENCY",
+    "clue": "Being open about how an AI system works",
+    "enum": "(12)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 3,
+    "answer": "ISO",
+    "clue": "___ 42001: AI management system standard (abbr.)",
+    "enum": "(3)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 14,
+    "answer": "REDTEAMING",
+    "clue": "Adversarial testing to find failures",
+    "enum": "(3,7)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 10,
+    "col": 2,
+    "answer": "NIST",
+    "clue": "US body behind the AI Risk Management Framework (abbr.)",
+    "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "ai-defence",
+  "title": "Defending AI",
+  "category": "AI security",
+  "difficulty": "Medium",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 3,
+    "answer": "REFUSAL",
+    "clue": "A model declining a harmful request",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 3,
+    "col": 11,
+    "answer": "CANARY",
+    "clue": "Planted token that reveals a data leak",
+    "enum": "(6)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 1,
+    "answer": "WATERMARK",
+    "clue": "Hidden signal marking AI-generated content",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 8,
+    "col": 3,
+    "answer": "SANITISATION",
+    "clue": "Cleaning untrusted input before it's processed",
+    "enum": "(12)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 4,
+    "answer": "ISOLATION",
+    "clue": "Keeping untrusted content apart from trusted components",
+    "enum": "(9)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 14,
+    "col": 0,
+    "answer": "LOGGING",
+    "clue": "Keeping records for later investigation",
+    "enum": "(7)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 16,
+    "col": 2,
+    "answer": "RATELIMIT",
+    "clue": "Cap on requests that slows abuse",
+    "enum": "(4,5)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 3,
+    "answer": "ROBUSTNESS",
+    "clue": "Resistance to adversarial inputs",
+    "enum": "(10)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "FILTER",
+    "clue": "Screens inputs or outputs for harmful content",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 1,
+    "answer": "ALLOWLIST",
+    "clue": "Approved set of tools or domains",
+    "enum": "(9)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 1,
+    "col": 12,
+    "answer": "EVALUATION",
+    "clue": "Systematic testing of model behaviour",
+    "enum": "(10)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 8,
+    "answer": "VERIFICATION",
+    "clue": "Checking outputs against trusted sources",
+    "enum": "(12)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 6,
+    "answer": "MONITORING",
+    "clue": "Watching a deployed system for misuse",
+    "enum": "(10)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 14,
+    "answer": "BENCHMARK",
+    "clue": "Standard test for comparing models",
+    "enum": "(9)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 10,
+    "answer": "ALIGNMENT",
+    "clue": "Making AI pursue the goals we intend",
+    "enum": "(9)"
+   }
+  ]
  }
 ];

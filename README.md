@@ -1,6 +1,20 @@
 # Crossword · cseta.uk
 
-A static, dependency-free crossword app with three cyber security puzzles and three general knowledge puzzles. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
+A static, dependency-free crossword app with 18 puzzles in three categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
+
+| General knowledge (9) | Cyber security (3) | AI security (6) |
+| --- | --- | --- |
+| Mixed Bag · Easy | Foundations · Easy | Machine Learning Basics · Easy |
+| Everyday Things · Medium | Threats & Response · Medium | AI Threats · Medium |
+| Best of British · Medium | Architecture & Frameworks · Hard | Large Language Models · Medium |
+| Food & Drink · Easy | | Defending AI · Medium |
+| Science & Nature · Medium | | Agentic AI · Hard |
+| Around the World · Medium | | AI Governance · Hard |
+| Sporting Life · Medium | | |
+| Screen & Sound · Medium | | |
+| History Lessons · Hard | | |
+
+First-time visitors start on Mixed Bag. The picker has a tab per category.
 
 - No build step, no npm packages, no backend, no cookies, no analytics
 - Keyboard and touch play (an on-screen keyboard appears on touch devices)
@@ -103,7 +117,7 @@ CSX1.<base64url(JSON)>.<checksum>
 ```
 
 - `JSON` is `{ "v": 1, "a": "<active puzzle id>", "p": { "<puzzle id>": { "g": "<grid>", "t": <seconds> } } }`
-- `g` has one character per letter square in reading order: `A–Z` typed, `a–z` revealed, `.` empty, and runs of two or more empty squares compressed to `<n>.` (e.g. `AB3.C`).
+- `g` has one character per letter square in reading order: `A–Z` typed, `a–z` revealed, `.` empty, and runs of two or more empty squares compressed to `<n>.` (e.g. `AB3.C`). A puzzle solved without reveals is stored as just `=`.
 - `checksum` is the FNV-1a 32-bit hash (8 hex chars) of the base64 part, used to catch truncated or mistyped keys.
 
 The key is **encoded, not encrypted**. It holds only the letters you've entered and your time, never any personal data, and it doesn't contain the answers. On restore, the key is strictly validated (prefix, checksum, version, known puzzle ids, exact grid length, allowed characters, bounded run lengths and timer) and anything that fails is rejected. Solved status is always recomputed from the letters rather than trusted from the key.
@@ -112,7 +126,7 @@ Puzzle ids are part of the key, so don't rename an existing id in `wordlists.jso
 
 ## Adding or editing puzzles
 
-1. Edit `tools/wordlists.json`. Each puzzle has an `id`, `title`, `category`, `difficulty` and a list of `[answer, clue]` pairs. Answers can include spaces or hyphens (e.g. `"ZERO TRUST"`, `"ZERO-DAY"`); the enumeration `(4,5)` / `(4-3)` is worked out automatically.
+1. Edit `tools/wordlists.json`. Each puzzle has an `id`, `title`, `category`, `difficulty` and a list of `[answer, clue]` pairs. A new category gets its own picker tab automatically; add it to `CATEGORY_ORDER` and `CATEGORY_KEYS` in `app.js` to control its position and accent colour. Answers can include spaces or hyphens (e.g. `"ZERO TRUST"`, `"ZERO-DAY"`); the enumeration `(4,5)` / `(4-3)` is worked out automatically.
 2. Run `python3 tools/generate.py` (Python 3.8+, standard library only).
 3. Commit the updated `puzzles.js`.
 

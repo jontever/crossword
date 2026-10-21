@@ -12,7 +12,9 @@
   const MAX_KEY_LENGTH = 50000;
   const MAX_TIME = 100 * 3600; // 100 hours, sanity cap
   const DEFAULT_PUZZLE = "general-mixed";
-  const CATEGORY_ORDER = ["General knowledge", "Cyber security"];
+  const CATEGORY_ORDER = ["General knowledge", "Cyber security", "AI security"];
+  const CATEGORY_KEYS = { "General knowledge": "general", "Cyber security": "cyber", "AI security": "ai" };
+  const catKey = (cat) => CATEGORY_KEYS[cat] || "general";
   const REDUCED_MOTION = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
 
   const $ = (sel) => document.querySelector(sel);
@@ -90,6 +92,8 @@
   };
 
   function gridString(m, s) {
+    // A puzzle solved with no reveals is stored as "=" to keep keys short.
+    if (!s.revealed.size && isSolved(m, s)) return "=";
     let out = "";
     for (let i = 0; i < m.letterCells.length; i++) {
       const ch = s.letters[i];
@@ -163,7 +167,9 @@
       const model = MODELS.get(id);
       const entry = p[id];
       if (!model || !entry || typeof entry !== "object" || typeof entry.g !== "string" || entry.g.length > 4000) { skipped++; continue; }
-      const grid = parseGrid(entry.g, model.letterCells.length);
+      const grid = entry.g === "="
+        ? { letters: model.letterCells.map((gi) => model.cells[gi].ans), revealed: new Set() }
+        : parseGrid(entry.g, model.letterCells.length);
       if (!grid) { skipped++; continue; }
       const t = Number.isInteger(entry.t) && entry.t >= 0 && entry.t <= MAX_TIME ? entry.t : 0;
       out.set(id, { letters: grid.letters, revealed: grid.revealed, wrong: new Set(), time: t });
@@ -221,11 +227,12 @@
     $("#puzzle-title").textContent = current.title;
     const meta = $("#puzzle-meta");
     meta.textContent = "";
-    const cat = el("span", current.category === "Cyber security" ? "cat-cyber" : "cat-general", current.category);
+    const cat = el("span", "cat-" + catKey(current.category), current.category);
     meta.append(cat, document.createTextNode(` · ${current.difficulty} · ${current.rows}×${current.cols}`));
     document.title = `${current.title} · Crossword · cseta.uk`;
     try { history.replaceState(null, "", `#${id}`); } catch (_) { /* file:// etc. */ }
 
+    pickerCat = current.category;
     buildBoard();
     buildClues();
     renderPicker();
@@ -271,6 +278,17 @@
     }
   }
 
+  // Picker: one tab per category, with that category's puzzles underneath.
+  let pickerCat = null;
+
+  function puzzleProgress(p) {
+    const m = MODELS.get(p.id);
+    const s = states.get(p.id);
+    const filled = s ? s.letters.filter(Boolean).length : 0;
+    const solved = !!s && filled === m.letterCells.length && isSolved(m, s);
+    return { pct: Math.round((filled / m.letterCells.length) * 100), solved };
+  }
+
   function renderPicker() {
     const nav = $("#picker");
     nav.textContent = "";
@@ -281,25 +299,44 @@
     }
     const rank = (cat) => { const i = CATEGORY_ORDER.indexOf(cat); return i < 0 ? CATEGORY_ORDER.length : i; };
     const ordered = [...groups].sort((a, b) => rank(a[0]) - rank(b[0]));
+    if (!groups.has(pickerCat)) pickerCat = ordered[0][0];
+
+    const tabs = el("div", "picker-tabs");
+    tabs.setAttribute("role", "tablist");
+    tabs.setAttribute("aria-label", "Puzzle categories");
     for (const [cat, list] of ordered) {
-      const g = el("div", "picker-group");
-      g.append(el("span", "picker-label", cat));
-      for (const p of list) {
-        const m = MODELS.get(p.id);
-        const s = states.get(p.id);
-        const filled = s ? s.letters.filter(Boolean).length : 0;
-        const pct = Math.round((filled / m.letterCells.length) * 100);
-        const solved = s && filled === m.letterCells.length && isSolved(m, s);
-        const b = el("button", "chip" + (solved ? " done" : ""));
-        b.type = "button";
-        b.dataset.id = p.id;
-        b.dataset.cat = cat === "Cyber security" ? "cyber" : "general";
-        if (current && current.id === p.id) b.setAttribute("aria-current", "true");
-        b.append(el("span", "", p.title), el("span", "pct", solved ? "✓" : pct ? `${pct}%` : p.difficulty));
-        g.append(b);
-      }
-      nav.append(g);
+      const done = list.filter((p) => puzzleProgress(p).solved).length;
+      const t = el("button", "picker-tab");
+      t.type = "button";
+      t.setAttribute("role", "tab");
+      t.id = "tab-" + catKey(cat);
+      t.dataset.tab = cat;
+      t.dataset.cat = catKey(cat);
+      t.setAttribute("aria-selected", String(cat === pickerCat));
+      t.setAttribute("aria-controls", "picker-panel");
+      t.tabIndex = cat === pickerCat ? 0 : -1;
+      const short = { "General knowledge": "General", "Cyber security": "Cyber", "AI security": "AI" }[cat] || cat;
+      t.append(el("span", "tab-full", cat), el("span", "tab-short", short), el("span", "count", `${done}/${list.length}`));
+      t.setAttribute("aria-label", `${cat}, ${done} of ${list.length} solved`);
+      t.title = `${done} of ${list.length} solved`;
+      tabs.append(t);
     }
+
+    const panel = el("div", "picker-chips");
+    panel.id = "picker-panel";
+    panel.setAttribute("role", "tabpanel");
+    panel.setAttribute("aria-labelledby", "tab-" + catKey(pickerCat));
+    for (const p of groups.get(pickerCat)) {
+      const { pct, solved } = puzzleProgress(p);
+      const b = el("button", "chip" + (solved ? " done" : ""));
+      b.type = "button";
+      b.dataset.id = p.id;
+      b.dataset.cat = catKey(p.category);
+      if (current && current.id === p.id) b.setAttribute("aria-current", "true");
+      b.append(el("span", "", p.title), el("span", "pct", solved ? "✓" : pct ? `${pct}%` : p.difficulty));
+      panel.append(b);
+    }
+    nav.append(tabs, panel);
   }
 
   function render() {
@@ -648,8 +685,27 @@
   });
 
   $("#picker").addEventListener("click", (ev) => {
+    const tab = ev.target.closest(".picker-tab");
+    if (tab) {
+      pickerCat = tab.dataset.tab;
+      renderPicker();
+      const again = $(`.picker-tab[data-tab="${CSS.escape(pickerCat)}"]`);
+      if (again) again.focus({ preventScroll: true });
+      return;
+    }
     const b = ev.target.closest(".chip");
     if (b && b.dataset.id !== current.id) { saveNow(); openPuzzle(b.dataset.id); }
+  });
+  // Arrow keys move between category tabs (standard tablist behaviour).
+  $("#picker").addEventListener("keydown", (ev) => {
+    const tab = ev.target.closest(".picker-tab");
+    if (!tab || (ev.key !== "ArrowLeft" && ev.key !== "ArrowRight")) return;
+    ev.preventDefault();
+    ev.stopPropagation();
+    const all = [...document.querySelectorAll(".picker-tab")];
+    const i = all.indexOf(tab) + (ev.key === "ArrowRight" ? 1 : -1);
+    const next = all[(i + all.length) % all.length];
+    next.click();
   });
 
   document.addEventListener("keydown", (ev) => {
