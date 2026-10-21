@@ -219,6 +219,25 @@ h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1
 .board.solved .cell.letter.active,
 .board.solved .cell.letter.word { background: var(--cell-solved); }
 
+/* ---------- correct-word ripple and solve wave ---------- */
+.cell.ripple, .cell.wave { z-index: 1; }
+.cell.ripple { animation: cell-ripple 520ms cubic-bezier(.3, .7, .4, 1) var(--fx-delay, 0ms) both; }
+.cell.wave { animation: cell-wave 700ms cubic-bezier(.3, .7, .4, 1) var(--fx-delay, 0ms) both; }
+.cell.ripple .ch, .cell.wave .ch { animation: cell-letter 520ms ease-out var(--fx-delay, 0ms); }
+@keyframes cell-ripple {
+  0%   { transform: scale(1); box-shadow: 0 0 0 1px var(--cell-edge); }
+  35%  { transform: scale(1.22) translateY(-2px); box-shadow: 0 0 0 2px var(--emerald), 0 6px 18px rgba(47, 211, 160, 0.55); }
+  100% { transform: scale(1); box-shadow: 0 0 0 1px var(--cell-edge); }
+}
+@keyframes cell-wave {
+  0%   { transform: scale(1); box-shadow: 0 0 0 1px var(--cell-edge); }
+  40%  { transform: scale(1.16) rotate(-3deg); box-shadow: 0 0 0 2px var(--topaz), 0 6px 18px rgba(255, 196, 87, 0.5); }
+  100% { transform: scale(1); box-shadow: 0 0 0 1px var(--cell-edge); }
+}
+@keyframes cell-letter {
+  35% { color: #0d8a5f; }
+}
+
 /* ---------- banner ---------- */
 .banner {
   margin: 14px auto 0; max-width: 520px; text-align: center; padding: 10px 14px; border-radius: var(--radius);
@@ -436,4 +455,5 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
+  .cell.ripple, .cell.wave, .cell.ripple .ch, .cell.wave .ch { animation: none !important; }
 }

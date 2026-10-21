@@ -11,6 +11,9 @@
   const KEY_PREFIX = "CSX1";
   const MAX_KEY_LENGTH = 50000;
   const MAX_TIME = 100 * 3600; // 100 hours, sanity cap
+  const DEFAULT_PUZZLE = "general-mixed";
+  const CATEGORY_ORDER = ["General knowledge", "Cyber security"];
+  const REDUCED_MOTION = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
 
   const $ = (sel) => document.querySelector(sel);
   const el = (tag, cls, text) => {
@@ -206,7 +209,7 @@
   const banner = $("#banner");
 
   function openPuzzle(id) {
-    if (!MODELS.has(id)) id = PUZZLES[0].id;
+    if (!MODELS.has(id)) id = defaultPuzzleId();
     current = MODELS.get(id);
     S = stateFor(id);
     S.wrong.clear();
@@ -276,7 +279,9 @@
       if (!groups.has(p.category)) groups.set(p.category, []);
       groups.get(p.category).push(p);
     }
-    for (const [cat, list] of groups) {
+    const rank = (cat) => { const i = CATEGORY_ORDER.indexOf(cat); return i < 0 ? CATEGORY_ORDER.length : i; };
+    const ordered = [...groups].sort((a, b) => rank(a[0]) - rank(b[0]));
+    for (const [cat, list] of ordered) {
       const g = el("div", "picker-group");
       g.append(el("span", "picker-label", cat));
       for (const p of list) {
@@ -417,6 +422,9 @@
     const c = cellAt(pos);
     if (!c) return;
     startClock();
+    // Words through this square that weren't already correct, so we only
+    // celebrate the keystroke that completes one.
+    const through = entriesThrough(pos).filter((en) => !entryCorrect(en));
     if (!S.revealed.has(c.li)) {
       S.letters[c.li] = ch;
       S.wrong.delete(c.li);
@@ -427,7 +435,54 @@
       if (k < e.cells.length - 1) pos = e.cells[k + 1];
     }
     afterEdit();
+    if (solvedLocked()) wave();
+    else through.filter(entryCorrect).forEach(ripple);
   }
+
+  /* ------------------------------------------------------------------ *
+   * Celebrations
+   * ------------------------------------------------------------------ */
+
+  function entriesThrough(gi) {
+    const c = cellAt(gi);
+    if (!c) return [];
+    return ["across", "down"].filter((d) => c[d] !== null).map((d) => current.entries[c[d]]);
+  }
+
+  function entryCorrect(en) {
+    return en.cells.every((gi) => S.letters[cellAt(gi).li] === cellAt(gi).ans);
+  }
+
+  function animateCell(gi, cls, delayMs) {
+    const d = cellEls[gi];
+    if (!d) return;
+    d.classList.remove("ripple", "wave");
+    void d.offsetWidth; // restart the animation if it's already running
+    d.style.setProperty("--fx-delay", `${delayMs}ms`);
+    d.classList.add(cls);
+  }
+
+  // A pulse that travels along the word, first letter to last.
+  function ripple(en) {
+    if (REDUCED_MOTION && REDUCED_MOTION.matches) return;
+    en.cells.forEach((gi, k) => animateCell(gi, "ripple", k * 60));
+  }
+
+  // On a solve, a wave rolls diagonally across the whole grid.
+  function wave() {
+    if (REDUCED_MOTION && REDUCED_MOTION.matches) return;
+    current.letterCells.forEach((gi) => {
+      const c = cellAt(gi);
+      animateCell(gi, "wave", (c.r + c.c) * 35);
+    });
+  }
+
+  board.addEventListener("animationend", (ev) => {
+    const d = ev.target;
+    if (d.classList && (ev.animationName === "cell-ripple" || ev.animationName === "cell-wave")) {
+      d.classList.remove("ripple", "wave");
+    }
+  });
 
   function backspace() {
     if (solvedLocked()) return;
@@ -755,6 +810,12 @@
    * Boot
    * ------------------------------------------------------------------ */
 
+  function defaultPuzzleId() {
+    if (MODELS.has(DEFAULT_PUZZLE)) return DEFAULT_PUZZLE;
+    const general = PUZZLES.find((p) => p.category === CATEGORY_ORDER[0]);
+    return (general || PUZZLES[0]).id;
+  }
+
   if (!PUZZLES.length) {
     $("#puzzle-title").textContent = "No puzzles found";
     return;
@@ -765,7 +826,7 @@
   for (const s of states.values()) if (s.time > 0) s.started = true;
 
   const fromHash = decodeURIComponent(location.hash.slice(1));
-  openPuzzle(MODELS.has(fromHash) ? fromHash : local ? local.active : PUZZLES[0].id);
+  openPuzzle(MODELS.has(fromHash) ? fromHash : local ? local.active : defaultPuzzleId());
 
   window.addEventListener("hashchange", () => {
     const id = decodeURIComponent(location.hash.slice(1));
