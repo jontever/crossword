@@ -265,6 +265,12 @@ h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1
 }
 .banner.win { border-color: var(--emerald); color: var(--emerald); }
 .banner.warn { border-color: var(--topaz); color: var(--topaz); }
+.banner-actions { display: flex; justify-content: center; margin-top: 8px; }
+.banner-next { border-color: var(--emerald); color: var(--text); }
+.banner-next:hover { background: var(--emerald); border-color: var(--emerald); color: var(--bg); }
+.all-done { font-weight: 600; }
+/* The grid is locked once solved, so the on-screen keyboard steps aside. */
+.play:has(.board.solved) .keyboard { display: none; }
 
 /* ---------- clues ---------- */
 .clues {

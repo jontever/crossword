@@ -573,6 +573,41 @@
       (reveals ? ` with ${reveals} revealed letter${reveals === 1 ? "" : "s"}.` : ", no reveals. Nicely done.");
     showBanner(msg, "win");
     renderPicker();
+
+    const next = nextUnsolved();
+    const actions = el("span", "banner-actions");
+    if (next) {
+      const btn = el("button", "btn banner-next", "Next puzzle \u2192");
+      btn.type = "button";
+      btn.dataset.next = next.id;
+      btn.setAttribute("aria-label", `Next puzzle: ${next.title} (${next.category})`);
+      btn.title = `${next.title} · ${next.category}`;
+      actions.append(btn);
+      banner.append(actions);
+      // After a fresh solve, put focus on the button so Enter moves on.
+      if (fresh) {
+        btn.focus({ preventScroll: true });
+        banner.scrollIntoView({ block: "nearest", behavior: REDUCED_MOTION && REDUCED_MOTION.matches ? "auto" : "smooth" });
+      }
+    } else {
+      actions.append(el("span", "all-done", "You've solved every puzzle!"));
+      banner.append(actions);
+    }
+  }
+
+  // Next unsolved puzzle: later ones in this category, then earlier ones in
+  // this category, then the following categories in picker order.
+  function nextUnsolved() {
+    const rank = (cat) => { const i = CATEGORY_ORDER.indexOf(cat); return i < 0 ? CATEGORY_ORDER.length : i; };
+    const ordered = PUZZLES.map((p, i) => ({ p, i }))
+      .sort((a, b) => rank(a.p.category) - rank(b.p.category) || a.i - b.i)
+      .map((x) => x.p);
+    const here = ordered.findIndex((p) => p.id === current.id);
+    const same = ordered.filter((p) => p.category === current.category);
+    const k = same.findIndex((p) => p.id === current.id);
+    const sameCat = [...same.slice(k + 1), ...same.slice(0, k)];
+    const others = [...ordered.slice(here + 1), ...ordered.slice(0, here)].filter((p) => p.category !== current.category);
+    return [...sameCat, ...others].find((p) => !puzzleProgress(p).solved) || null;
   }
 
   function cellsFor(scope) {
@@ -713,7 +748,7 @@
     const t = ev.target;
     if (t && (t.tagName === "TEXTAREA" || t.tagName === "INPUT")) return;
     if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
-    if (t && t.closest && t.closest(".clues, .picker, .menu, .top") && (ev.key === "Enter" || ev.key === " " || ev.key === "Tab")) return;
+    if (t && t.closest && t.closest(".clues, .picker, .menu, .top, .banner") && (ev.key === "Enter" || ev.key === " " || ev.key === "Tab")) return;
 
     const k = ev.key;
     if (k === "Escape") { closeMenus(); return; }
@@ -750,6 +785,15 @@
       return;
     }
     if (!ev.target.closest(".menu")) closeMenus();
+
+    const nextBtn = ev.target.closest("[data-next]");
+    if (nextBtn) {
+      saveNow();
+      openPuzzle(nextBtn.dataset.next);
+      board.focus({ preventScroll: true });
+      board.scrollIntoView({ block: "nearest" });
+      return;
+    }
 
     const act = ev.target.closest("[data-action]");
     if (!act) return;
@@ -853,7 +897,11 @@
     openPuzzle(res.active);
     saveNow();
     const n = res.states.size;
-    showBanner(`Restored ${n} puzzle${n === 1 ? "" : "s"}${res.skipped ? ` (${res.skipped} skipped)` : ""}.`);
+    const note = `Restored ${n} puzzle${n === 1 ? "" : "s"}${res.skipped ? ` (${res.skipped} skipped)` : ""}.`;
+    // Don't overwrite the solved message (and its Next button) if the
+    // restored puzzle is already complete; add the note to it instead.
+    if (solvedLocked()) banner.prepend(document.createTextNode(note + " "));
+    else showBanner(note);
   });
   $("#restore-key").addEventListener("keydown", (ev) => {
     if (ev.key === "Enter" && !ev.shiftKey) { ev.preventDefault(); $("#btn-do-restore").click(); }
