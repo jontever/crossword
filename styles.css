@@ -203,7 +203,7 @@ button { font: inherit; color: inherit; }
 /* ---------- layout ---------- */
 .layout {
   max-width: 1200px; margin: 0 auto; padding: 6px 16px 24px;
-  display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(280px, 1fr); gap: 24px; align-items: start;
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 340px); gap: 24px; align-items: start;
 }
 .play { min-width: 0; }
 
@@ -233,6 +233,8 @@ h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1
 /* ---------- clue bar ---------- */
 .clue-bar {
   display: flex; align-items: center; gap: 8px; margin-bottom: 12px;
+  position: sticky; top: 0; z-index: 3;
+  box-shadow: 0 6px 16px -10px var(--shadow);
   background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--primary);
   border-radius: var(--radius); padding: 8px 8px; min-height: 54px;
 }
@@ -253,7 +255,7 @@ h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1
 .board {
   --cols: 15; --rows: 15;
   container-type: inline-size;
-  width: min(100%, calc(var(--cols) * 44px), calc((100svh - 330px) * var(--cols) / var(--rows)));
+  width: min(100%, calc(var(--cols) * 52px), calc((100svh - 104px) * var(--cols) / var(--rows)));
   min-width: min(100%, 300px);
   display: grid;
   grid-template-columns: repeat(var(--cols), 1fr);
@@ -340,12 +342,12 @@ h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1
 
 /* ---------- clues ---------- */
 .clues {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+  display: grid; grid-template-columns: 1fr; gap: 12px;
   position: sticky; top: 12px;
 }
 .clue-col {
   background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: 12px 6px 8px 12px; max-height: calc(100svh - 140px); overflow-y: auto; scrollbar-width: thin;
+  padding: 12px 6px 8px 12px; max-height: calc((100svh - 36px) / 2); overflow-y: auto; scrollbar-width: thin;
 }
 .clue-col h2 {
   font-family: var(--mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em;
@@ -523,9 +525,10 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 /* ---------- responsive ---------- */
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; }
-  .clues { position: static; }
+  .clues { position: static; grid-template-columns: 1fr 1fr; }
   .clue-col { max-height: 320px; }
   .board { width: min(100%, calc(var(--cols) * 44px)); }
+  .clue-bar { position: static; box-shadow: none; }
 }
 @media (max-width: 560px) {
   .top { padding-top: 10px; }

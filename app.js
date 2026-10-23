@@ -491,6 +491,7 @@
     if (solvedLocked()) return;
     const c = cellAt(pos);
     if (!c) return;
+    ensureBoardVisible();
     startClock();
     // Words through this square that weren't already correct, so we only
     // celebrate the keystroke that completes one.
@@ -730,6 +731,18 @@
    * Events
    * ------------------------------------------------------------------ */
 
+  // On laptops and desktops, bring the whole grid into view (with the sticky
+  // clue bar above it) when play starts, so it can use the full screen height.
+  const FINE_WIDE = window.matchMedia ? window.matchMedia("(pointer: fine) and (min-width: 901px)") : null;
+  function ensureBoardVisible() {
+    if (!FINE_WIDE || !FINE_WIDE.matches) return;
+    const r = board.getBoundingClientRect();
+    if (r.top >= 0 && r.bottom <= window.innerHeight) return;
+    const bar = $("#clue-bar");
+    const top = window.scrollY + r.top - bar.offsetHeight - 20;
+    window.scrollTo({ top: Math.max(0, top), behavior: REDUCED_MOTION && REDUCED_MOTION.matches ? "auto" : "smooth" });
+  }
+
   board.addEventListener("click", (ev) => {
     const d = ev.target.closest(".cell.letter");
     if (!d) return;
@@ -737,6 +750,7 @@
     if (gi === pos) toggleDir();
     else select(gi);
     board.focus({ preventScroll: true });
+    ensureBoardVisible();
   });
 
   $("#clues-across").parentElement.parentElement.addEventListener("click", (ev) => {
