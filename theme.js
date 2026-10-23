@@ -83,6 +83,11 @@
       label: "Cats", id: "photo-1514888286974-6c03e2ca1dba", pos: "center 40%", crop: "entropy",
       author: "Manja Vitolic", profile: "https://unsplash.com/@madhatterzone",
       photo: "https://unsplash.com/photos/black-and-white-cat-lying-on-brown-bamboo-chair-inside-room-gKXKBY-C-Dk"
+    },
+    dogs: {
+      label: "Dogs", id: "photo-1621266778264-2122ca94a05c", pos: "center 40%", crop: "entropy",
+      author: "Helena Lopes", profile: "https://unsplash.com/@helenalopesph",
+      photo: "https://unsplash.com/photos/golden-retriever-sitting-on-ground-during-daytime-jt77duEXQvg"
     }
   };
   var PHOTO_KEYS = Object.keys(PHOTOS);

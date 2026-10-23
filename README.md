@@ -1,10 +1,10 @@
 # Crossword · cseta.uk
 
-A static, dependency-free crossword app with 39 puzzles in six categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
+A static, dependency-free crossword app with 44 puzzles in six categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
 
 | Category | Puzzles |
 | --- | --- |
-| General knowledge (11) | Mixed Bag · Easy, Food & Drink · Easy, Everyday Things, Best of British, Science & Nature, Around the World, Sporting Life, Screen & Sound · Medium, History Lessons · Hard, **Polymath · Expert**, **Cryptic Mix · Cryptic** |
+| General knowledge (16) | Mixed Bag · Easy, Food & Drink · Easy, Everyday Things, Best of British, Science & Nature, Around the World, Sporting Life, Screen & Sound · Medium, History Lessons · Hard, **Polymath · Expert**, **Cryptic Mix · Cryptic**, and five large Expert puzzles with 20–22 clues: **Arts & Letters**, **Science & Discovery**, **Around the Globe**, **Myths & Legends**, **Turning Points** |
 | Cyber security (5) | Foundations · Easy, Threats & Response · Medium, Architecture & Frameworks · Hard, **Deep Defence · Expert**, **Cryptic Cyber · Cryptic** |
 | AI security (8) | Machine Learning Basics · Easy, AI Threats, Large Language Models, Defending AI · Medium, Agentic AI, AI Governance · Hard, **Under the Hood · Expert**, **Cryptic AI · Cryptic** |
 | Economics (5) | Money Matters · Easy, Markets & Trade · Medium, The Big Picture · Hard, **The Dismal Science · Expert**, **Cryptic Economics · Cryptic** |
@@ -18,7 +18,7 @@ First-time visitors start on Mixed Bag. The picker has a tab per category, and a
 - No build step, no npm packages, no backend, no cookies, no analytics
 - Keyboard and touch play (an on-screen keyboard appears on touch devices)
 - Check and reveal by letter, word or whole puzzle, with a timer
-- Appearance menu: Emerald (default), Midnight, Daylight, Amethyst, High contrast or Match system, plus an optional photo background from Unsplash (11 scenes, or Cycle all) — remembered per browser
+- Appearance menu: Emerald (default), Midnight, Daylight, Amethyst, High contrast or Match system, plus an optional photo background from Unsplash (12 scenes, or Cycle all) — remembered per browser
 - Progress autosaves in the browser and can be exported as a **base64 progress key** to restore on any device
 - Strict security headers (CSP, HSTS, frame-ancestors, etc.) set in `vercel.json`
 
@@ -87,7 +87,7 @@ The half-circle button in the header opens the appearance menu.
 
 **Theme.** Emerald is the default. **Match system** follows the device's light/dark setting (and picks High contrast if the OS asks for more contrast). Stored in `localStorage` under `cseta-crossword:theme`.
 
-**Background.** None (default), Cycle all, or one of 11 photos: Forest, Mountains, Waterfall, Ocean, Sunrise, Sunset, Space, Wildlife, Safari, Horses, Cats. Stored under `cseta-crossword:bg`. The photo sits on a fixed layer behind the page and is tinted with the current theme's `--overlay` colour so text stays readable. Phones get a portrait crop (focused on the animal for the animal photos).
+**Background.** None (default), Cycle all, or one of 12 photos: Forest, Mountains, Waterfall, Ocean, Sunrise, Sunset, Space, Wildlife, Safari, Horses, Cats, Dogs. Stored under `cseta-crossword:bg`. The photo sits on a fixed layer behind the page and is tinted with the current theme's `--overlay` colour so text stays readable. Phones get a portrait crop (focused on the animal for the animal photos).
 
 **Cycle all** shows a different photo each time you open the app and moves to the next one every 5 minutes while it's open, with a slow crossfade (an instant swap if the device asks for reduced motion). The position in the cycle is kept under `cseta-crossword:bg-cycle`.
 
@@ -112,6 +112,7 @@ Photos are free to use under the [Unsplash License](https://unsplash.com/license
 | Safari | [Two elephants walking on grass covered ground](https://unsplash.com/photos/two-elephants-walking-on-grass-covered-ground-BuQ1RZckYW4) | [AJ Robsin](https://unsplash.com/@ajrobsin) |
 | Horses | [Brown and white horses on a green field](https://unsplash.com/photos/brown-and-white-horses-on-green-grass-field-under-blue-and-white-cloudy-sky-during-daytime-Qh044RQX2oU) | [Heyzeus Escribo](https://unsplash.com/@pqcrtivephoto) |
 | Cats | [Black and white cat lying on a bamboo chair](https://unsplash.com/photos/black-and-white-cat-lying-on-brown-bamboo-chair-inside-room-gKXKBY-C-Dk) | [Manja Vitolic](https://unsplash.com/@madhatterzone) |
+| Dogs | [Golden retriever sitting on the ground](https://unsplash.com/photos/golden-retriever-sitting-on-ground-during-daytime-jt77duEXQvg) | [Helena Lopes](https://unsplash.com/@helenalopesph) |
 
 The browser only contacts Unsplash once someone picks a background; with None (the default) the site makes no third-party image requests. The CSP allows `img-src https://images.unsplash.com` for this. To self-host instead, download the images into `backgrounds/`, change `photoUrl()` in `theme.js` to return `/backgrounds/...` and remove `https://images.unsplash.com` from the CSP in `vercel.json`.
 

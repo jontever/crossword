@@ -2650,5 +2650,465 @@
         "Double definition: to ponder, and a source of inspiration."
       ]
     ]
+  },
+  {
+    "id": "general-arts",
+    "title": "Arts & Letters",
+    "category": "General knowledge",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "REMBRANDT",
+        "Dutch master who painted The Night Watch"
+      ],
+      [
+        "BEETHOVEN",
+        "Composer who kept writing symphonies after losing his hearing"
+      ],
+      [
+        "LIMERICK",
+        "Five-line comic verse with an AABBA rhyme"
+      ],
+      [
+        "DICKENS",
+        "Creator of Pip, Fagin and Ebenezer Scrooge"
+      ],
+      [
+        "TOLSTOY",
+        "Russian author of War and Peace"
+      ],
+      [
+        "VERMEER",
+        "Painter of Girl with a Pearl Earring"
+      ],
+      [
+        "PICASSO",
+        "Painter of Guernica"
+      ],
+      [
+        "CHAUCER",
+        "Author of The Canterbury Tales"
+      ],
+      [
+        "ODYSSEY",
+        "Homer's epic of a ten-year journey home"
+      ],
+      [
+        "ORWELL",
+        "Author of Nineteen Eighty-Four and Animal Farm"
+      ],
+      [
+        "AUSTEN",
+        "Novelist who created Elizabeth Bennet and Mr Darcy"
+      ],
+      [
+        "BRONTE",
+        "Surname shared by Charlotte, Emily and Anne"
+      ],
+      [
+        "MOZART",
+        "Composer of The Magic Flute"
+      ],
+      [
+        "HANDEL",
+        "Composer of Messiah"
+      ],
+      [
+        "SONNET",
+        "Fourteen-line poem, as written by Petrarch"
+      ],
+      [
+        "MILTON",
+        "Poet of Paradise Lost"
+      ],
+      [
+        "TURNER",
+        "British painter of light and sea; also a prize for contemporary art"
+      ],
+      [
+        "HOMER",
+        "Epic poet of the Iliad"
+      ],
+      [
+        "DANTE",
+        "Poet guided through Hell by Virgil"
+      ],
+      [
+        "MONET",
+        "Impressionist of the water lilies at Giverny"
+      ],
+      [
+        "VERDI",
+        "Composer of Aida and La Traviata"
+      ],
+      [
+        "KAFKA",
+        "Author of The Metamorphosis"
+      ]
+    ]
+  },
+  {
+    "id": "general-discovery",
+    "title": "Science & Discovery",
+    "category": "General knowledge",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "MENDELEEV",
+        "Chemist who arranged the first widely recognised periodic table"
+      ],
+      [
+        "EINSTEIN",
+        "Physicist behind special and general relativity"
+      ],
+      [
+        "GALILEO",
+        "Astronomer who observed Jupiter's moons in 1610"
+      ],
+      [
+        "FLEMING",
+        "Scientist who noticed penicillin killing bacteria in 1928"
+      ],
+      [
+        "PASTEUR",
+        "Pioneer of germ theory and of heat treatment for milk"
+      ],
+      [
+        "FARADAY",
+        "Pioneer of electromagnetic induction"
+      ],
+      [
+        "ENTROPY",
+        "Measure of disorder that never decreases in an isolated system"
+      ],
+      [
+        "ISOTOPE",
+        "Form of an element with a different number of neutrons"
+      ],
+      [
+        "NEWTON",
+        "Author of the Principia and the laws of motion"
+      ],
+      [
+        "DARWIN",
+        "Naturalist who sailed on HMS Beagle"
+      ],
+      [
+        "HUBBLE",
+        "Astronomer who showed galaxies are moving apart; also a telescope"
+      ],
+      [
+        "HELIUM",
+        "Second element in the periodic table"
+      ],
+      [
+        "PHOTON",
+        "Particle of light"
+      ],
+      [
+        "PULSAR",
+        "Spinning neutron star that sweeps out beams like a lighthouse"
+      ],
+      [
+        "ENZYME",
+        "Protein that speeds up a chemical reaction in the body"
+      ],
+      [
+        "GENOME",
+        "An organism's complete set of DNA"
+      ],
+      [
+        "NEBULA",
+        "Cloud of gas and dust where stars are born"
+      ],
+      [
+        "CURIE",
+        "First person to win Nobel Prizes in two different sciences"
+      ],
+      [
+        "QUARK",
+        "Fundamental particle that makes up protons and neutrons"
+      ],
+      [
+        "HOOKE",
+        "Scientist who coined the word 'cell' in Micrographia"
+      ],
+      [
+        "TESLA",
+        "SI unit of magnetic flux density, named after an inventor"
+      ]
+    ]
+  },
+  {
+    "id": "general-globe",
+    "title": "Around the Globe",
+    "category": "General knowledge",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "ULAANBAATAR",
+        "Capital of Mongolia"
+      ],
+      [
+        "KILIMANJARO",
+        "Africa's highest mountain"
+      ],
+      [
+        "REYKJAVIK",
+        "World's most northerly national capital"
+      ],
+      [
+        "ACONCAGUA",
+        "Highest mountain in the Americas"
+      ],
+      [
+        "PATAGONIA",
+        "Region at the southern tip of South America, shared by Argentina and Chile"
+      ],
+      [
+        "BOSPORUS",
+        "Strait that divides Istanbul between Europe and Asia"
+      ],
+      [
+        "TASMANIA",
+        "Island state south of mainland Australia"
+      ],
+      [
+        "MALDIVES",
+        "Asia's smallest country, made up of coral atolls"
+      ],
+      [
+        "NAIROBI",
+        "Capital of Kenya"
+      ],
+      [
+        "ATACAMA",
+        "Chilean desert, one of the driest places on Earth"
+      ],
+      [
+        "ZAMBEZI",
+        "River that plunges over Victoria Falls"
+      ],
+      [
+        "DANUBE",
+        "River flowing through Vienna, Budapest and Belgrade"
+      ],
+      [
+        "MEKONG",
+        "River that flows through Laos, Cambodia and Vietnam"
+      ],
+      [
+        "OTTAWA",
+        "Capital of Canada"
+      ],
+      [
+        "ASTANA",
+        "Capital of Kazakhstan"
+      ],
+      [
+        "BHUTAN",
+        "Himalayan kingdom that measures Gross National Happiness"
+      ],
+      [
+        "HANOI",
+        "Capital of Vietnam"
+      ],
+      [
+        "VOLGA",
+        "Europe's longest river"
+      ],
+      [
+        "GOBI",
+        "Desert spanning southern Mongolia and northern China"
+      ],
+      [
+        "LIMA",
+        "Capital of Peru"
+      ]
+    ]
+  },
+  {
+    "id": "general-myths",
+    "title": "Myths & Legends",
+    "category": "General knowledge",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "ARGONAUTS",
+        "Jason's crew in search of the Golden Fleece"
+      ],
+      [
+        "MINOTAUR",
+        "Bull-headed monster of the Cretan labyrinth"
+      ],
+      [
+        "VALHALLA",
+        "Hall where Odin receives warriors slain in battle"
+      ],
+      [
+        "HERCULES",
+        "Roman name for the hero of the twelve labours"
+      ],
+      [
+        "POSEIDON",
+        "Greek god of the sea"
+      ],
+      [
+        "CERBERUS",
+        "Three-headed dog guarding the underworld"
+      ],
+      [
+        "ACHILLES",
+        "Greek hero whose heel was his only weak spot"
+      ],
+      [
+        "CAMELOT",
+        "Seat of King Arthur's court"
+      ],
+      [
+        "CENTAUR",
+        "Half-human, half-horse creature"
+      ],
+      [
+        "PEGASUS",
+        "Winged horse of Greek myth"
+      ],
+      [
+        "OLYMPUS",
+        "Mountain home of the Greek gods"
+      ],
+      [
+        "PANDORA",
+        "She opened the jar that let the world's evils loose"
+      ],
+      [
+        "SPHINX",
+        "Creature whose riddle Oedipus solved"
+      ],
+      [
+        "ANUBIS",
+        "Jackal-headed Egyptian god of the dead"
+      ],
+      [
+        "MEDUSA",
+        "Gorgon whose gaze turned people to stone"
+      ],
+      [
+        "ICARUS",
+        "He flew too close to the Sun on wings of wax"
+      ],
+      [
+        "MERLIN",
+        "Wizard and adviser at Arthur's court"
+      ],
+      [
+        "MIDAS",
+        "King whose touch turned everything to gold"
+      ],
+      [
+        "ZEUS",
+        "King of the Olympian gods"
+      ],
+      [
+        "THOR",
+        "Norse god who wields the hammer Mjolnir"
+      ],
+      [
+        "ODIN",
+        "One-eyed chief of the Norse gods"
+      ],
+      [
+        "LOKI",
+        "Shape-shifting Norse trickster god"
+      ]
+    ]
+  },
+  {
+    "id": "general-turning",
+    "title": "Turning Points",
+    "category": "General knowledge",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "ARMSTRONG",
+        "First person to walk on the Moon"
+      ],
+      [
+        "CHURCHILL",
+        "Wartime leader who offered 'blood, toil, tears and sweat'"
+      ],
+      [
+        "PARTHENON",
+        "Temple to Athena on the Acropolis"
+      ],
+      [
+        "MAGELLAN",
+        "Leader of the first expedition to sail round the world, though he died on the way"
+      ],
+      [
+        "AMUNDSEN",
+        "First to reach the South Pole, in December 1911"
+      ],
+      [
+        "CONCORDE",
+        "Supersonic airliner retired in 2003"
+      ],
+      [
+        "HILLARY",
+        "He reached the summit of Everest with Tenzing Norgay in 1953"
+      ],
+      [
+        "GAGARIN",
+        "First human in space, in 1961"
+      ],
+      [
+        "SPUTNIK",
+        "First artificial satellite, launched in 1957"
+      ],
+      [
+        "TITANIC",
+        "Liner that sank on its maiden voyage in 1912"
+      ],
+      [
+        "ROSETTA",
+        "___ Stone: key to reading Egyptian hieroglyphs"
+      ],
+      [
+        "POMPEII",
+        "Roman town buried by Vesuvius in AD 79"
+      ],
+      [
+        "APOLLO",
+        "NASA programme that landed people on the Moon"
+      ],
+      [
+        "ENIGMA",
+        "German cipher machine broken by the codebreakers"
+      ],
+      [
+        "BERLIN",
+        "City divided by a wall from 1961 to 1989"
+      ],
+      [
+        "ANGKOR",
+        "___ Wat: vast temple complex in Cambodia"
+      ],
+      [
+        "PETRA",
+        "Rose-red city carved into rock in Jordan"
+      ],
+      [
+        "SCOTT",
+        "Explorer who reached the South Pole weeks after Amundsen"
+      ],
+      [
+        "COOK",
+        "Captain who charted New Zealand and Australia's east coast"
+      ],
+      [
+        "INCA",
+        "Empire that built the citadel of Machu Picchu"
+      ]
+    ]
   }
 ]

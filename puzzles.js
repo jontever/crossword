@@ -5564,5 +5564,1000 @@ window.PUZZLES = [
     "explain": "Anagram ('perversely') of AM GOD. Definition: a fixed doctrine."
    }
   ]
+ },
+ {
+  "id": "general-arts",
+  "title": "Arts & Letters",
+  "category": "General knowledge",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 0,
+    "col": 3,
+    "answer": "VERMEER",
+    "clue": "Painter of Girl with a Pearl Earring",
+    "enum": "(7)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 2,
+    "col": 6,
+    "answer": "LIMERICK",
+    "clue": "Five-line comic verse with an AABBA rhyme",
+    "enum": "(8)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 0,
+    "answer": "PICASSO",
+    "clue": "Painter of Guernica",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 4,
+    "col": 8,
+    "answer": "KAFKA",
+    "clue": "Author of The Metamorphosis",
+    "enum": "(5)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 6,
+    "col": 9,
+    "answer": "HANDEL",
+    "clue": "Composer of Messiah",
+    "enum": "(6)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 8,
+    "col": 0,
+    "answer": "DANTE",
+    "clue": "Poet guided through Hell by Virgil",
+    "enum": "(5)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 9,
+    "col": 4,
+    "answer": "TOLSTOY",
+    "clue": "Russian author of War and Peace",
+    "enum": "(7)"
+   },
+   {
+    "num": 16,
+    "dir": "across",
+    "row": 11,
+    "col": 5,
+    "answer": "BEETHOVEN",
+    "clue": "Composer who kept writing symphonies after losing his hearing",
+    "enum": "(9)"
+   },
+   {
+    "num": 18,
+    "dir": "across",
+    "row": 13,
+    "col": 10,
+    "answer": "AUSTEN",
+    "clue": "Novelist who created Elizabeth Bennet and Mr Darcy",
+    "enum": "(6)"
+   },
+   {
+    "num": 19,
+    "dir": "across",
+    "row": 14,
+    "col": 3,
+    "answer": "MONET",
+    "clue": "Impressionist of the water lilies at Giverny",
+    "enum": "(5)"
+   },
+   {
+    "num": 20,
+    "dir": "across",
+    "row": 15,
+    "col": 11,
+    "answer": "MOZART",
+    "clue": "Composer of The Magic Flute",
+    "enum": "(6)"
+   },
+   {
+    "num": 21,
+    "dir": "across",
+    "row": 16,
+    "col": 2,
+    "answer": "ORWELL",
+    "clue": "Author of Nineteen Eighty-Four and Animal Farm",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "VERDI",
+    "clue": "Composer of Aida and La Traviata",
+    "enum": "(5)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "MILTON",
+    "clue": "Poet of Paradise Lost",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 1,
+    "col": 11,
+    "answer": "DICKENS",
+    "clue": "Creator of Pip, Fagin and Ebenezer Scrooge",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 4,
+    "answer": "SONNET",
+    "clue": "Fourteen-line poem, as written by Petrarch",
+    "enum": "(6)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 5,
+    "col": 13,
+    "answer": "REMBRANDT",
+    "clue": "Dutch master who painted The Night Watch",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 1,
+    "answer": "CHAUCER",
+    "clue": "Author of The Canterbury Tales",
+    "enum": "(7)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 6,
+    "col": 7,
+    "answer": "ODYSSEY",
+    "clue": "Homer's epic of a ten-year journey home",
+    "enum": "(7)"
+   },
+   {
+    "num": 15,
+    "dir": "down",
+    "row": 10,
+    "col": 15,
+    "answer": "TURNER",
+    "clue": "British painter of light and sea; also a prize for contemporary art",
+    "enum": "(6)"
+   },
+   {
+    "num": 16,
+    "dir": "down",
+    "row": 11,
+    "col": 5,
+    "answer": "BRONTE",
+    "clue": "Surname shared by Charlotte, Emily and Anne",
+    "enum": "(6)"
+   },
+   {
+    "num": 17,
+    "dir": "down",
+    "row": 12,
+    "col": 3,
+    "answer": "HOMER",
+    "clue": "Epic poet of the Iliad",
+    "enum": "(5)"
+   }
+  ]
+ },
+ {
+  "id": "general-discovery",
+  "title": "Science & Discovery",
+  "category": "General knowledge",
+  "difficulty": "Expert",
+  "rows": 15,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 1,
+    "col": 10,
+    "answer": "NEBULA",
+    "clue": "Cloud of gas and dust where stars are born",
+    "enum": "(6)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 3,
+    "col": 5,
+    "answer": "HELIUM",
+    "clue": "Second element in the periodic table",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 5,
+    "col": 8,
+    "answer": "EINSTEIN",
+    "clue": "Physicist behind special and general relativity",
+    "enum": "(8)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 3,
+    "answer": "HOOKE",
+    "clue": "Scientist who coined the word 'cell' in Micrographia",
+    "enum": "(5)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 7,
+    "col": 8,
+    "answer": "FLEMING",
+    "clue": "Scientist who noticed penicillin killing bacteria in 1928",
+    "enum": "(7)"
+   },
+   {
+    "num": 16,
+    "dir": "across",
+    "row": 9,
+    "col": 6,
+    "answer": "CURIE",
+    "clue": "First person to win Nobel Prizes in two different sciences",
+    "enum": "(5)"
+   },
+   {
+    "num": 18,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "PASTEUR",
+    "clue": "Pioneer of germ theory and of heat treatment for milk",
+    "enum": "(7)"
+   },
+   {
+    "num": 19,
+    "dir": "across",
+    "row": 13,
+    "col": 2,
+    "answer": "ENTROPY",
+    "clue": "Measure of disorder that never decreases in an isolated system",
+    "enum": "(7)"
+   },
+   {
+    "num": 20,
+    "dir": "across",
+    "row": 13,
+    "col": 11,
+    "answer": "GENOME",
+    "clue": "An organism's complete set of DNA",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 7,
+    "answer": "TESLA",
+    "clue": "SI unit of magnetic flux density, named after an inventor",
+    "enum": "(5)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 13,
+    "answer": "HUBBLE",
+    "clue": "Astronomer who showed galaxies are moving apart; also a telescope",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 15,
+    "answer": "DARWIN",
+    "clue": "Naturalist who sailed on HMS Beagle",
+    "enum": "(6)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 5,
+    "answer": "PHOTON",
+    "clue": "Particle of light",
+    "enum": "(6)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 3,
+    "col": 10,
+    "answer": "MENDELEEV",
+    "clue": "Chemist who arranged the first widely recognised periodic table",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 1,
+    "answer": "PULSAR",
+    "clue": "Spinning neutron star that sweeps out beams like a lighthouse",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 7,
+    "col": 8,
+    "answer": "FARADAY",
+    "clue": "Pioneer of electromagnetic induction",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 7,
+    "col": 12,
+    "answer": "ISOTOPE",
+    "clue": "Form of an element with a different number of neutrons",
+    "enum": "(7)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 7,
+    "col": 14,
+    "answer": "GALILEO",
+    "clue": "Astronomer who observed Jupiter's moons in 1610",
+    "enum": "(7)"
+   },
+   {
+    "num": 14,
+    "dir": "down",
+    "row": 8,
+    "col": 3,
+    "answer": "NEWTON",
+    "clue": "Author of the Principia and the laws of motion",
+    "enum": "(6)"
+   },
+   {
+    "num": 15,
+    "dir": "down",
+    "row": 8,
+    "col": 16,
+    "answer": "ENZYME",
+    "clue": "Protein that speeds up a chemical reaction in the body",
+    "enum": "(6)"
+   },
+   {
+    "num": 17,
+    "dir": "down",
+    "row": 10,
+    "col": 5,
+    "answer": "QUARK",
+    "clue": "Fundamental particle that makes up protons and neutrons",
+    "enum": "(5)"
+   }
+  ]
+ },
+ {
+  "id": "general-globe",
+  "title": "Around the Globe",
+  "category": "General knowledge",
+  "difficulty": "Expert",
+  "rows": 16,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 2,
+    "answer": "REYKJAVIK",
+    "clue": "World's most northerly national capital",
+    "enum": "(9)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 1,
+    "col": 12,
+    "answer": "VOLGA",
+    "clue": "Europe's longest river",
+    "enum": "(5)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 4,
+    "col": 1,
+    "answer": "HANOI",
+    "clue": "Capital of Vietnam",
+    "enum": "(5)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 4,
+    "col": 9,
+    "answer": "TASMANIA",
+    "clue": "Island state south of mainland Australia",
+    "enum": "(8)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 6,
+    "col": 5,
+    "answer": "ACONCAGUA",
+    "clue": "Highest mountain in the Americas",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 9,
+    "col": 3,
+    "answer": "ULAANBAATAR",
+    "clue": "Capital of Mongolia",
+    "enum": "(11)"
+   },
+   {
+    "num": 17,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "PATAGONIA",
+    "clue": "Region at the southern tip of South America, shared by Argentina and Chile",
+    "enum": "(9)"
+   },
+   {
+    "num": 19,
+    "dir": "across",
+    "row": 12,
+    "col": 9,
+    "answer": "ZAMBEZI",
+    "clue": "River that plunges over Victoria Falls",
+    "enum": "(7)"
+   },
+   {
+    "num": 20,
+    "dir": "across",
+    "row": 15,
+    "col": 4,
+    "answer": "GOBI",
+    "clue": "Desert spanning southern Mongolia and northern China",
+    "enum": "(4)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 3,
+    "answer": "MEKONG",
+    "clue": "River that flows through Laos, Cambodia and Vietnam",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 5,
+    "answer": "KILIMANJARO",
+    "clue": "Africa's highest mountain",
+    "enum": "(11)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 1,
+    "col": 13,
+    "answer": "OTTAWA",
+    "clue": "Capital of Canada",
+    "enum": "(6)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 9,
+    "answer": "ATACAMA",
+    "clue": "Chilean desert, one of the driest places on Earth",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 3,
+    "col": 16,
+    "answer": "MALDIVES",
+    "clue": "Asia's smallest country, made up of coral atolls",
+    "enum": "(8)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 7,
+    "col": 3,
+    "answer": "BHUTAN",
+    "clue": "Himalayan kingdom that measures Gross National Happiness",
+    "enum": "(6)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 8,
+    "col": 0,
+    "answer": "BOSPORUS",
+    "clue": "Strait that divides Istanbul between Europe and Asia",
+    "enum": "(8)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 8,
+    "col": 12,
+    "answer": "DANUBE",
+    "clue": "River flowing through Vienna, Budapest and Belgrade",
+    "enum": "(6)"
+   },
+   {
+    "num": 15,
+    "dir": "down",
+    "row": 9,
+    "col": 7,
+    "answer": "NAIROBI",
+    "clue": "Capital of Kenya",
+    "enum": "(7)"
+   },
+   {
+    "num": 16,
+    "dir": "down",
+    "row": 9,
+    "col": 10,
+    "answer": "ASTANA",
+    "clue": "Capital of Kazakhstan",
+    "enum": "(6)"
+   },
+   {
+    "num": 18,
+    "dir": "down",
+    "row": 11,
+    "col": 15,
+    "answer": "LIMA",
+    "clue": "Capital of Peru",
+    "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "general-myths",
+  "title": "Myths & Legends",
+  "category": "General knowledge",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 1,
+    "col": 8,
+    "answer": "MIDAS",
+    "clue": "King whose touch turned everything to gold",
+    "enum": "(5)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 3,
+    "col": 0,
+    "answer": "HERCULES",
+    "clue": "Roman name for the hero of the twelve labours",
+    "enum": "(8)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 3,
+    "col": 9,
+    "answer": "OLYMPUS",
+    "clue": "Mountain home of the Greek gods",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 5,
+    "col": 4,
+    "answer": "MEDUSA",
+    "clue": "Gorgon whose gaze turned people to stone",
+    "enum": "(6)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "LOKI",
+    "clue": "Shape-shifting Norse trickster god",
+    "enum": "(4)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 7,
+    "col": 4,
+    "answer": "PANDORA",
+    "clue": "She opened the jar that let the world's evils loose",
+    "enum": "(7)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 8,
+    "col": 10,
+    "answer": "CENTAUR",
+    "clue": "Half-human, half-horse creature",
+    "enum": "(7)"
+   },
+   {
+    "num": 16,
+    "dir": "across",
+    "row": 10,
+    "col": 3,
+    "answer": "THOR",
+    "clue": "Norse god who wields the hammer Mjolnir",
+    "enum": "(4)"
+   },
+   {
+    "num": 18,
+    "dir": "across",
+    "row": 11,
+    "col": 7,
+    "answer": "MERLIN",
+    "clue": "Wizard and adviser at Arthur's court",
+    "enum": "(6)"
+   },
+   {
+    "num": 19,
+    "dir": "across",
+    "row": 13,
+    "col": 7,
+    "answer": "CAMELOT",
+    "clue": "Seat of King Arthur's court",
+    "enum": "(7)"
+   },
+   {
+    "num": 21,
+    "dir": "across",
+    "row": 15,
+    "col": 0,
+    "answer": "ANUBIS",
+    "clue": "Jackal-headed Egyptian god of the dead",
+    "enum": "(6)"
+   },
+   {
+    "num": 22,
+    "dir": "across",
+    "row": 16,
+    "col": 8,
+    "answer": "SPHINX",
+    "clue": "Creature whose riddle Oedipus solved",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 0,
+    "answer": "VALHALLA",
+    "clue": "Hall where Odin receives warriors slain in battle",
+    "enum": "(8)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "POSEIDON",
+    "clue": "Greek god of the sea",
+    "enum": "(8)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 9,
+    "answer": "MINOTAUR",
+    "clue": "Bull-headed monster of the Cretan labyrinth",
+    "enum": "(8)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 1,
+    "col": 14,
+    "answer": "ZEUS",
+    "clue": "King of the Olympian gods",
+    "enum": "(4)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 14,
+    "answer": "ICARUS",
+    "clue": "He flew too close to the Sun on wings of wax",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 6,
+    "col": 16,
+    "answer": "CERBERUS",
+    "clue": "Three-headed dog guarding the underworld",
+    "enum": "(8)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 7,
+    "col": 5,
+    "answer": "ARGONAUTS",
+    "clue": "Jason's crew in search of the Golden Fleece",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "down",
+    "row": 7,
+    "col": 10,
+    "answer": "ACHILLES",
+    "clue": "Greek hero whose heel was his only weak spot",
+    "enum": "(8)"
+   },
+   {
+    "num": 17,
+    "dir": "down",
+    "row": 10,
+    "col": 8,
+    "answer": "PEGASUS",
+    "clue": "Winged horse of Greek myth",
+    "enum": "(7)"
+   },
+   {
+    "num": 20,
+    "dir": "down",
+    "row": 13,
+    "col": 12,
+    "answer": "ODIN",
+    "clue": "One-eyed chief of the Norse gods",
+    "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "general-turning",
+  "title": "Turning Points",
+  "category": "General knowledge",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 9,
+    "answer": "COOK",
+    "clue": "Captain who charted New Zealand and Australia's east coast",
+    "enum": "(4)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 4,
+    "answer": "APOLLO",
+    "clue": "NASA programme that landed people on the Moon",
+    "enum": "(6)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 1,
+    "answer": "ROSETTA",
+    "clue": "___ Stone: key to reading Egyptian hieroglyphs",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 8,
+    "col": 10,
+    "answer": "GAGARIN",
+    "clue": "First human in space, in 1961",
+    "enum": "(7)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 10,
+    "col": 0,
+    "answer": "ANGKOR",
+    "clue": "___ Wat: vast temple complex in Cambodia",
+    "enum": "(6)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 10,
+    "col": 7,
+    "answer": "POMPEII",
+    "clue": "Roman town buried by Vesuvius in AD 79",
+    "enum": "(7)"
+   },
+   {
+    "num": 17,
+    "dir": "across",
+    "row": 12,
+    "col": 4,
+    "answer": "CHURCHILL",
+    "clue": "Wartime leader who offered 'blood, toil, tears and sweat'",
+    "enum": "(9)"
+   },
+   {
+    "num": 18,
+    "dir": "across",
+    "row": 14,
+    "col": 0,
+    "answer": "BERLIN",
+    "clue": "City divided by a wall from 1961 to 1989",
+    "enum": "(6)"
+   },
+   {
+    "num": 19,
+    "dir": "across",
+    "row": 14,
+    "col": 10,
+    "answer": "ENIGMA",
+    "clue": "German cipher machine broken by the codebreakers",
+    "enum": "(6)"
+   },
+   {
+    "num": 20,
+    "dir": "across",
+    "row": 16,
+    "col": 2,
+    "answer": "AMUNDSEN",
+    "clue": "First to reach the South Pole, in December 1911",
+    "enum": "(8)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 7,
+    "answer": "HILLARY",
+    "clue": "He reached the summit of Everest with Tenzing Norgay in 1953",
+    "enum": "(7)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 9,
+    "answer": "SCOTT",
+    "clue": "Explorer who reached the South Pole weeks after Amundsen",
+    "enum": "(5)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 5,
+    "answer": "PETRA",
+    "clue": "Rose-red city carved into rock in Jordan",
+    "enum": "(5)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 3,
+    "col": 1,
+    "answer": "ARMSTRONG",
+    "clue": "First person to walk on the Moon",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 4,
+    "col": 3,
+    "answer": "SPUTNIK",
+    "clue": "First artificial satellite, launched in 1957",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 5,
+    "col": 13,
+    "answer": "TITANIC",
+    "clue": "Liner that sank on its maiden voyage in 1912",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 11,
+    "answer": "MAGELLAN",
+    "clue": "Leader of the first expedition to sail round the world, though he died on the way",
+    "enum": "(8)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 5,
+    "answer": "PARTHENON",
+    "clue": "Temple to Athena on the Acropolis",
+    "enum": "(9)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 9,
+    "col": 8,
+    "answer": "CONCORDE",
+    "clue": "Supersonic airliner retired in 2003",
+    "enum": "(8)"
+   },
+   {
+    "num": 16,
+    "dir": "down",
+    "row": 11,
+    "col": 15,
+    "answer": "INCA",
+    "clue": "Empire that built the citadel of Machu Picchu",
+    "enum": "(4)"
+   }
+  ]
  }
 ];

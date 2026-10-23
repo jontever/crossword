@@ -244,7 +244,7 @@
     const meta = $("#puzzle-meta");
     meta.textContent = "";
     const cat = el("span", "cat-" + catKey(current.category), current.category);
-    meta.append(cat, document.createTextNode(` · ${current.difficulty} · ${current.rows}×${current.cols}`));
+    meta.append(cat, document.createTextNode(` · ${current.difficulty} · ${current.entries.length} clues · ${current.rows}×${current.cols}`));
     document.title = `${current.title} · Crossword · cseta.uk`;
     try { history.replaceState(null, "", `#${id}`); } catch (_) { /* file:// etc. */ }
 

@@ -489,6 +489,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 .sw-bg-safari { background: linear-gradient(180deg, #e9c98f 0%, #d7a95c 55%, #8a6a3a 56%, #5b4426 100%); }
 .sw-bg-horses { background: linear-gradient(180deg, #a9cdea 0%, #d9e8f4 45%, #6e9b45 46%, #4b7330 100%); }
 .sw-bg-cats { background: radial-gradient(circle at 50% 58%, #f2f2f2 0 18%, #1b1b1b 19% 34%, transparent 35%), linear-gradient(180deg, #3fae8a 0%, #2b8a6c 100%); }
+.sw-bg-dogs { background: radial-gradient(circle at 50% 55%, #d9a35a 0 24%, transparent 26%), linear-gradient(180deg, #f3d9a0 0%, #b5862f 60%, #5e4a1f 100%); }
 
 /* ---------- photo backgrounds (Unsplash) ---------- */
 /* A fixed layer behind the page, so it also works on iOS where
