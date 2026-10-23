@@ -1,6 +1,6 @@
 # Crossword · cseta.uk
 
-A static, dependency-free crossword app with 44 puzzles in six categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
+A static, dependency-free crossword app with 59 puzzles in nine categories. Built to be pushed to GitHub and served by Vercel on `cseta.uk`.
 
 | Category | Puzzles |
 | --- | --- |
@@ -10,6 +10,9 @@ A static, dependency-free crossword app with 44 puzzles in six categories. Built
 | Economics (5) | Money Matters · Easy, Markets & Trade · Medium, The Big Picture · Hard, **The Dismal Science · Expert**, **Cryptic Economics · Cryptic** |
 | Psychology (5) | Mind Basics · Easy, Famous Psychologists · Medium, Biases & Behaviour · Hard, **Mind Games · Expert**, **Cryptic Psychology · Cryptic** |
 | Philosophy (5) | Big Questions · Easy, Great Thinkers · Medium, Isms & Ideas · Hard, **Thinking Hard · Expert**, **Cryptic Philosophy · Cryptic** |
+| History (5) | Through the Ages · Easy, Kings & Queens · Medium, World History · Hard, **Deep History · Expert**, **Cryptic History · Cryptic** |
+| Geography (5) | Planet Earth · Easy, Capital Cities · Medium, Rivers, Peaks & Lakes · Hard, **Shaping the Land · Expert**, **Cryptic Geography · Cryptic** |
+| Science (5) | Lab Basics · Easy, Body & Biology · Medium, Physics & Chemistry · Hard, **Frontiers · Expert**, **Cryptic Science · Cryptic** |
 
 **Expert** puzzles use tougher vocabulary and less direct clues. **Cryptic** puzzles (12 clues each) follow UK newspaper style: each clue has a definition plus wordplay (anagram, hidden word, reversal, charade or double definition). Once a cryptic word is solved or revealed, the clue bar shows how the clue works.
 

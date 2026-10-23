@@ -55,7 +55,7 @@
       ],
       [
         "WORM",
-        "Malware that spreads by itself"
+        "Self-replicating program that spreads across networks"
       ],
       [
         "SPAM",
@@ -143,7 +143,7 @@
     "words": [
       [
         "CONTAINMENT",
-        "Incident response phase that stops the spread"
+        "Response phase that stops an attack spreading"
       ],
       [
         "FORENSICS",
@@ -503,7 +503,7 @@
       ],
       [
         "CANBERRA",
-        "Capital of Australia"
+        "Purpose-built capital that opened in 1927, between Sydney and Melbourne"
       ],
       [
         "MONSOON",
@@ -895,7 +895,7 @@
       ],
       [
         "OVERFITTING",
-        "Memorising the training data instead of generalising"
+        "Memorising the examples instead of generalising"
       ],
       [
         "CLASSIFIER",
@@ -939,15 +939,15 @@
       ],
       [
         "LABEL",
-        "The right answer attached to a training example"
+        "The right answer attached to an example"
       ],
       [
         "EPOCH",
-        "One full pass through the training data"
+        "One full pass through all the examples"
       ],
       [
         "GPU",
-        "Graphics chip that speeds up training (abbr.)"
+        "Graphics chip used to speed up deep learning (abbr.)"
       ]
     ]
   },
@@ -983,7 +983,7 @@
       ],
       [
         "EMBEDDING",
-        "Vector that represents meaning"
+        "Numerical representation of meaning"
       ],
       [
         "ATTENTION",
@@ -1003,7 +1003,7 @@
       ],
       [
         "VECTOR",
-        "___ database: stores embeddings for search"
+        "___ database: finds items with similar meaning"
       ],
       [
         "CORPUS",
@@ -1031,11 +1031,11 @@
       ],
       [
         "ORCHESTRATOR",
-        "Component that coordinates several agents"
+        "Component that coordinates several AI systems"
       ],
       [
         "PERMISSIONS",
-        "Scoped rights an agent is granted"
+        "Rights an AI system is granted"
       ],
       [
         "KILL SWITCH",
@@ -1043,7 +1043,7 @@
       ],
       [
         "AUDIT TRAIL",
-        "Record of every action an agent takes"
+        "Record of every action an AI system takes"
       ],
       [
         "GUARDRAILS",
@@ -1051,7 +1051,7 @@
       ],
       [
         "DELEGATION",
-        "Handing a task to another agent"
+        "Handing a task on to another AI"
       ],
       [
         "AUTONOMY",
@@ -1059,7 +1059,7 @@
       ],
       [
         "WORKFLOW",
-        "Sequence of steps an agent carries out"
+        "Sequence of steps an AI carries out"
       ],
       [
         "TOOL USE",
@@ -1071,7 +1071,7 @@
       ],
       [
         "MEMORY",
-        "Store an agent uses to recall earlier context"
+        "Store used to recall earlier context"
       ],
       [
         "AGENT",
@@ -1079,7 +1079,7 @@
       ],
       [
         "SCOPE",
-        "Boundaries of what an agent may do"
+        "Boundaries of what an AI system may do"
       ],
       [
         "MCP",
@@ -1355,7 +1355,7 @@
       ],
       [
         "QUOTA",
-        "Limit on the quantity of imports"
+        "Limit on the quantity of goods allowed into a country"
       ]
     ]
   },
@@ -2323,7 +2323,7 @@
       ],
       [
         "KNOWLEDGE",
-        "Justified true belief, on one classic account"
+        "Understanding gained through learning or experience"
       ],
       [
         "FREE WILL",
@@ -2691,7 +2691,7 @@
       ],
       [
         "ODYSSEY",
-        "Homer's epic of a ten-year journey home"
+        "Epic of a ten-year voyage home from Troy"
       ],
       [
         "ORWELL",
@@ -3099,7 +3099,7 @@
       ],
       [
         "SCOTT",
-        "Explorer who reached the South Pole weeks after Amundsen"
+        "Explorer who reached the South Pole in January 1912 but died on the way back"
       ],
       [
         "COOK",
@@ -3108,6 +3108,1026 @@
       [
         "INCA",
         "Empire that built the citadel of Machu Picchu"
+      ]
+    ]
+  },
+  {
+    "id": "hist-basics",
+    "title": "Through the Ages",
+    "category": "History",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "REVOLUTION",
+        "Overthrow of a government, as in France in 1789"
+      ],
+      [
+        "PARLIAMENT",
+        "Lawmaking body that meets at Westminster"
+      ],
+      [
+        "ARMISTICE",
+        "Agreement that ended the fighting on 11 November 1918"
+      ],
+      [
+        "STONE AGE",
+        "Earliest period of human prehistory"
+      ],
+      [
+        "CRUSADES",
+        "Medieval religious wars over the Holy Land"
+      ],
+      [
+        "MONARCH",
+        "King or queen"
+      ],
+      [
+        "PEASANT",
+        "Poor farm worker of the Middle Ages"
+      ],
+      [
+        "CHARIOT",
+        "Two-wheeled horse-drawn war cart"
+      ],
+      [
+        "CASTLE",
+        "Fortified home of a medieval lord"
+      ],
+      [
+        "KNIGHT",
+        "Armoured warrior on horseback"
+      ],
+      [
+        "EMPIRE",
+        "Many lands ruled by one emperor"
+      ],
+      [
+        "PLAGUE",
+        "The Black Death, for one"
+      ],
+      [
+        "TRENCH",
+        "Long ditch where soldiers sheltered on the Western Front"
+      ],
+      [
+        "COLONY",
+        "Territory ruled by a distant country"
+      ],
+      [
+        "MUMMY",
+        "Preserved body wrapped in bandages"
+      ]
+    ]
+  },
+  {
+    "id": "hist-monarchs",
+    "title": "Kings & Queens",
+    "category": "History",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "PLANTAGENET",
+        "Royal house that ruled England from 1154 to 1485, in various branches"
+      ],
+      [
+        "ABDICATION",
+        "Edward VIII's giving up of the throne in 1936"
+      ],
+      [
+        "CORONATION",
+        "Crowning ceremony held at Westminster Abbey"
+      ],
+      [
+        "ELIZABETH",
+        "Name shared by the queen who saw off the Armada and Britain's longest-reigning monarch"
+      ],
+      [
+        "VICTORIA",
+        "Queen who reigned for most of the 19th century"
+      ],
+      [
+        "CROMWELL",
+        "Lord Protector after the execution of Charles I"
+      ],
+      [
+        "BOSWORTH",
+        "Battle of 1485 that ended the Wars of the Roses"
+      ],
+      [
+        "WINDSOR",
+        "Royal house name adopted in 1917"
+      ],
+      [
+        "RICHARD",
+        "___ the Lionheart"
+      ],
+      [
+        "ALFRED",
+        "Anglo-Saxon king known as 'the Great'"
+      ],
+      [
+        "CANUTE",
+        "Danish king of England, said to have commanded the tide"
+      ],
+      [
+        "BOLEYN",
+        "Anne ___, queen beheaded in 1536"
+      ],
+      [
+        "STUART",
+        "Dynasty of James I and Charles II"
+      ],
+      [
+        "NORMAN",
+        "___ Conquest of 1066"
+      ],
+      [
+        "HENRY",
+        "Tudor king with six wives"
+      ]
+    ]
+  },
+  {
+    "id": "hist-world",
+    "title": "World History",
+    "category": "History",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "MESOPOTAMIA",
+        "Land between the Tigris and the Euphrates"
+      ],
+      [
+        "CHARLEMAGNE",
+        "Frankish king crowned emperor in 800"
+      ],
+      [
+        "BOLSHEVIKS",
+        "Lenin's faction that seized power in 1917"
+      ],
+      [
+        "BYZANTIUM",
+        "Old name for the city later called Constantinople"
+      ],
+      [
+        "HAMMURABI",
+        "Babylonian king famed for his code of laws"
+      ],
+      [
+        "CLEOPATRA",
+        "Last active ruler of Ptolemaic Egypt"
+      ],
+      [
+        "APARTHEID",
+        "South Africa's system of racial segregation, ended in the early 1990s"
+      ],
+      [
+        "OTTOMAN",
+        "Empire that captured Constantinople in 1453"
+      ],
+      [
+        "SAMURAI",
+        "Japanese warrior class"
+      ],
+      [
+        "MANDELA",
+        "Prisoner who became South Africa's president in 1994"
+      ],
+      [
+        "GENGHIS",
+        "___ Khan, founder of the Mongol Empire"
+      ],
+      [
+        "RUBICON",
+        "River Caesar crossed in 49 BC"
+      ],
+      [
+        "GANDHI",
+        "Leader of India's non-violent independence movement"
+      ],
+      [
+        "SPARTA",
+        "Militaristic Greek rival of Athens"
+      ],
+      [
+        "MING",
+        "Chinese dynasty behind much of the Great Wall as it stands today"
+      ]
+    ]
+  },
+  {
+    "id": "hist-expert",
+    "title": "Deep History",
+    "category": "History",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "PELOPONNESIAN",
+        "___ War: Athens against Sparta"
+      ],
+      [
+        "RISORGIMENTO",
+        "Nineteenth-century movement to unify Italy"
+      ],
+      [
+        "THERMOPYLAE",
+        "Pass held by Leonidas and his Spartans in 480 BC"
+      ],
+      [
+        "VERSAILLES",
+        "Treaty of 1919 imposed on Germany"
+      ],
+      [
+        "WESTPHALIA",
+        "Peace of 1648 that ended the Thirty Years' War"
+      ],
+      [
+        "SUMERIANS",
+        "People credited with inventing cuneiform writing"
+      ],
+      [
+        "AGINCOURT",
+        "Henry V's victory of 1415"
+      ],
+      [
+        "CHARTISTS",
+        "Campaigners for the People's Charter of 1838"
+      ],
+      [
+        "CARTHAGE",
+        "Hannibal's city, destroyed by Rome in 146 BC"
+      ],
+      [
+        "CULLODEN",
+        "Last pitched battle on British soil, in 1746"
+      ],
+      [
+        "HITTITES",
+        "Bronze Age empire of Anatolia"
+      ],
+      [
+        "LUDDITES",
+        "Machine-breaking textile workers of the 1810s"
+      ],
+      [
+        "DOMESDAY",
+        "___ Book: William I's great survey of 1086"
+      ],
+      [
+        "ZIGGURAT",
+        "Stepped temple tower of ancient Mesopotamia"
+      ],
+      [
+        "MEIJI",
+        "Restoration that began Japan's rapid modernisation in 1868"
+      ]
+    ]
+  },
+  {
+    "id": "hist-cryptic",
+    "title": "Cryptic History",
+    "category": "History",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "ARMOUR",
+        "Limb belonging to us gives protection",
+        "ARM (limb) + OUR (belonging to us). Definition: protection."
+      ],
+      [
+        "HELMET",
+        "Steering gear and alien headgear",
+        "HELM (steering gear) + ET (alien). Definition: headgear."
+      ],
+      [
+        "TREATY",
+        "Entertain, year: a peace agreement",
+        "TREAT (entertain) + Y (year). Definition: a peace agreement."
+      ],
+      [
+        "ROMAN",
+        "Manor rebuilt for an ancient Italian",
+        "Anagram ('rebuilt') of MANOR. Definition: an ancient Italian."
+      ],
+      [
+        "REIGN",
+        "Niger, oddly, for a monarch's rule",
+        "Anagram ('oddly') of NIGER. Definition: a monarch's rule."
+      ],
+      [
+        "RELIC",
+        "Ancient object seen in squirrel icon",
+        "Hidden in squirREL ICon. Definition: ancient object."
+      ],
+      [
+        "SWORD",
+        "Words cut up for a blade",
+        "Anagram ('cut up') of WORDS. Definition: a blade."
+      ],
+      [
+        "SPEAR",
+        "Pears, sliced, make a weapon",
+        "Anagram ('sliced') of PEARS. Definition: a weapon."
+      ],
+      [
+        "BARON",
+        "Pub in use for a nobleman",
+        "BAR (pub) + ON (in use). Definition: a nobleman."
+      ],
+      [
+        "FORT",
+        "Stronghold in favour of time",
+        "FOR (in favour of) + T (time). Definition: stronghold."
+      ],
+      [
+        "RUIN",
+        "Wreck spotted in Peru, inland",
+        "Hidden in peRU INland. Definition: wreck."
+      ],
+      [
+        "PAST",
+        "Taps broken? That's history",
+        "Anagram ('broken') of TAPS. Definition: history."
+      ]
+    ]
+  },
+  {
+    "id": "geo-basics",
+    "title": "Planet Earth",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "CONTINENT",
+        "One of Earth's seven great landmasses"
+      ],
+      [
+        "WATERFALL",
+        "Niagara or Victoria, for example"
+      ],
+      [
+        "MOUNTAIN",
+        "Peak such as Ben Nevis"
+      ],
+      [
+        "LATITUDE",
+        "Distance north or south of the equator"
+      ],
+      [
+        "PRAIRIE",
+        "Grassland of the American Midwest"
+      ],
+      [
+        "CAPITAL",
+        "City where a country's government sits"
+      ],
+      [
+        "ISLAND",
+        "Land surrounded by water"
+      ],
+      [
+        "DESERT",
+        "Very dry region"
+      ],
+      [
+        "VALLEY",
+        "Low land between hills"
+      ],
+      [
+        "CANYON",
+        "Deep gorge, like the Grand one in Arizona"
+      ],
+      [
+        "JUNGLE",
+        "Dense tropical forest"
+      ],
+      [
+        "LAGOON",
+        "Shallow water cut off from the sea by a reef or sandbar"
+      ],
+      [
+        "OCEAN",
+        "The Pacific, for one"
+      ],
+      [
+        "RIVER",
+        "Flowing body of fresh water"
+      ],
+      [
+        "COAST",
+        "Where land meets sea"
+      ]
+    ]
+  },
+  {
+    "id": "geo-capitals",
+    "title": "Capital Cities",
+    "category": "Geography",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "BUENOS AIRES",
+        "Argentina's capital"
+      ],
+      [
+        "NEW DELHI",
+        "India's capital"
+      ],
+      [
+        "BRASILIA",
+        "Brazil's purpose-built capital"
+      ],
+      [
+        "KINSHASA",
+        "Capital of the Democratic Republic of the Congo"
+      ],
+      [
+        "HELSINKI",
+        "Finland's capital"
+      ],
+      [
+        "BANGKOK",
+        "Thailand's capital"
+      ],
+      [
+        "MADRID",
+        "Spain's capital"
+      ],
+      [
+        "LISBON",
+        "Portugal's capital"
+      ],
+      [
+        "ATHENS",
+        "Greece's capital"
+      ],
+      [
+        "VIENNA",
+        "Austria's capital"
+      ],
+      [
+        "WARSAW",
+        "Poland's capital"
+      ],
+      [
+        "DUBLIN",
+        "Ireland's capital"
+      ],
+      [
+        "PRAGUE",
+        "Capital of the Czech Republic"
+      ],
+      [
+        "SEOUL",
+        "South Korea's capital"
+      ],
+      [
+        "OSLO",
+        "Norway's capital"
+      ]
+    ]
+  },
+  {
+    "id": "geo-features",
+    "title": "Rivers, Peaks & Lakes",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "MISSISSIPPI",
+        "River that reaches the sea below New Orleans"
+      ],
+      [
+        "MATTERHORN",
+        "Pyramid-shaped Alpine peak on the Swiss-Italian border"
+      ],
+      [
+        "TITICACA",
+        "High lake shared by Peru and Bolivia"
+      ],
+      [
+        "SUPERIOR",
+        "Largest of North America's Great Lakes"
+      ],
+      [
+        "YANGTZE",
+        "Asia's longest river"
+      ],
+      [
+        "CASPIAN",
+        "Largest inland body of water, between Europe and Asia"
+      ],
+      [
+        "NIAGARA",
+        "Falls on the US-Canada border"
+      ],
+      [
+        "SEVERN",
+        "Britain's longest river"
+      ],
+      [
+        "GANGES",
+        "Sacred river of northern India"
+      ],
+      [
+        "DENALI",
+        "North America's highest peak"
+      ],
+      [
+        "ELBRUS",
+        "Europe's highest mountain, in the Caucasus"
+      ],
+      [
+        "BAIKAL",
+        "World's deepest lake, in Siberia"
+      ],
+      [
+        "RHINE",
+        "River flowing from the Swiss Alps to the North Sea"
+      ],
+      [
+        "FUJI",
+        "Japan's sacred volcano"
+      ],
+      [
+        "ETNA",
+        "Sicily's active volcano"
+      ]
+    ]
+  },
+  {
+    "id": "geo-expert",
+    "title": "Shaping the Land",
+    "category": "Geography",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "ANTICYCLONE",
+        "High-pressure weather system bringing settled weather"
+      ],
+      [
+        "PERMAFROST",
+        "Ground that stays frozen all year round"
+      ],
+      [
+        "STALACTITE",
+        "Cave formation that hangs from the roof"
+      ],
+      [
+        "WATERSHED",
+        "Ridge dividing two drainage basins"
+      ],
+      [
+        "ALLUVIUM",
+        "Silt and sand deposited by rivers"
+      ],
+      [
+        "DRUMLIN",
+        "Egg-shaped hill moulded by moving ice"
+      ],
+      [
+        "MORAINE",
+        "Rock debris dumped by a glacier"
+      ],
+      [
+        "TOMBOLO",
+        "Sand bar linking an island to the mainland"
+      ],
+      [
+        "ISTHMUS",
+        "Narrow neck of land joining two larger areas"
+      ],
+      [
+        "MEANDER",
+        "Winding bend in a river"
+      ],
+      [
+        "CALDERA",
+        "Huge crater left when a volcano collapses"
+      ],
+      [
+        "SIROCCO",
+        "Hot wind blowing from North Africa across the Mediterranean"
+      ],
+      [
+        "TUNDRA",
+        "Treeless Arctic plain"
+      ],
+      [
+        "ESKER",
+        "Long gravel ridge left by a glacial stream"
+      ],
+      [
+        "FJORD",
+        "Deep sea inlet carved by glaciers"
+      ]
+    ]
+  },
+  {
+    "id": "geo-cryptic",
+    "title": "Cryptic Geography",
+    "category": "Geography",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "STREAM",
+        "Master, in flux, becomes a brook",
+        "Anagram ('in flux') of MASTER. Definition: a brook."
+      ],
+      [
+        "TURKEY",
+        "Country, or Christmas bird",
+        "Double definition: a country, and a Christmas bird."
+      ],
+      [
+        "CHINA",
+        "Country, or fine porcelain",
+        "Double definition: a country, and fine porcelain."
+      ],
+      [
+        "ATLAS",
+        "A salt, scattered, makes a book of maps",
+        "Anagram ('scattered') of A SALT. Definition: a book of maps."
+      ],
+      [
+        "NEPAL",
+        "Plane crashed in a Himalayan country",
+        "Anagram ('crashed') of PLANE. Definition: a Himalayan country."
+      ],
+      [
+        "SPAIN",
+        "Pains, treated, in an Iberian country",
+        "Anagram ('treated') of PAINS. Definition: an Iberian country."
+      ],
+      [
+        "ITALY",
+        "Laity in disarray in a European country",
+        "Anagram ('in disarray') of LAITY. Definition: a European country."
+      ],
+      [
+        "WALES",
+        "Weals, oddly, form a country",
+        "Anagram ('oddly') of WEALS. Definition: a country."
+      ],
+      [
+        "PERU",
+        "Country found in super union",
+        "Hidden in suPER Union. Definition: country."
+      ],
+      [
+        "OMAN",
+        "Country hidden in woman",
+        "Hidden in wOMAN. Definition: country."
+      ],
+      [
+        "MALI",
+        "African country hidden in Somalia",
+        "Hidden in soMALIa. Definition: African country."
+      ],
+      [
+        "CUBA",
+        "Island seen in incubator",
+        "Hidden in inCUBAtor. Definition: island."
+      ]
+    ]
+  },
+  {
+    "id": "sci-basics",
+    "title": "Lab Basics",
+    "category": "Science",
+    "difficulty": "Easy",
+    "words": [
+      [
+        "MICROSCOPE",
+        "Instrument for seeing very small things"
+      ],
+      [
+        "DIGESTION",
+        "Breaking down food in the body"
+      ],
+      [
+        "SKELETON",
+        "The body's framework of bones"
+      ],
+      [
+        "FRICTION",
+        "Force that resists sliding"
+      ],
+      [
+        "VACCINE",
+        "Jab that trains the immune system"
+      ],
+      [
+        "ELEMENT",
+        "Substance such as iron or gold that can't be broken down chemically"
+      ],
+      [
+        "BATTERY",
+        "Power pack for a torch or phone"
+      ],
+      [
+        "PLANET",
+        "Mars or Venus, for example"
+      ],
+      [
+        "ENERGY",
+        "Capacity to do work"
+      ],
+      [
+        "LIQUID",
+        "State of matter between solid and gas"
+      ],
+      [
+        "INSECT",
+        "Six-legged creature"
+      ],
+      [
+        "HEART",
+        "Organ that pumps blood"
+      ],
+      [
+        "LUNGS",
+        "Organs that take in air"
+      ],
+      [
+        "METAL",
+        "Iron, copper or tin"
+      ],
+      [
+        "ACID",
+        "Lemon juice or vinegar, chemically speaking"
+      ]
+    ]
+  },
+  {
+    "id": "sci-biology",
+    "title": "Body & Biology",
+    "category": "Science",
+    "difficulty": "Medium",
+    "words": [
+      [
+        "HAEMOGLOBIN",
+        "Iron-rich pigment that carries oxygen in red blood cells"
+      ],
+      [
+        "CHROMOSOME",
+        "Thread-like package of DNA; humans have 46"
+      ],
+      [
+        "CARTILAGE",
+        "Flexible tissue in the nose and ears"
+      ],
+      [
+        "VERTEBRA",
+        "One of the bones of the spine"
+      ],
+      [
+        "ANTIBODY",
+        "Molecule that tags invaders for the immune system"
+      ],
+      [
+        "PANCREAS",
+        "Gland behind the stomach that makes digestive juices"
+      ],
+      [
+        "BACTERIA",
+        "Single-celled microbes, some useful, some harmful"
+      ],
+      [
+        "INSULIN",
+        "Hormone that controls blood sugar"
+      ],
+      [
+        "MITOSIS",
+        "Cell division that produces two identical cells"
+      ],
+      [
+        "PROTEIN",
+        "Nutrient built from amino acids"
+      ],
+      [
+        "CORNEA",
+        "Clear front layer of the eye"
+      ],
+      [
+        "KIDNEY",
+        "Organ that filters blood to make urine"
+      ],
+      [
+        "RETINA",
+        "Light-sensitive layer at the back of the eye"
+      ],
+      [
+        "PLASMA",
+        "Liquid part of the blood"
+      ],
+      [
+        "FEMUR",
+        "Thigh bone, the longest in the body"
+      ]
+    ]
+  },
+  {
+    "id": "sci-physics",
+    "title": "Physics & Chemistry",
+    "category": "Science",
+    "difficulty": "Hard",
+    "words": [
+      [
+        "ACCELERATION",
+        "Rate of change of velocity"
+      ],
+      [
+        "WAVELENGTH",
+        "Distance between successive peaks of a wave"
+      ],
+      [
+        "REFRACTION",
+        "Bending of light as it passes from one material to another"
+      ],
+      [
+        "OXIDATION",
+        "Chemical change behind rust forming on iron"
+      ],
+      [
+        "ELECTRON",
+        "Negatively charged particle"
+      ],
+      [
+        "MOMENTUM",
+        "Mass multiplied by velocity"
+      ],
+      [
+        "CATALYST",
+        "Speeds up a reaction without being used up"
+      ],
+      [
+        "HYDROGEN",
+        "Lightest element"
+      ],
+      [
+        "NEUTRON",
+        "Uncharged particle in an atomic nucleus"
+      ],
+      [
+        "VOLTAGE",
+        "Electrical potential difference"
+      ],
+      [
+        "INERTIA",
+        "Resistance to a change in motion"
+      ],
+      [
+        "DENSITY",
+        "Mass per unit volume"
+      ],
+      [
+        "PROTON",
+        "Positively charged particle in an atomic nucleus"
+      ],
+      [
+        "KELVIN",
+        "Temperature scale that starts at absolute zero"
+      ],
+      [
+        "ALLOY",
+        "Mixture of metals, such as bronze"
+      ]
+    ]
+  },
+  {
+    "id": "sci-expert",
+    "title": "Frontiers",
+    "category": "Science",
+    "difficulty": "Expert",
+    "words": [
+      [
+        "SUPERCONDUCTOR",
+        "Material with zero electrical resistance when very cold"
+      ],
+      [
+        "SPECTROSCOPY",
+        "Analysing light to find what something is made of"
+      ],
+      [
+        "ENTANGLEMENT",
+        "Quantum link between particles however far apart"
+      ],
+      [
+        "EPIGENETICS",
+        "Changes in gene activity that don't alter the DNA sequence"
+      ],
+      [
+        "TARDIGRADE",
+        "Microscopic 'water bear' that survives extreme conditions"
+      ],
+      [
+        "EXOPLANET",
+        "World orbiting a star other than the Sun"
+      ],
+      [
+        "NEUTRINO",
+        "Almost massless particle that streams through you by the trillion"
+      ],
+      [
+        "GRAPHENE",
+        "Sheet of carbon one atom thick"
+      ],
+      [
+        "CRISPR",
+        "Gene-editing tool adapted from a bacterial defence system"
+      ],
+      [
+        "QUASAR",
+        "Extremely bright core of a distant galaxy"
+      ],
+      [
+        "ALLELE",
+        "One of the alternative forms of a gene"
+      ],
+      [
+        "ISOMER",
+        "Molecule with the same formula as another but a different structure"
+      ],
+      [
+        "HIGGS",
+        "___ boson, confirmed at CERN in 2012"
+      ],
+      [
+        "PRION",
+        "Misfolded protein that can cause disease"
+      ],
+      [
+        "BIOME",
+        "Large ecological community, such as rainforest or tundra"
+      ]
+    ]
+  },
+  {
+    "id": "sci-cryptic",
+    "title": "Cryptic Science",
+    "category": "Science",
+    "difficulty": "Cryptic",
+    "words": [
+      [
+        "COMET",
+        "Arrive at time for a celestial visitor",
+        "COME (arrive) + T (time). Definition: a celestial visitor."
+      ],
+      [
+        "PRISM",
+        "Prudish, holding small, light-splitting glass",
+        "PRIM (prudish) holding S (small). Definition: light-splitting glass."
+      ],
+      [
+        "LASER",
+        "Earls, upset, produce a beam",
+        "Anagram ('upset') of EARLS. Definition: a beam."
+      ],
+      [
+        "NEON",
+        "None, oddly, a noble gas",
+        "Anagram ('oddly') of NONE. Definition: a noble gas."
+      ],
+      [
+        "HEAT",
+        "Hate turned into warmth",
+        "Anagram ('turned') of HATE. Definition: warmth."
+      ],
+      [
+        "IRON",
+        "Metal found in biro nib",
+        "Hidden in bIRO Nib. Definition: metal."
+      ],
+      [
+        "GOLD",
+        "Precious metal found in bog, older",
+        "Hidden in boG OLDer. Definition: precious metal."
+      ],
+      [
+        "LENS",
+        "Optical glass in fallen snow",
+        "Hidden in falLEN Snow. Definition: optical glass."
+      ],
+      [
+        "GENE",
+        "Unit of heredity in Eugene",
+        "Hidden in euGENE. Definition: unit of heredity."
+      ],
+      [
+        "OHM",
+        "Resistance unit in 'Oh my!'",
+        "Hidden in OH My. Definition: resistance unit."
+      ],
+      [
+        "CELL",
+        "Prison room, or unit of life",
+        "Double definition: a prison room, and the basic unit of life."
+      ],
+      [
+        "MASS",
+        "Amount of matter, or church service",
+        "Double definition: amount of matter, and a church service."
       ]
     ]
   }

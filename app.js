@@ -12,14 +12,23 @@
   const MAX_KEY_LENGTH = 50000;
   const MAX_TIME = 100 * 3600; // 100 hours, sanity cap
   const DEFAULT_PUZZLE = "general-mixed";
-  const CATEGORY_ORDER = ["General knowledge", "Cyber security", "AI security", "Economics", "Psychology", "Philosophy"];
+  const CATEGORY_ORDER = [
+    "General knowledge", "Cyber security", "AI security", "Economics", "Psychology", "Philosophy",
+    "History", "Geography", "Science"
+  ];
   const CATEGORY_KEYS = {
     "General knowledge": "general", "Cyber security": "cyber", "AI security": "ai",
-    "Economics": "economics", "Psychology": "psychology", "Philosophy": "philosophy"
+    "Economics": "economics", "Psychology": "psychology", "Philosophy": "philosophy",
+    "History": "history", "Geography": "geography", "Science": "science"
+  };
+  // Tab labels: a medium one for desktops, a tiny one for phones.
+  const CATEGORY_MID = {
+    "General knowledge": "General", "Cyber security": "Cyber", "AI security": "AI"
   };
   const CATEGORY_SHORT = {
     "General knowledge": "General", "Cyber security": "Cyber", "AI security": "AI",
-    "Economics": "Econ", "Psychology": "Psych", "Philosophy": "Philo"
+    "Economics": "Econ", "Psychology": "Psych", "Philosophy": "Philo",
+    "History": "Hist", "Geography": "Geog", "Science": "Sci"
   };
   const catKey = (cat) => CATEGORY_KEYS[cat] || "general";
   const REDUCED_MOTION = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
@@ -332,7 +341,7 @@
       t.setAttribute("aria-controls", "picker-panel");
       t.tabIndex = cat === pickerCat ? 0 : -1;
       const short = CATEGORY_SHORT[cat] || cat;
-      t.append(el("span", "tab-full", cat), el("span", "tab-short", short), el("span", "count", `${done}/${list.length}`));
+      t.append(el("span", "tab-full", CATEGORY_MID[cat] || cat), el("span", "tab-short", short), el("span", "count", `${done}/${list.length}`));
       t.setAttribute("aria-label", `${cat}, ${done} of ${list.length} solved`);
       t.title = `${done} of ${list.length} solved`;
       tabs.append(t);
@@ -359,6 +368,11 @@
       panel.append(b);
     }
     nav.append(tabs, panel);
+    // If the tab row scrolls (phones), keep the selected tab in view.
+    const sel = tabs.querySelector('[aria-selected="true"]');
+    if (sel && tabs.scrollWidth > tabs.clientWidth) {
+      tabs.scrollLeft = Math.max(0, sel.offsetLeft - tabs.offsetLeft - (tabs.clientWidth - sel.offsetWidth) / 2);
+    }
 
     // Summary shown on the toggle bar (most useful when collapsed).
     const summary = $("#picker-summary");

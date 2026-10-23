@@ -77,7 +77,7 @@ window.PUZZLES = [
     "row": 11,
     "col": 8,
     "answer": "WORM",
-    "clue": "Malware that spreads by itself",
+    "clue": "Self-replicating program that spreads across networks",
     "enum": "(4)"
    },
    {
@@ -313,7 +313,7 @@ window.PUZZLES = [
     "row": 5,
     "col": 4,
     "answer": "CONTAINMENT",
-    "clue": "Incident response phase that stops the spread",
+    "clue": "Response phase that stops an attack spreading",
     "enum": "(11)"
    },
    {
@@ -1083,7 +1083,7 @@ window.PUZZLES = [
     "row": 14,
     "col": 4,
     "answer": "CANBERRA",
-    "clue": "Capital of Australia",
+    "clue": "Purpose-built capital that opened in 1927, between Sydney and Melbourne",
     "enum": "(8)"
    },
    {
@@ -1908,7 +1908,7 @@ window.PUZZLES = [
     "row": 5,
     "col": 10,
     "answer": "EPOCH",
-    "clue": "One full pass through the training data",
+    "clue": "One full pass through all the examples",
     "enum": "(5)"
    },
    {
@@ -1971,7 +1971,7 @@ window.PUZZLES = [
     "row": 2,
     "col": 2,
     "answer": "OVERFITTING",
-    "clue": "Memorising the training data instead of generalising",
+    "clue": "Memorising the examples instead of generalising",
     "enum": "(11)"
    },
    {
@@ -1989,7 +1989,7 @@ window.PUZZLES = [
     "row": 2,
     "col": 6,
     "answer": "GPU",
-    "clue": "Graphics chip that speeds up training (abbr.)",
+    "clue": "Graphics chip used to speed up deep learning (abbr.)",
     "enum": "(3)"
    },
    {
@@ -2025,7 +2025,7 @@ window.PUZZLES = [
     "row": 10,
     "col": 6,
     "answer": "LABEL",
-    "clue": "The right answer attached to a training example",
+    "clue": "The right answer attached to an example",
     "enum": "(5)"
    }
   ]
@@ -2134,7 +2134,7 @@ window.PUZZLES = [
     "row": 5,
     "col": 10,
     "answer": "VECTOR",
-    "clue": "___ database: stores embeddings for search",
+    "clue": "___ database: finds items with similar meaning",
     "enum": "(6)"
    },
    {
@@ -2152,7 +2152,7 @@ window.PUZZLES = [
     "row": 6,
     "col": 2,
     "answer": "EMBEDDING",
-    "clue": "Vector that represents meaning",
+    "clue": "Numerical representation of meaning",
     "enum": "(9)"
    },
    {
@@ -2207,7 +2207,7 @@ window.PUZZLES = [
     "row": 6,
     "col": 9,
     "answer": "SCOPE",
-    "clue": "Boundaries of what an agent may do",
+    "clue": "Boundaries of what an AI system may do",
     "enum": "(5)"
    },
    {
@@ -2216,7 +2216,7 @@ window.PUZZLES = [
     "row": 8,
     "col": 6,
     "answer": "AUDITTRAIL",
-    "clue": "Record of every action an agent takes",
+    "clue": "Record of every action an AI system takes",
     "enum": "(5,5)"
    },
    {
@@ -2243,7 +2243,7 @@ window.PUZZLES = [
     "row": 14,
     "col": 2,
     "answer": "PERMISSIONS",
-    "clue": "Scoped rights an agent is granted",
+    "clue": "Rights an AI system is granted",
     "enum": "(11)"
    },
    {
@@ -2261,7 +2261,7 @@ window.PUZZLES = [
     "row": 0,
     "col": 6,
     "answer": "MEMORY",
-    "clue": "Store an agent uses to recall earlier context",
+    "clue": "Store used to recall earlier context",
     "enum": "(6)"
    },
    {
@@ -2279,7 +2279,7 @@ window.PUZZLES = [
     "row": 3,
     "col": 4,
     "answer": "ORCHESTRATOR",
-    "clue": "Component that coordinates several agents",
+    "clue": "Component that coordinates several AI systems",
     "enum": "(12)"
    },
    {
@@ -2288,7 +2288,7 @@ window.PUZZLES = [
     "row": 3,
     "col": 13,
     "answer": "DELEGATION",
-    "clue": "Handing a task to another agent",
+    "clue": "Handing a task on to another AI",
     "enum": "(10)"
    },
    {
@@ -2297,7 +2297,7 @@ window.PUZZLES = [
     "row": 3,
     "col": 15,
     "answer": "WORKFLOW",
-    "clue": "Sequence of steps an agent carries out",
+    "clue": "Sequence of steps an AI carries out",
     "enum": "(8)"
    },
    {
@@ -2769,7 +2769,7 @@ window.PUZZLES = [
     "row": 0,
     "col": 5,
     "answer": "QUOTA",
-    "clue": "Limit on the quantity of imports",
+    "clue": "Limit on the quantity of goods allowed into a country",
     "enum": "(5)"
    },
    {
@@ -4923,7 +4923,7 @@ window.PUZZLES = [
     "row": 14,
     "col": 6,
     "answer": "KNOWLEDGE",
-    "clue": "Justified true belief, on one classic account",
+    "clue": "Understanding gained through learning or experience",
     "enum": "(9)"
    },
    {
@@ -5741,7 +5741,7 @@ window.PUZZLES = [
     "row": 6,
     "col": 7,
     "answer": "ODYSSEY",
-    "clue": "Homer's epic of a ten-year journey home",
+    "clue": "Epic of a ten-year voyage home from Troy",
     "enum": "(7)"
    },
    {
@@ -6483,7 +6483,7 @@ window.PUZZLES = [
     "row": 0,
     "col": 9,
     "answer": "SCOTT",
-    "clue": "Explorer who reached the South Pole weeks after Amundsen",
+    "clue": "Explorer who reached the South Pole in January 1912 but died on the way back",
     "enum": "(5)"
    },
    {
@@ -6557,6 +6557,2136 @@ window.PUZZLES = [
     "answer": "INCA",
     "clue": "Empire that built the citadel of Machu Picchu",
     "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "hist-basics",
+  "title": "Through the Ages",
+  "category": "History",
+  "difficulty": "Easy",
+  "rows": 16,
+  "cols": 14,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 7,
+    "answer": "CHARIOT",
+    "clue": "Two-wheeled horse-drawn war cart",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 3,
+    "col": 0,
+    "answer": "ARMISTICE",
+    "clue": "Agreement that ended the fighting on 11 November 1918",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 5,
+    "col": 7,
+    "answer": "MONARCH",
+    "clue": "King or queen",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "CASTLE",
+    "clue": "Fortified home of a medieval lord",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 5,
+    "answer": "EMPIRE",
+    "clue": "Many lands ruled by one emperor",
+    "enum": "(6)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "PARLIAMENT",
+    "clue": "Lawmaking body that meets at Westminster",
+    "enum": "(10)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 15,
+    "col": 2,
+    "answer": "PEASANT",
+    "clue": "Poor farm worker of the Middle Ages",
+    "enum": "(7)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 13,
+    "answer": "TRENCH",
+    "clue": "Long ditch where soldiers sheltered on the Western Front",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 3,
+    "answer": "KNIGHT",
+    "clue": "Armoured warrior on horseback",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 1,
+    "answer": "CRUSADES",
+    "clue": "Medieval religious wars over the Holy Land",
+    "enum": "(8)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 5,
+    "answer": "STONEAGE",
+    "clue": "Earliest period of human prehistory",
+    "enum": "(5,3)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 2,
+    "col": 8,
+    "answer": "REVOLUTION",
+    "clue": "Overthrow of a government, as in France in 1789",
+    "enum": "(10)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 5,
+    "col": 12,
+    "answer": "COLONY",
+    "clue": "Territory ruled by a distant country",
+    "enum": "(6)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 9,
+    "col": 6,
+    "answer": "MUMMY",
+    "clue": "Preserved body wrapped in bandages",
+    "enum": "(5)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 10,
+    "col": 3,
+    "answer": "PLAGUE",
+    "clue": "The Black Death, for one",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "hist-monarchs",
+  "title": "Kings & Queens",
+  "category": "History",
+  "difficulty": "Medium",
+  "rows": 16,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 0,
+    "answer": "NORMAN",
+    "clue": "___ Conquest of 1066",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 3,
+    "col": 4,
+    "answer": "VICTORIA",
+    "clue": "Queen who reigned for most of the 19th century",
+    "enum": "(8)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 5,
+    "col": 2,
+    "answer": "ELIZABETH",
+    "clue": "Name shared by the queen who saw off the Armada and Britain's longest-reigning monarch",
+    "enum": "(9)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 7,
+    "col": 1,
+    "answer": "ALFRED",
+    "clue": "Anglo-Saxon king known as 'the Great'",
+    "enum": "(6)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 6,
+    "answer": "CORONATION",
+    "clue": "Crowning ceremony held at Westminster Abbey",
+    "enum": "(10)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 1,
+    "answer": "STUART",
+    "clue": "Dynasty of James I and Charles II",
+    "enum": "(6)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 13,
+    "col": 1,
+    "answer": "WINDSOR",
+    "clue": "Royal house name adopted in 1917",
+    "enum": "(7)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 14,
+    "col": 11,
+    "answer": "HENRY",
+    "clue": "Tudor king with six wives",
+    "enum": "(5)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 2,
+    "answer": "CROMWELL",
+    "clue": "Lord Protector after the execution of Charles I",
+    "enum": "(8)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 8,
+    "answer": "BOLEYN",
+    "clue": "Anne ___, queen beheaded in 1536",
+    "enum": "(6)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 5,
+    "col": 6,
+    "answer": "ABDICATION",
+    "clue": "Edward VIII's giving up of the throne in 1936",
+    "enum": "(10)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 12,
+    "answer": "PLANTAGENET",
+    "clue": "Royal house that ruled England from 1154 to 1485, in various branches",
+    "enum": "(11)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 4,
+    "answer": "RICHARD",
+    "clue": "___ the Lionheart",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 15,
+    "answer": "CANUTE",
+    "clue": "Danish king of England, said to have commanded the tide",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 9,
+    "answer": "BOSWORTH",
+    "clue": "Battle of 1485 that ended the Wars of the Roses",
+    "enum": "(8)"
+   }
+  ]
+ },
+ {
+  "id": "hist-world",
+  "title": "World History",
+  "category": "History",
+  "difficulty": "Hard",
+  "rows": 15,
+  "cols": 15,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 1,
+    "answer": "CLEOPATRA",
+    "clue": "Last active ruler of Ptolemaic Egypt",
+    "enum": "(9)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 0,
+    "answer": "MANDELA",
+    "clue": "Prisoner who became South Africa's president in 1994",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 5,
+    "answer": "OTTOMAN",
+    "clue": "Empire that captured Constantinople in 1453",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 8,
+    "answer": "RUBICON",
+    "clue": "River Caesar crossed in 49 BC",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 7,
+    "col": 0,
+    "answer": "SAMURAI",
+    "clue": "Japanese warrior class",
+    "enum": "(7)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 10,
+    "col": 0,
+    "answer": "MESOPOTAMIA",
+    "clue": "Land between the Tigris and the Euphrates",
+    "enum": "(11)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 12,
+    "col": 8,
+    "answer": "GENGHIS",
+    "clue": "___ Khan, founder of the Mongol Empire",
+    "enum": "(7)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 14,
+    "col": 3,
+    "answer": "GANDHI",
+    "clue": "Leader of India's non-violent independence movement",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 1,
+    "answer": "CHARLEMAGNE",
+    "clue": "Frankish king crowned emperor in 800",
+    "enum": "(11)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "APARTHEID",
+    "clue": "South Africa's system of racial segregation, ended in the early 1990s",
+    "enum": "(9)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 0,
+    "col": 11,
+    "answer": "BYZANTIUM",
+    "clue": "Old name for the city later called Constantinople",
+    "enum": "(9)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 9,
+    "answer": "HAMMURABI",
+    "clue": "Babylonian king famed for his code of laws",
+    "enum": "(9)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 13,
+    "answer": "BOLSHEVIKS",
+    "clue": "Lenin's faction that seized power in 1917",
+    "enum": "(10)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 9,
+    "col": 4,
+    "answer": "SPARTA",
+    "clue": "Militaristic Greek rival of Athens",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 10,
+    "col": 0,
+    "answer": "MING",
+    "clue": "Chinese dynasty behind much of the Great Wall as it stands today",
+    "enum": "(4)"
+   }
+  ]
+ },
+ {
+  "id": "hist-expert",
+  "title": "Deep History",
+  "category": "History",
+  "difficulty": "Expert",
+  "rows": 17,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 0,
+    "answer": "LUDDITES",
+    "clue": "Machine-breaking textile workers of the 1810s",
+    "enum": "(8)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 3,
+    "col": 8,
+    "answer": "DOMESDAY",
+    "clue": "___ Book: William I's great survey of 1086",
+    "enum": "(8)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 5,
+    "answer": "CHARTISTS",
+    "clue": "Campaigners for the People's Charter of 1838",
+    "enum": "(9)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 8,
+    "col": 4,
+    "answer": "PELOPONNESIAN",
+    "clue": "___ War: Athens against Sparta",
+    "enum": "(13)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 0,
+    "answer": "ZIGGURAT",
+    "clue": "Stepped temple tower of ancient Mesopotamia",
+    "enum": "(8)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 5,
+    "answer": "VERSAILLES",
+    "clue": "Treaty of 1919 imposed on Germany",
+    "enum": "(10)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 16,
+    "col": 4,
+    "answer": "RISORGIMENTO",
+    "clue": "Nineteenth-century movement to unify Italy",
+    "enum": "(12)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 0,
+    "answer": "CULLODEN",
+    "clue": "Last pitched battle on British soil, in 1746",
+    "enum": "(8)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 6,
+    "answer": "WESTPHALIA",
+    "clue": "Peace of 1648 that ended the Thirty Years' War",
+    "enum": "(10)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 10,
+    "answer": "SUMERIANS",
+    "clue": "People credited with inventing cuneiform writing",
+    "enum": "(9)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 2,
+    "answer": "CARTHAGE",
+    "clue": "Hannibal's city, destroyed by Rome in 146 BC",
+    "enum": "(8)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 16,
+    "answer": "AGINCOURT",
+    "clue": "Henry V's victory of 1415",
+    "enum": "(9)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 12,
+    "answer": "THERMOPYLAE",
+    "clue": "Pass held by Leonidas and his Spartans in 480 BC",
+    "enum": "(11)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 14,
+    "answer": "HITTITES",
+    "clue": "Bronze Age empire of Anatolia",
+    "enum": "(8)"
+   },
+   {
+    "num": 13,
+    "dir": "down",
+    "row": 12,
+    "col": 10,
+    "answer": "MEIJI",
+    "clue": "Restoration that began Japan's rapid modernisation in 1868",
+    "enum": "(5)"
+   }
+  ]
+ },
+ {
+  "id": "hist-cryptic",
+  "title": "Cryptic History",
+  "category": "History",
+  "difficulty": "Cryptic",
+  "rows": 11,
+  "cols": 11,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 6,
+    "answer": "RELIC",
+    "clue": "Ancient object seen in squirrel icon",
+    "enum": "(5)",
+    "explain": "Hidden in squirREL ICon. Definition: ancient object."
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 2,
+    "col": 0,
+    "answer": "PAST",
+    "clue": "Taps broken? That's history",
+    "enum": "(4)",
+    "explain": "Anagram ('broken') of TAPS. Definition: history."
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 3,
+    "col": 5,
+    "answer": "ARMOUR",
+    "clue": "Limb belonging to us gives protection",
+    "enum": "(6)",
+    "explain": "ARM (limb) + OUR (belonging to us). Definition: protection."
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 4,
+    "col": 1,
+    "answer": "SPEAR",
+    "clue": "Pears, sliced, make a weapon",
+    "enum": "(5)",
+    "explain": "Anagram ('sliced') of PEARS. Definition: a weapon."
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "FORT",
+    "clue": "Stronghold in favour of time",
+    "enum": "(4)",
+    "explain": "FOR (in favour of) + T (time). Definition: stronghold."
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 7,
+    "col": 6,
+    "answer": "ROMAN",
+    "clue": "Manor rebuilt for an ancient Italian",
+    "enum": "(5)",
+    "explain": "Anagram ('rebuilt') of MANOR. Definition: an ancient Italian."
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 7,
+    "answer": "HELMET",
+    "clue": "Steering gear and alien headgear",
+    "enum": "(6)",
+    "explain": "HELM (steering gear) + ET (alien). Definition: headgear."
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 3,
+    "answer": "TREATY",
+    "clue": "Entertain, year: a peace agreement",
+    "enum": "(6)",
+    "explain": "TREAT (entertain) + Y (year). Definition: a peace agreement."
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 5,
+    "answer": "BARON",
+    "clue": "Pub in use for a nobleman",
+    "enum": "(5)",
+    "explain": "BAR (pub) + ON (in use). Definition: a nobleman."
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 3,
+    "col": 10,
+    "answer": "REIGN",
+    "clue": "Niger, oddly, for a monarch's rule",
+    "enum": "(5)",
+    "explain": "Anagram ('oddly') of NIGER. Definition: a monarch's rule."
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 4,
+    "col": 1,
+    "answer": "SWORD",
+    "clue": "Words cut up for a blade",
+    "enum": "(5)",
+    "explain": "Anagram ('cut up') of WORDS. Definition: a blade."
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 6,
+    "answer": "RUIN",
+    "clue": "Wreck spotted in Peru, inland",
+    "enum": "(4)",
+    "explain": "Hidden in peRU INland. Definition: wreck."
+   }
+  ]
+ },
+ {
+  "id": "geo-basics",
+  "title": "Planet Earth",
+  "category": "Geography",
+  "difficulty": "Easy",
+  "rows": 15,
+  "cols": 12,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 1,
+    "col": 1,
+    "answer": "CAPITAL",
+    "clue": "City where a country's government sits",
+    "enum": "(7)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 3,
+    "col": 0,
+    "answer": "VALLEY",
+    "clue": "Low land between hills",
+    "enum": "(6)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 7,
+    "answer": "OCEAN",
+    "clue": "The Pacific, for one",
+    "enum": "(5)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 7,
+    "col": 1,
+    "answer": "CANYON",
+    "clue": "Deep gorge, like the Grand one in Arizona",
+    "enum": "(6)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 3,
+    "answer": "LATITUDE",
+    "clue": "Distance north or south of the equator",
+    "enum": "(8)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 12,
+    "col": 2,
+    "answer": "WATERFALL",
+    "clue": "Niagara or Victoria, for example",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 0,
+    "answer": "DESERT",
+    "clue": "Very dry region",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 4,
+    "answer": "RIVER",
+    "clue": "Flowing body of fresh water",
+    "enum": "(5)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 1,
+    "answer": "COAST",
+    "clue": "Where land meets sea",
+    "enum": "(5)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 7,
+    "answer": "LAGOON",
+    "clue": "Shallow water cut off from the sea by a reef or sandbar",
+    "enum": "(6)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 10,
+    "answer": "PRAIRIE",
+    "clue": "Grassland of the American Midwest",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 5,
+    "col": 3,
+    "answer": "JUNGLE",
+    "clue": "Dense tropical forest",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 6,
+    "col": 5,
+    "answer": "CONTINENT",
+    "clue": "One of Earth's seven great landmasses",
+    "enum": "(9)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 8,
+    "answer": "MOUNTAIN",
+    "clue": "Peak such as Ben Nevis",
+    "enum": "(8)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 9,
+    "col": 0,
+    "answer": "ISLAND",
+    "clue": "Land surrounded by water",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "geo-capitals",
+  "title": "Capital Cities",
+  "category": "Geography",
+  "difficulty": "Medium",
+  "rows": 13,
+  "cols": 16,
+  "entries": [
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 1,
+    "col": 10,
+    "answer": "MADRID",
+    "clue": "Spain's capital",
+    "enum": "(6)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 2,
+    "col": 0,
+    "answer": "NEWDELHI",
+    "clue": "India's capital",
+    "enum": "(3,5)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 4,
+    "col": 2,
+    "answer": "LISBON",
+    "clue": "Portugal's capital",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 4,
+    "col": 10,
+    "answer": "SEOUL",
+    "clue": "South Korea's capital",
+    "enum": "(5)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 6,
+    "col": 1,
+    "answer": "BUENOSAIRES",
+    "clue": "Argentina's capital",
+    "enum": "(6,5)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 8,
+    "col": 3,
+    "answer": "KINSHASA",
+    "clue": "Capital of the Democratic Republic of the Congo",
+    "enum": "(8)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 6,
+    "answer": "DUBLIN",
+    "clue": "Ireland's capital",
+    "enum": "(6)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 1,
+    "answer": "OSLO",
+    "clue": "Norway's capital",
+    "enum": "(4)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 5,
+    "answer": "WARSAW",
+    "clue": "Poland's capital",
+    "enum": "(6)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 13,
+    "answer": "PRAGUE",
+    "clue": "Capital of the Czech Republic",
+    "enum": "(6)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 1,
+    "col": 4,
+    "answer": "HELSINKI",
+    "clue": "Finland's capital",
+    "enum": "(8)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 1,
+    "col": 7,
+    "answer": "VIENNA",
+    "clue": "Austria's capital",
+    "enum": "(6)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 1,
+    "col": 11,
+    "answer": "ATHENS",
+    "clue": "Greece's capital",
+    "enum": "(6)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 5,
+    "col": 9,
+    "answer": "BRASILIA",
+    "clue": "Brazil's purpose-built capital",
+    "enum": "(8)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 1,
+    "answer": "BANGKOK",
+    "clue": "Thailand's capital",
+    "enum": "(7)"
+   }
+  ]
+ },
+ {
+  "id": "geo-features",
+  "title": "Rivers, Peaks & Lakes",
+  "category": "Geography",
+  "difficulty": "Hard",
+  "rows": 14,
+  "cols": 15,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 5,
+    "answer": "SEVERN",
+    "clue": "Britain's longest river",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 3,
+    "col": 3,
+    "answer": "MATTERHORN",
+    "clue": "Pyramid-shaped Alpine peak on the Swiss-Italian border",
+    "enum": "(10)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 0,
+    "answer": "FUJI",
+    "clue": "Japan's sacred volcano",
+    "enum": "(4)"
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 6,
+    "col": 1,
+    "answer": "CASPIAN",
+    "clue": "Largest inland body of water, between Europe and Asia",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 9,
+    "answer": "GANGES",
+    "clue": "Sacred river of northern India",
+    "enum": "(6)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 9,
+    "answer": "ETNA",
+    "clue": "Sicily's active volcano",
+    "enum": "(4)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 10,
+    "col": 1,
+    "answer": "BAIKAL",
+    "clue": "World's deepest lake, in Siberia",
+    "enum": "(6)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 9,
+    "answer": "DENALI",
+    "clue": "North America's highest peak",
+    "enum": "(6)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 13,
+    "col": 1,
+    "answer": "RHINE",
+    "clue": "River flowing from the Swiss Alps to the North Sea",
+    "enum": "(5)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 8,
+    "answer": "ELBRUS",
+    "clue": "Europe's highest mountain, in the Caucasus",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 3,
+    "col": 3,
+    "answer": "MISSISSIPPI",
+    "clue": "River that reaches the sea below New Orleans",
+    "enum": "(11)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 3,
+    "col": 5,
+    "answer": "TITICACA",
+    "clue": "High lake shared by Peru and Bolivia",
+    "enum": "(8)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 12,
+    "answer": "NIAGARA",
+    "clue": "Falls on the US-Canada border",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 10,
+    "answer": "YANGTZE",
+    "clue": "Asia's longest river",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 6,
+    "col": 14,
+    "answer": "SUPERIOR",
+    "clue": "Largest of North America's Great Lakes",
+    "enum": "(8)"
+   }
+  ]
+ },
+ {
+  "id": "geo-expert",
+  "title": "Shaping the Land",
+  "category": "Geography",
+  "difficulty": "Expert",
+  "rows": 13,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 1,
+    "answer": "PERMAFROST",
+    "clue": "Ground that stays frozen all year round",
+    "enum": "(10)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 2,
+    "col": 3,
+    "answer": "ISTHMUS",
+    "clue": "Narrow neck of land joining two larger areas",
+    "enum": "(7)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 2,
+    "col": 11,
+    "answer": "TUNDRA",
+    "clue": "Treeless Arctic plain",
+    "enum": "(6)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 6,
+    "col": 0,
+    "answer": "STALACTITE",
+    "clue": "Cave formation that hangs from the roof",
+    "enum": "(10)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 7,
+    "col": 9,
+    "answer": "ALLUVIUM",
+    "clue": "Silt and sand deposited by rivers",
+    "enum": "(8)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 10,
+    "col": 2,
+    "answer": "WATERSHED",
+    "clue": "Ridge dividing two drainage basins",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 12,
+    "answer": "FJORD",
+    "clue": "Deep sea inlet carved by glaciers",
+    "enum": "(5)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 5,
+    "answer": "ANTICYCLONE",
+    "clue": "High-pressure weather system bringing settled weather",
+    "enum": "(11)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 7,
+    "answer": "MORAINE",
+    "clue": "Rock debris dumped by a glacier",
+    "enum": "(7)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 11,
+    "answer": "TOMBOLO",
+    "clue": "Sand bar linking an island to the mainland",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 4,
+    "col": 3,
+    "answer": "CALDERA",
+    "clue": "Huge crater left when a volcano collapses",
+    "enum": "(7)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 16,
+    "answer": "DRUMLIN",
+    "clue": "Egg-shaped hill moulded by moving ice",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 0,
+    "answer": "ESKER",
+    "clue": "Long gravel ridge left by a glacial stream",
+    "enum": "(5)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 5,
+    "col": 9,
+    "answer": "MEANDER",
+    "clue": "Winding bend in a river",
+    "enum": "(7)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 6,
+    "col": 14,
+    "answer": "SIROCCO",
+    "clue": "Hot wind blowing from North Africa across the Mediterranean",
+    "enum": "(7)"
+   }
+  ]
+ },
+ {
+  "id": "geo-cryptic",
+  "title": "Cryptic Geography",
+  "category": "Geography",
+  "difficulty": "Cryptic",
+  "rows": 11,
+  "cols": 11,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 2,
+    "col": 3,
+    "answer": "WALES",
+    "clue": "Weals, oddly, form a country",
+    "enum": "(5)",
+    "explain": "Anagram ('oddly') of WEALS. Definition: a country."
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 4,
+    "col": 5,
+    "answer": "TURKEY",
+    "clue": "Country, or Christmas bird",
+    "enum": "(6)",
+    "explain": "Double definition: a country, and a Christmas bird."
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 6,
+    "col": 3,
+    "answer": "CHINA",
+    "clue": "Country, or fine porcelain",
+    "enum": "(5)",
+    "explain": "Double definition: a country, and fine porcelain."
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 7,
+    "col": 0,
+    "answer": "PERU",
+    "clue": "Country found in super union",
+    "enum": "(4)",
+    "explain": "Hidden in suPER Union. Definition: country."
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 7,
+    "col": 7,
+    "answer": "MALI",
+    "clue": "African country hidden in Somalia",
+    "enum": "(4)",
+    "explain": "Hidden in soMALIa. Definition: African country."
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 3,
+    "answer": "ATLAS",
+    "clue": "A salt, scattered, makes a book of maps",
+    "enum": "(5)",
+    "explain": "Anagram ('scattered') of A SALT. Definition: a book of maps."
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 4,
+    "answer": "OMAN",
+    "clue": "Country hidden in woman",
+    "enum": "(4)",
+    "explain": "Hidden in wOMAN. Definition: country."
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 2,
+    "col": 7,
+    "answer": "STREAM",
+    "clue": "Master, in flux, becomes a brook",
+    "enum": "(6)",
+    "explain": "Anagram ('in flux') of MASTER. Definition: a brook."
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 3,
+    "col": 9,
+    "answer": "NEPAL",
+    "clue": "Plane crashed in a Himalayan country",
+    "enum": "(5)",
+    "explain": "Anagram ('crashed') of PLANE. Definition: a Himalayan country."
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 6,
+    "col": 0,
+    "answer": "SPAIN",
+    "clue": "Pains, treated, in an Iberian country",
+    "enum": "(5)",
+    "explain": "Anagram ('treated') of PAINS. Definition: an Iberian country."
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 6,
+    "col": 3,
+    "answer": "CUBA",
+    "clue": "Island seen in incubator",
+    "enum": "(4)",
+    "explain": "Hidden in inCUBAtor. Definition: island."
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 6,
+    "col": 5,
+    "answer": "ITALY",
+    "clue": "Laity in disarray in a European country",
+    "enum": "(5)",
+    "explain": "Anagram ('in disarray') of LAITY. Definition: a European country."
+   }
+  ]
+ },
+ {
+  "id": "sci-basics",
+  "title": "Lab Basics",
+  "category": "Science",
+  "difficulty": "Easy",
+  "rows": 13,
+  "cols": 15,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 5,
+    "answer": "PLANET",
+    "clue": "Mars or Venus, for example",
+    "enum": "(6)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 3,
+    "col": 5,
+    "answer": "LUNGS",
+    "clue": "Organs that take in air",
+    "enum": "(5)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 5,
+    "col": 6,
+    "answer": "DIGESTION",
+    "clue": "Breaking down food in the body",
+    "enum": "(9)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 5,
+    "answer": "MICROSCOPE",
+    "clue": "Instrument for seeing very small things",
+    "enum": "(10)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 10,
+    "col": 0,
+    "answer": "ACID",
+    "clue": "Lemon juice or vinegar, chemically speaking",
+    "enum": "(4)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 12,
+    "col": 1,
+    "answer": "HEART",
+    "clue": "Organ that pumps blood",
+    "enum": "(5)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 12,
+    "col": 8,
+    "answer": "BATTERY",
+    "clue": "Power pack for a torch or phone",
+    "enum": "(7)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "LIQUID",
+    "clue": "State of matter between solid and gas",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 3,
+    "col": 9,
+    "answer": "SKELETON",
+    "clue": "The body's framework of bones",
+    "enum": "(8)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 3,
+    "col": 12,
+    "answer": "FRICTION",
+    "clue": "Force that resists sliding",
+    "enum": "(8)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 7,
+    "answer": "INSECT",
+    "clue": "Six-legged creature",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 6,
+    "col": 2,
+    "answer": "VACCINE",
+    "clue": "Jab that trains the immune system",
+    "enum": "(7)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 5,
+    "answer": "ELEMENT",
+    "clue": "Substance such as iron or gold that can't be broken down chemically",
+    "enum": "(7)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 0,
+    "answer": "METAL",
+    "clue": "Iron, copper or tin",
+    "enum": "(5)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 7,
+    "col": 14,
+    "answer": "ENERGY",
+    "clue": "Capacity to do work",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "sci-biology",
+  "title": "Body & Biology",
+  "category": "Science",
+  "difficulty": "Medium",
+  "rows": 14,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 8,
+    "answer": "BACTERIA",
+    "clue": "Single-celled microbes, some useful, some harmful",
+    "enum": "(8)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 2,
+    "col": 8,
+    "answer": "VERTEBRA",
+    "clue": "One of the bones of the spine",
+    "enum": "(8)"
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 5,
+    "col": 6,
+    "answer": "HAEMOGLOBIN",
+    "clue": "Iron-rich pigment that carries oxygen in red blood cells",
+    "enum": "(11)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 7,
+    "col": 0,
+    "answer": "PLASMA",
+    "clue": "Liquid part of the blood",
+    "enum": "(6)"
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 7,
+    "col": 7,
+    "answer": "MITOSIS",
+    "clue": "Cell division that produces two identical cells",
+    "enum": "(7)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 9,
+    "col": 2,
+    "answer": "CARTILAGE",
+    "clue": "Flexible tissue in the nose and ears",
+    "enum": "(9)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 13,
+    "col": 9,
+    "answer": "CORNEA",
+    "clue": "Clear front layer of the eye",
+    "enum": "(6)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 10,
+    "answer": "CHROMOSOME",
+    "clue": "Thread-like package of DNA; humans have 46",
+    "enum": "(10)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 2,
+    "col": 15,
+    "answer": "ANTIBODY",
+    "clue": "Molecule that tags invaders for the immune system",
+    "enum": "(8)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 4,
+    "col": 8,
+    "answer": "RETINA",
+    "clue": "Light-sensitive layer at the back of the eye",
+    "enum": "(6)"
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 5,
+    "col": 4,
+    "answer": "FEMUR",
+    "clue": "Thigh bone, the longest in the body",
+    "enum": "(5)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 6,
+    "col": 2,
+    "answer": "PANCREAS",
+    "clue": "Gland behind the stomach that makes digestive juices",
+    "enum": "(8)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 0,
+    "answer": "PROTEIN",
+    "clue": "Nutrient built from amino acids",
+    "enum": "(7)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 7,
+    "col": 12,
+    "answer": "INSULIN",
+    "clue": "Hormone that controls blood sugar",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "down",
+    "row": 8,
+    "col": 6,
+    "answer": "KIDNEY",
+    "clue": "Organ that filters blood to make urine",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "sci-physics",
+  "title": "Physics & Chemistry",
+  "category": "Science",
+  "difficulty": "Hard",
+  "rows": 16,
+  "cols": 17,
+  "entries": [
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 1,
+    "col": 6,
+    "answer": "ALLOY",
+    "clue": "Mixture of metals, such as bronze",
+    "enum": "(5)"
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 3,
+    "col": 2,
+    "answer": "VOLTAGE",
+    "clue": "Electrical potential difference",
+    "enum": "(7)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 5,
+    "col": 0,
+    "answer": "DENSITY",
+    "clue": "Mass per unit volume",
+    "enum": "(7)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 8,
+    "col": 11,
+    "answer": "PROTON",
+    "clue": "Positively charged particle in an atomic nucleus",
+    "enum": "(6)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 9,
+    "col": 0,
+    "answer": "ELECTRON",
+    "clue": "Negatively charged particle",
+    "enum": "(8)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 11,
+    "col": 4,
+    "answer": "ACCELERATION",
+    "clue": "Rate of change of velocity",
+    "enum": "(12)"
+   },
+   {
+    "num": 15,
+    "dir": "across",
+    "row": 14,
+    "col": 4,
+    "answer": "OXIDATION",
+    "clue": "Chemical change behind rust forming on iron",
+    "enum": "(9)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 2,
+    "answer": "KELVIN",
+    "clue": "Temperature scale that starts at absolute zero",
+    "enum": "(6)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 6,
+    "answer": "CATALYST",
+    "clue": "Speeds up a reaction without being used up",
+    "enum": "(8)"
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 3,
+    "col": 0,
+    "answer": "HYDROGEN",
+    "clue": "Lightest element",
+    "enum": "(8)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 5,
+    "col": 4,
+    "answer": "INERTIA",
+    "clue": "Resistance to a change in motion",
+    "enum": "(7)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 12,
+    "answer": "REFRACTION",
+    "clue": "Bending of light as it passes from one material to another",
+    "enum": "(10)"
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 6,
+    "col": 9,
+    "answer": "WAVELENGTH",
+    "clue": "Distance between successive peaks of a wave",
+    "enum": "(10)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 7,
+    "col": 15,
+    "answer": "MOMENTUM",
+    "clue": "Mass multiplied by velocity",
+    "enum": "(8)"
+   },
+   {
+    "num": 11,
+    "dir": "down",
+    "row": 8,
+    "col": 2,
+    "answer": "NEUTRON",
+    "clue": "Uncharged particle in an atomic nucleus",
+    "enum": "(7)"
+   }
+  ]
+ },
+ {
+  "id": "sci-expert",
+  "title": "Frontiers",
+  "category": "Science",
+  "difficulty": "Expert",
+  "rows": 15,
+  "cols": 15,
+  "entries": [
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 0,
+    "col": 2,
+    "answer": "EPIGENETICS",
+    "clue": "Changes in gene activity that don't alter the DNA sequence",
+    "enum": "(11)"
+   },
+   {
+    "num": 3,
+    "dir": "across",
+    "row": 2,
+    "col": 0,
+    "answer": "ISOMER",
+    "clue": "Molecule with the same formula as another but a different structure",
+    "enum": "(6)"
+   },
+   {
+    "num": 4,
+    "dir": "across",
+    "row": 2,
+    "col": 8,
+    "answer": "HIGGS",
+    "clue": "___ boson, confirmed at CERN in 2012",
+    "enum": "(5)"
+   },
+   {
+    "num": 6,
+    "dir": "across",
+    "row": 4,
+    "col": 5,
+    "answer": "GRAPHENE",
+    "clue": "Sheet of carbon one atom thick",
+    "enum": "(8)"
+   },
+   {
+    "num": 9,
+    "dir": "across",
+    "row": 6,
+    "col": 1,
+    "answer": "ENTANGLEMENT",
+    "clue": "Quantum link between particles however far apart",
+    "enum": "(12)"
+   },
+   {
+    "num": 11,
+    "dir": "across",
+    "row": 9,
+    "col": 3,
+    "answer": "BIOME",
+    "clue": "Large ecological community, such as rainforest or tundra",
+    "enum": "(5)"
+   },
+   {
+    "num": 12,
+    "dir": "across",
+    "row": 9,
+    "col": 9,
+    "answer": "CRISPR",
+    "clue": "Gene-editing tool adapted from a bacterial defence system",
+    "enum": "(6)"
+   },
+   {
+    "num": 13,
+    "dir": "across",
+    "row": 11,
+    "col": 0,
+    "answer": "SUPERCONDUCTOR",
+    "clue": "Material with zero electrical resistance when very cold",
+    "enum": "(14)"
+   },
+   {
+    "num": 14,
+    "dir": "across",
+    "row": 14,
+    "col": 3,
+    "answer": "NEUTRINO",
+    "clue": "Almost massless particle that streams through you by the trillion",
+    "enum": "(8)"
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 0,
+    "answer": "PRION",
+    "clue": "Misfolded protein that can cause disease",
+    "enum": "(5)"
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 0,
+    "col": 2,
+    "answer": "EXOPLANET",
+    "clue": "World orbiting a star other than the Sun",
+    "enum": "(9)"
+   },
+   {
+    "num": 5,
+    "dir": "down",
+    "row": 2,
+    "col": 12,
+    "answer": "SPECTROSCOPY",
+    "clue": "Analysing light to find what something is made of",
+    "enum": "(12)"
+   },
+   {
+    "num": 7,
+    "dir": "down",
+    "row": 4,
+    "col": 7,
+    "answer": "ALLELE",
+    "clue": "One of the alternative forms of a gene",
+    "enum": "(6)"
+   },
+   {
+    "num": 8,
+    "dir": "down",
+    "row": 5,
+    "col": 4,
+    "answer": "TARDIGRADE",
+    "clue": "Microscopic 'water bear' that survives extreme conditions",
+    "enum": "(10)"
+   },
+   {
+    "num": 10,
+    "dir": "down",
+    "row": 8,
+    "col": 0,
+    "answer": "QUASAR",
+    "clue": "Extremely bright core of a distant galaxy",
+    "enum": "(6)"
+   }
+  ]
+ },
+ {
+  "id": "sci-cryptic",
+  "title": "Cryptic Science",
+  "category": "Science",
+  "difficulty": "Cryptic",
+  "rows": 10,
+  "cols": 9,
+  "entries": [
+   {
+    "num": 1,
+    "dir": "across",
+    "row": 0,
+    "col": 4,
+    "answer": "GOLD",
+    "clue": "Precious metal found in bog, older",
+    "enum": "(4)",
+    "explain": "Hidden in boG OLDer. Definition: precious metal."
+   },
+   {
+    "num": 2,
+    "dir": "across",
+    "row": 3,
+    "col": 3,
+    "answer": "CELL",
+    "clue": "Prison room, or unit of life",
+    "enum": "(4)",
+    "explain": "Double definition: a prison room, and the basic unit of life."
+   },
+   {
+    "num": 5,
+    "dir": "across",
+    "row": 5,
+    "col": 3,
+    "answer": "MASS",
+    "clue": "Amount of matter, or church service",
+    "enum": "(4)",
+    "explain": "Double definition: amount of matter, and a church service."
+   },
+   {
+    "num": 7,
+    "dir": "across",
+    "row": 7,
+    "col": 0,
+    "answer": "HEAT",
+    "clue": "Hate turned into warmth",
+    "enum": "(4)",
+    "explain": "Anagram ('turned') of HATE. Definition: warmth."
+   },
+   {
+    "num": 8,
+    "dir": "across",
+    "row": 7,
+    "col": 5,
+    "answer": "IRON",
+    "clue": "Metal found in biro nib",
+    "enum": "(4)",
+    "explain": "Hidden in bIRO Nib. Definition: metal."
+   },
+   {
+    "num": 10,
+    "dir": "across",
+    "row": 9,
+    "col": 3,
+    "answer": "PRISM",
+    "clue": "Prudish, holding small, light-splitting glass",
+    "enum": "(5)",
+    "explain": "PRIM (prudish) holding S (small). Definition: light-splitting glass."
+   },
+   {
+    "num": 1,
+    "dir": "down",
+    "row": 0,
+    "col": 4,
+    "answer": "GENE",
+    "clue": "Unit of heredity in Eugene",
+    "enum": "(4)",
+    "explain": "Hidden in euGENE. Definition: unit of heredity."
+   },
+   {
+    "num": 2,
+    "dir": "down",
+    "row": 3,
+    "col": 3,
+    "answer": "COMET",
+    "clue": "Arrive at time for a celestial visitor",
+    "enum": "(5)",
+    "explain": "COME (arrive) + T (time). Definition: a celestial visitor."
+   },
+   {
+    "num": 3,
+    "dir": "down",
+    "row": 3,
+    "col": 6,
+    "answer": "LASER",
+    "clue": "Earls, upset, produce a beam",
+    "enum": "(5)",
+    "explain": "Anagram ('upset') of EARLS. Definition: a beam."
+   },
+   {
+    "num": 4,
+    "dir": "down",
+    "row": 4,
+    "col": 8,
+    "answer": "NEON",
+    "clue": "None, oddly, a noble gas",
+    "enum": "(4)",
+    "explain": "Anagram ('oddly') of NONE. Definition: a noble gas."
+   },
+   {
+    "num": 6,
+    "dir": "down",
+    "row": 6,
+    "col": 1,
+    "answer": "LENS",
+    "clue": "Optical glass in fallen snow",
+    "enum": "(4)",
+    "explain": "Hidden in falLEN Snow. Definition: optical glass."
+   },
+   {
+    "num": 9,
+    "dir": "down",
+    "row": 7,
+    "col": 7,
+    "answer": "OHM",
+    "clue": "Resistance unit in 'Oh my!'",
+    "enum": "(3)",
+    "explain": "Hidden in OH My. Definition: resistance unit."
    }
   ]
  }
