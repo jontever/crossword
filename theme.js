@@ -11,6 +11,10 @@
 
   var THEME_KEY = "cseta-crossword:theme";
   var BG_KEY = "cseta-crossword:bg";
+  var GLASS_KEY = "cseta-crossword:glass";
+  // How see-through the squares and panels are. High contrast ignores this.
+  var GLASS = { off: "Off", low: "Low", medium: "Medium", high: "High" };
+  var DEFAULT_GLASS = "medium";
   var CYCLE_KEY = "cseta-crossword:bg-cycle";
   var DEFAULT_THEME = "emerald";
   var DEFAULT_BG = "none";
@@ -117,6 +121,9 @@
 
   var theme = read(THEME_KEY, validTheme, DEFAULT_THEME);
   var bg = read(BG_KEY, validBg, DEFAULT_BG);
+  var validGlass = function (v) { return Object.prototype.hasOwnProperty.call(GLASS, v); };
+  var glass = read(GLASS_KEY, validGlass, DEFAULT_GLASS);
+  document.documentElement.setAttribute("data-glass", glass);
   var shown = null; // photo key currently on screen
 
   function resolve(c) {
@@ -250,6 +257,10 @@
     for (i = 0; i < items.length; i++) {
       items[i].setAttribute("aria-checked", String(items[i].getAttribute("data-bg-choice") === bg));
     }
+    items = document.querySelectorAll("[data-glass-choice]");
+    for (i = 0; i < items.length; i++) {
+      items[i].setAttribute("aria-checked", String(items[i].getAttribute("data-glass-choice") === glass));
+    }
 
     var btn = document.getElementById("btn-theme");
     if (btn) {
@@ -293,6 +304,13 @@
     write(BG_KEY, c);
     apply(true);
   }
+  function setGlass(c) {
+    if (!validGlass(c)) return;
+    glass = c;
+    write(GLASS_KEY, c);
+    document.documentElement.setAttribute("data-glass", c);
+    syncUi();
+  }
 
   function onSystemChange() { if (theme === "system") apply(false); }
   [mqLight, mqContrast].forEach(function (m) {
@@ -321,7 +339,9 @@
       if (!ev.target.closest) return;
       var t = ev.target.closest("[data-theme-choice]");
       var b = ev.target.closest("[data-bg-choice]");
-      if (!t && !b) return;
+      var gl = ev.target.closest("[data-glass-choice]");
+      if (gl) setGlass(gl.getAttribute("data-glass-choice"));
+      if (!t && !b && !gl) return;
       if (t) setTheme(t.getAttribute("data-theme-choice"));
       if (b) setBg(b.getAttribute("data-bg-choice"));
       var list = document.getElementById("menu-theme");
@@ -340,6 +360,7 @@
   window.__theme = {
     setTheme: setTheme,
     setBackground: setBg,
+    setGlass: setGlass,
     nextPhoto: function () { if (bg === "cycle") showPhoto(nextCycleKey(), true); },
     photos: PHOTO_KEYS.slice(),
     get: function () { return { theme: theme, resolved: resolve(theme), background: bg, showing: shown }; }

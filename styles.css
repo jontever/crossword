@@ -23,7 +23,7 @@
   --cell-active: #ffc457;
   --cell-block: transparent;
   --cell-edge: rgba(0, 0, 0, 0.15);
-  --cell-num: #3a4560;
+  --cell-num: #1f2738;
   --cell-wrong: #d0213f;
   --cell-revealed: #3d5fd6;
   --cell-solved: #d3f7ea;
@@ -38,8 +38,8 @@
   --shadow: rgba(0, 0, 0, 0.45);
   --overlay: rgba(11, 15, 23, 0.64);
   /* Translucency: squares and panels let the background show through */
-  --cell-alpha: 84%;
-  --panel-alpha: 74%;
+  --cell-alpha: 62%;
+  --panel-alpha: 66%;
   --glass-blur: 8px;
 
   --radius: 10px;
@@ -465,12 +465,11 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --line: #d5dbe8; --text: #121826; --muted: #5a6680;
   --emerald: #0e9f6e; --sapphire: #2563eb; --amethyst: #7c3aed; --ruby: #dc2647; --topaz: #a86a00; --aqua: #0b8a9a; --copper: #b4561a; --lime: #4c8710; --rose: #b52f7e;
   --cell-bg: #ffffff; --cell-text: #121826; --cell-word: #dbe7ff; --cell-active: #ffd166;
-  --cell-edge: #aeb9cf; --cell-num: #4a5570; --cell-solved: #d1f5e6;
+  --cell-edge: #aeb9cf; --cell-num: #2d3650; --cell-solved: #d1f5e6;
   --primary-soft: rgba(37, 99, 235, 0.13); --primary-faint: rgba(37, 99, 235, 0.05);
   --glow-1: rgba(37, 99, 235, 0.07); --glow-2: rgba(124, 58, 237, 0.05);
   --kb-bg: rgba(244, 246, 251, 0.94); --backdrop: rgba(20, 26, 40, 0.45); --shadow: rgba(20, 30, 60, 0.16);
   --overlay: rgba(244, 246, 251, 0.72);
-  --cell-alpha: 82%; --panel-alpha: 70%;
 }
 :root[data-theme="emerald"] {
   --bg: #06120e; --bg-2: #0b1b16; --panel: #0f221c; --panel-2: #143027;
@@ -503,7 +502,6 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --cell-edge: #ffffff; --cell-num: #000000; --cell-wrong: #c00000; --cell-revealed: #0030c0; --cell-solved: #b4ffcc;
   --kb-bg: #000000; --backdrop: rgba(0, 0, 0, 0.85); --shadow: rgba(0, 0, 0, 0.8);
   --overlay: rgba(0, 0, 0, 0.85);
-  --cell-alpha: 100%; --panel-alpha: 100%; --glass-blur: 0px;
 }
 :root[data-theme="contrast"] .cell .n { font-weight: 600; }
 :root[data-theme="contrast"] .btn, :root[data-theme="contrast"] .tile, :root[data-theme="contrast"] .picker-tabs { border-width: 2px; }
@@ -525,6 +523,16 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 .menu-sep { height: 1px; background: var(--line); margin: 4px 6px; }
 .theme-menu .menu-list { width: 300px; max-width: calc(100vw - 32px); }
 .bg-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2px; }
+.glass-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
+.theme-menu .menu-list .glass-row button { flex-direction: column; gap: 4px; padding: 6px 4px; text-align: center; font-size: 0.8rem; }
+.theme-menu .menu-list .glass-row button[aria-checked="true"]::after { content: none; }
+.theme-menu .menu-list .glass-row button[aria-checked="true"] { background: var(--panel-2); box-shadow: inset 0 0 0 1px var(--primary); }
+.sw-glass { background-image: linear-gradient(45deg, #2fd3a0 25%, transparent 25%, transparent 75%, #2fd3a0 75%), linear-gradient(45deg, #2fd3a0 25%, #0b2a20 25%, #0b2a20 75%, #2fd3a0 75%); background-size: 8px 8px; background-position: 0 0, 4px 4px; position: relative; overflow: hidden; }
+.sw-glass::after { content: ""; position: absolute; inset: 3px; border-radius: 3px; background: #f3f5fa; }
+.sw-glass-off::after { opacity: 1; }
+.sw-glass-low::after { opacity: .86; }
+.sw-glass-medium::after { opacity: .62; }
+.sw-glass-high::after { opacity: .4; }
 .bg-grid button { min-width: 0; }
 .swatch {
   width: 18px; height: 18px; border-radius: 5px; flex-shrink: 0;
@@ -586,6 +594,20 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 .author a:hover { color: var(--primary); text-decoration-color: currentColor; }
 .author a:focus-visible { outline: 2px solid var(--topaz); outline-offset: 2px; border-radius: 3px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ---------- glass levels (Appearance → Transparency) ---------- */
+:root[data-glass="off"] { --cell-alpha: 100%; --panel-alpha: 100%; --glass-blur: 0px; }
+:root[data-glass="low"] { --cell-alpha: 86%; --panel-alpha: 82%; }
+:root[data-glass="medium"] { --cell-alpha: 62%; --panel-alpha: 66%; }
+:root[data-glass="high"] { --cell-alpha: 40%; --panel-alpha: 50%; }
+/* With no photo behind them there's nothing to see through, so squares stay
+   crisp white; panels keep their glass look. */
+:root:not([data-bg]) { --cell-alpha: 100%; }
+/* High contrast always stays fully opaque */
+:root[data-theme="contrast"] { --cell-alpha: 100%; --panel-alpha: 100%; --glass-blur: 0px; }
+/* Keep letters crisp against whatever shows through */
+:root:not([data-glass="off"]) .cell .ch { text-shadow: 0 0 2px rgba(255, 255, 255, 0.7); }
+:root[data-theme="contrast"] .cell .ch { text-shadow: none; }
 
 /* ---------- glass panels ---------- */
 .clue-col, .clue-bar, .tile, .picker-toggle, .picker-tabs, .banner {

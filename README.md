@@ -92,6 +92,8 @@ The half-circle button in the header opens the appearance menu.
 
 **Background.** None (default), Cycle all, or one of 12 photos: Forest, Mountains, Waterfall, Ocean, Sunrise, Sunset, Space, Wildlife, Safari, Horses, Cats, Dogs. Stored under `cseta-crossword:bg`. The photo sits on a fixed layer behind the page and is tinted with the current theme's `--overlay` colour so text stays readable. Phones get a portrait crop (focused on the animal for the animal photos).
 
+**Transparency.** Off, Low, Medium (default) or High: how much of the background photo shows through the grid squares and panels. Stored under `cseta-crossword:glass`. With no background photo the squares stay solid white, and High contrast always stays fully opaque.
+
 **Cycle all** shows a different photo each time you open the app and moves to the next one every 5 minutes while it's open, with a slow crossfade (an instant swap if the device asks for reduced motion). The position in the cycle is kept under `cseta-crossword:bg-cycle`.
 
 Neither setting is part of the progress key.
