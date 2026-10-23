@@ -359,6 +359,20 @@
       panel.append(b);
     }
     nav.append(tabs, panel);
+
+    // Summary shown on the toggle bar (most useful when collapsed).
+    const summary = $("#picker-summary");
+    if (summary && current) {
+      const list = groups.get(current.category) || [];
+      const done = list.filter((p) => puzzleProgress(p).solved).length;
+      summary.textContent = "";
+      summary.append(
+        el("span", "pt-cat cat-" + catKey(current.category), current.category),
+        el("span", "pt-sep", "\u203A"),
+        el("span", "pt-title", current.title),
+        el("span", "pt-count", `${done}/${list.length} solved`)
+      );
+    }
     // On phones the tiles scroll sideways: bring the current one into view
     // without scrolling the page.
     if (currentTile && panel.scrollWidth > panel.clientWidth) {
@@ -778,6 +792,25 @@
     const b = ev.target.closest(".tile");
     if (b && b.dataset.id !== current.id) { saveNow(); openPuzzle(b.dataset.id); }
   });
+  // Collapsible picker: state remembered per browser (theme.js applies it
+  // before first paint). Collapsed content is made inert so it can't be
+  // tabbed into.
+  const PICKER_KEY = "cseta-crossword:picker";
+  function setPickerCollapsed(collapsed, remember) {
+    document.documentElement.classList.toggle("picker-collapsed", collapsed);
+    const btn = $("#picker-toggle");
+    btn.setAttribute("aria-expanded", String(!collapsed));
+    $("#picker-action").textContent = collapsed ? "Show" : "Hide";
+    btn.title = collapsed ? "Show the puzzle list" : "Hide the puzzle list to make room for the grid";
+    const box = $("#picker-collapse");
+    if (collapsed) box.setAttribute("inert", ""); else box.removeAttribute("inert");
+    if (remember) { try { localStorage.setItem(PICKER_KEY, collapsed ? "collapsed" : "open"); } catch (_) { /* storage unavailable */ } }
+  }
+  setPickerCollapsed(document.documentElement.classList.contains("picker-collapsed"), false);
+  $("#picker-toggle").addEventListener("click", () => {
+    setPickerCollapsed(!document.documentElement.classList.contains("picker-collapsed"), true);
+  });
+
   // Arrow keys move between category tabs (standard tablist behaviour).
   $("#picker").addEventListener("keydown", (ev) => {
     const tab = ev.target.closest(".picker-tab");
@@ -795,7 +828,7 @@
     const t = ev.target;
     if (t && (t.tagName === "TEXTAREA" || t.tagName === "INPUT")) return;
     if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
-    if (t && t.closest && t.closest(".clues, .picker, .menu, .top, .banner") && (ev.key === "Enter" || ev.key === " " || ev.key === "Tab")) return;
+    if (t && t.closest && t.closest(".clues, .picker-shell, .menu, .top, .banner") && (ev.key === "Enter" || ev.key === " " || ev.key === "Tab")) return;
 
     const k = ev.key;
     if (k === "Escape") { closeMenus(); return; }

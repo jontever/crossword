@@ -81,7 +81,20 @@
     </div>
   </header>
 
-  <nav class="picker" id="picker" aria-label="Choose a puzzle"></nav>
+  <div class="picker-shell">
+    <button class="picker-toggle" id="picker-toggle" type="button" aria-expanded="true" aria-controls="picker-collapse">
+      <span class="pt-label">Puzzles</span>
+      <span class="pt-summary" id="picker-summary"></span>
+      <span class="pt-action"><span class="pt-word" id="picker-action">Hide</span>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+      </span>
+    </button>
+    <div class="picker-collapse" id="picker-collapse">
+      <div class="picker-inner">
+        <nav class="picker" id="picker" aria-label="Choose a puzzle"></nav>
+      </div>
+    </div>
+  </div>
 
   <main class="layout">
     <section class="play" aria-label="Puzzle">

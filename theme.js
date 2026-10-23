@@ -309,6 +309,12 @@
 
   apply(true);
 
+  // Puzzle picker collapsed/expanded, applied here (before first paint) so
+  // the layout doesn't jump; app.js handles the toggle itself.
+  if (read("cseta-crossword:picker", function (v) { return v === "collapsed" || v === "open"; }, "open") === "collapsed") {
+    document.documentElement.classList.add("picker-collapsed");
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     syncUi();
     document.addEventListener("click", function (ev) {

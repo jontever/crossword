@@ -98,7 +98,41 @@ button { font: inherit; color: inherit; }
 .btn.danger:hover { border-color: var(--ruby); color: var(--ruby); }
 
 /* ---------- puzzle picker ---------- */
-.picker { max-width: 1200px; margin: 0 auto; padding: 4px 16px 14px; }
+.picker-shell { max-width: 1200px; margin: 0 auto; padding: 0 16px 10px; }
+.picker-toggle {
+  appearance: none; width: 100%; display: flex; align-items: center; gap: 10px;
+  padding: 7px 12px; margin-bottom: 8px; cursor: pointer; text-align: left;
+  background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; color: var(--text);
+}
+.picker-toggle:hover { border-color: var(--muted); }
+.picker-toggle:focus-visible { outline: 2px solid var(--topaz); outline-offset: 2px; }
+.pt-label {
+  font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--muted); flex-shrink: 0;
+}
+.pt-summary {
+  flex: 1; min-width: 0; display: flex; align-items: baseline; gap: 8px;
+  white-space: nowrap; overflow: hidden; font-size: 0.88rem;
+}
+.pt-summary .pt-cat { font-weight: 500; flex-shrink: 0; }
+.pt-summary .pt-cat.cat-general { color: var(--amethyst); }
+.pt-summary .pt-cat.cat-cyber { color: var(--emerald); }
+.pt-summary .pt-cat.cat-ai { color: var(--sapphire); }
+.pt-summary .pt-cat.cat-economics { color: var(--topaz); }
+.pt-summary .pt-cat.cat-psychology { color: var(--ruby); }
+.pt-summary .pt-cat.cat-philosophy { color: var(--aqua); }
+.pt-sep { color: var(--muted); }
+.pt-title { overflow: hidden; text-overflow: ellipsis; }
+.pt-count { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); margin-left: auto; flex-shrink: 0; padding-left: 8px; }
+.pt-action { display: inline-flex; align-items: center; gap: 4px; flex-shrink: 0; font-size: 0.82rem; color: var(--muted); }
+.pt-action svg { transition: transform .25s ease; }
+.picker-collapsed .pt-action svg { transform: rotate(180deg); }
+/* Smooth collapse using a 0fr/1fr grid row */
+.picker-collapse { display: grid; grid-template-rows: 1fr; transition: grid-template-rows .3s ease, visibility 0s linear 0s; }
+.picker-inner { min-height: 0; overflow: hidden; }
+.picker-collapsed .picker-collapse { grid-template-rows: 0fr; visibility: hidden; transition: grid-template-rows .3s ease, visibility 0s linear .3s; }
+.picker-collapsed .picker-toggle { margin-bottom: 0; }
+.picker { padding: 3px 3px 6px; }
 
 /* Category switch: a segmented control */
 .picker-tabs {
@@ -195,6 +229,7 @@ button { font: inherit; color: inherit; }
   }
 }
 @media (max-width: 560px) {
+  .pt-count, .pt-word { display: none; }
   /* Counts move off the tabs on phones; each tile still shows its progress */
   .picker-tab .count { display: none; }
   .picker-tab { padding: 7px 4px; font-size: 0.85rem; }
