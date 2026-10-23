@@ -34,6 +34,10 @@
   --backdrop: rgba(5, 8, 14, 0.7);
   --shadow: rgba(0, 0, 0, 0.45);
   --overlay: rgba(11, 15, 23, 0.64);
+  /* Translucency: squares and panels let the background show through */
+  --cell-alpha: 84%;
+  --panel-alpha: 74%;
+  --glass-blur: 8px;
 
   --radius: 10px;
   --sans: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -307,12 +311,12 @@ h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1
   background: var(--cell-block);
 }
 .cell.letter {
-  background: var(--cell-bg); color: var(--cell-text); cursor: pointer;
+  background: color-mix(in srgb, var(--cell-bg) var(--cell-alpha), transparent); color: var(--cell-text); cursor: pointer;
   box-shadow: 0 0 0 1px var(--cell-edge);
   transition: background .08s;
 }
-.cell.letter.word { background: var(--cell-word); }
-.cell.letter.active { background: var(--cell-active); }
+.cell.letter.word { background: color-mix(in srgb, var(--cell-word) var(--cell-alpha), transparent); }
+.cell.letter.active { background: color-mix(in srgb, var(--cell-active) calc(var(--cell-alpha) + 8%), transparent); }
 .cell .n {
   position: absolute; top: 1px; left: 2px;
   font-family: var(--mono); font-weight: 500; line-height: 1;
@@ -340,7 +344,7 @@ h1 { margin: 2px 0 0; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1
 .cell.correct .ch { color: #0d8a5f; }
 .board.solved .cell.letter,
 .board.solved .cell.letter.active,
-.board.solved .cell.letter.word { background: var(--cell-solved); }
+.board.solved .cell.letter.word { background: color-mix(in srgb, var(--cell-solved) var(--cell-alpha), transparent); }
 
 /* ---------- correct-word ripple and solve wave ---------- */
 .cell.ripple, .cell.wave { z-index: 1; }
@@ -447,6 +451,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --glow-1: rgba(37, 99, 235, 0.07); --glow-2: rgba(124, 58, 237, 0.05);
   --kb-bg: rgba(244, 246, 251, 0.94); --backdrop: rgba(20, 26, 40, 0.45); --shadow: rgba(20, 30, 60, 0.16);
   --overlay: rgba(244, 246, 251, 0.72);
+  --cell-alpha: 82%; --panel-alpha: 70%;
 }
 :root[data-theme="emerald"] {
   --bg: #06120e; --bg-2: #0b1b16; --panel: #0f221c; --panel-2: #143027;
@@ -479,6 +484,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   --cell-edge: #ffffff; --cell-num: #000000; --cell-wrong: #c00000; --cell-revealed: #0030c0; --cell-solved: #b4ffcc;
   --kb-bg: #000000; --backdrop: rgba(0, 0, 0, 0.85); --shadow: rgba(0, 0, 0, 0.8);
   --overlay: rgba(0, 0, 0, 0.85);
+  --cell-alpha: 100%; --panel-alpha: 100%; --glass-blur: 0px;
 }
 :root[data-theme="contrast"] .cell .n { font-weight: 600; }
 :root[data-theme="contrast"] .btn, :root[data-theme="contrast"] .tile, :root[data-theme="contrast"] .picker-tabs { border-width: 2px; }
@@ -556,6 +562,20 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 /* ---------- footer ---------- */
 .foot { max-width: 1200px; margin: 0 auto; padding: 8px 16px 28px; color: var(--muted); font-size: 0.82rem; }
 .foot p { margin: 0; }
+.author { margin-top: 6px !important; }
+.author a { color: var(--text); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 2px; display: inline-flex; align-items: center; gap: 4px; }
+.author a:hover { color: var(--primary); text-decoration-color: currentColor; }
+.author a:focus-visible { outline: 2px solid var(--topaz); outline-offset: 2px; border-radius: 3px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ---------- glass panels ---------- */
+.clue-col, .clue-bar, .tile, .picker-toggle, .picker-tabs, .banner {
+  background-color: color-mix(in srgb, var(--panel) var(--panel-alpha), transparent);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+          backdrop-filter: blur(var(--glass-blur));
+}
+.tile[aria-current="true"] { background-color: color-mix(in srgb, var(--panel-2) calc(var(--panel-alpha) + 10%), transparent); }
+.picker-tab[aria-selected="true"] { background-color: color-mix(in srgb, var(--panel-2) calc(var(--panel-alpha) + 10%), transparent); }
 .noscript { text-align: center; padding: 20px; }
 
 /* ---------- responsive ---------- */
